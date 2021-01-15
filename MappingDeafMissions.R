@@ -289,3 +289,4 @@ leaflet(MissionsGeocoded) %>%
     overlayGroups = c("Deaf Schools", "Conference Sites"),
     options = layersControlOptions(collapsed = FALSE))
 
+
