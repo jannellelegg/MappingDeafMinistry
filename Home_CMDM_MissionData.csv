@@ -1,0 +1,749 @@
+"year","facility","city","state","cmdmWorker","serviceRegularity","serviceFrequency","geometry.lat","geometry.lng"
+1878,"St. Peter's Church","Talladega","Alabama","Job Turner","Itinerant","once",33.434722,-86.101389
+1878,"St. John's Church","Montgomery","Alabama","Job Turner","Itinerant","once",32.3669656,-86.3006485
+1878,"St. John's Church","Mobile","Alabama","Job Turner","Itinerant","once",30.6943566,-88.0430541
+1878,"Alabama Institution for Deaf-Mutes","Talladega","Alabama","Job Turner","Itinerant","once",33.434722,-86.101389
+1879,"St. Peter's Church","Talladega","Alabama","Gallaudet and Turner","itinerant","once",33.434722,-86.101389
+1879,"Trinity Church","Mobile","Alabama","Gallaudet and Turner","itinerant","once",30.6943566,-88.0430541
+1879,"Christ Church","Little Rock ","Arkansas","Turner","itinerant","once",34.7464809,-92.2895948
+1855,"Trinity Church","Branford","Connecticut","Thomas Gallaudet","promotional","once",41.2795414,-72.8150989
+1855,"Christ Church","Hartford","Connecticut","Thomas Gallaudet","promotional","once",41.7625,-72.674167
+1855,"Trinity Church","New Haven","Connecticut","Thomas Gallaudet","promotional","once",41.31,-72.923611
+1858,"St. John's Church","Hartford","Connecticut","Thomas Gallaudet","promotional","once",41.7625,-72.674167
+1860,"St. Paul's Church","Hartford","Connecticut","Thomas Gallaudet","itinerant","once",41.7625,-72.674167
+1866,"Trinity Church","Hartford","Connecticut","Thomas Gallaudet","itinerant","once",41.7625,-72.674167
+1873,"St. James' Church","New London","Connecticut","","itinerant","once",41.355556,-72.099444
+1873,"St. Paul's Church","Hartford","Connecticut","","itinerant","once",41.764582,-72.6908547
+1874,"St. John's Church","Bridgeport","Connecticut","R.D. Beers","occasional","intermittent",41.186389,-73.2048348
+1874,"St. Paul's Church","Hartford","Connecticut","","occasional","intermittent",41.7625,-72.674167
+1875,"St. Paul's Church","Bridgeport","Connecticut","R.D. Beers, Gallaudet","occasional","intermittent",41.186389,-73.2048348
+1875,"St. Paul's Church","New Haven","Connecticut","Thomas Gallaudet","itinerant","once",41.31,-72.923611
+1875,"Christ Church","Norwich","Connecticut","","itinerant","intermittent",41.550278,-72.0875
+1876,"St. Andrew's Church","Meriden","Connecticut","Gallaudet, Chamberlain","Itinerant","intermittent",41.536667,-72.794722
+1876,"St. Paul's Church","Hartford","Connecticut","Gallaudet, Chamberlain","Itinerant","intermittent",41.7625,-72.674167
+1876,"St. James' Church","New London","Connecticut","Gallaudet, Chamberlain","Itinerant","intermittent",41.355556,-72.099444
+1876,"St. Paul's Church","Bridgeport","Connecticut","R.D. Beers","occasional","intermittent",41.186389,-73.2048348
+1876,"St. Paul's Church","New Haven","Connecticut","Thomas Gallaudet","promotional","once",41.31,-72.923611
+1877,"St. Paul's Church","Bridgeport","Connecticut","Chamberlain","occasional","intermittent",41.186389,-73.2048348
+1877,"Park Congregational Church","Norwich","Connecticut","Gallaudet, Turner","itinerant","once",41.550278,-72.0875
+1878,"Trinity Church","Hartford","Connecticut","Gallaudet","itinerant","once",41.7625,-72.674167
+1878,"St. Paul's Church","Bridgeport","Connecticut","R.D. Beers","","intermittent",41.186389,-73.2048348
+1879,"St. Paul's Church","Bridgeport","Connecticut","R.D. Beers","","intermittent",41.186389,-73.2048348
+1879,"Christ Church","Norwich","Connecticut","Turner","itinerant","once",41.550278,-72.0875
+1879,"St. Andrew's Church","Meriden","Connecticut","Turner","itinerant","once",41.536667,-72.794722
+1879,"Trinity Church","Hartford","Connecticut","Turner","itinerant","once",41.7625,-72.674167
+1880,"St. Paul's Church","Bridgeport","Connecticut","R.D. Beers","","intermittent",41.186389,-73.2048348
+1859,"Christ Church","Guilford","Connecticut","Thomas Gallaudet","promotional","once",41.2889866,-72.6817616
+1859,"Christ Church","Guilford","Connecticut","Thomas Gallaudet","itinerant","once",41.2889866,-72.6817616
+1859,"St. Paul's Church","Hartford","Connecticut","Thomas Gallaudet","promotional","once",41.7625,-72.674167
+1859,"St. Paul's Church","Hartford","Connecticut","Thomas Gallaudet","itinerant","once",41.7625,-72.674167
+1859,"Trinity Church","Southport","Connecticut","Thomas Gallaudet","promotional","once",41.1364856,-73.2834486
+1859,"Trinity Church","Southport","Connecticut","Thomas Gallaudet","itinerant","once",41.1364856,-73.2834486
+1861,"St. Paul's Church","Hartford","Connecticut","Thomas Gallaudet","occasional","once",41.7625,-72.674167
+1861,"Christ Church","New Haven","Connecticut","Thomas Gallaudet","occasional","once",41.31,-72.923611
+1860,"Trinity Church","Norwich","Connecticut","Thomas Gallaudet","occasional","intermittent",41.550278,-72.0875
+1861,"Trinity Church","Norwich","Connecticut","Thomas Gallaudet","occasional","intermittent",41.550278,-72.0875
+1876,"Trinity Church","Wilmington","Delaware","Gallaudet, Chamberlain","Itinerant","intermittent",39.7459468,-75.546589
+1879,"Trinity Church","Wilmington","Delaware","Turner","itinerant","intermittent",39.7459468,-75.546589
+1859,"Church of the Epiphany","Washington","District of Columbia","Thomas Gallaudet","promotional","once",38.8949855,-77.0365708
+1859,"Church of the Epiphany","Washington","District of Columbia","Thomas Gallaudet","itinerant","once",38.8949855,-77.0365708
+1859,"St. John's Church","Washington","District of Columbia","Thomas Gallaudet","promotional","once",38.8949855,-77.0365708
+1859,"St. John's Church","Washington","District of Columbia","Thomas Gallaudet","itinerant","once",38.8949855,-77.0365708
+1873,"St. Mark's Church","Washington","District of Columbia","Thomas Gallaudet","itinerant","",38.8949855,-77.0365708
+1874,"St. Mark's Church","Washington","District of Columbia","","occasional","intermittent",38.8949855,-77.0365708
+1875,"St. Mark's Church","Washington","District of Columbia","","itinerant","intermittent",38.8949855,-77.0365708
+1876,"St. Mark's Church","Washington","District of Columbia","Gallaudet, Chamberlain","Itinerant","intermittent",38.8949855,-77.0365708
+1877,"St. Mark's Church","Washington","District of Columbia","Chamberlain","Itinerant","intermittent",38.8949855,-77.0365708
+1879,"Church of the Epiphany","Washington","District of Columbia","Chamberlain","promotional","once",38.8949855,-77.0365708
+1880,"Ascension Church","Washington","District of Columbia","Chamberlain","promotional","once",38.8949855,-77.0365708
+1878,"","Savannah","Georgia","Job Turner","Itinerant","",32.0809263,-81.0911768
+1878,"St. Philip's Church","Atlanta","Georgia","Job Turner","Itinerant","",33.7490987,-84.3901849
+1878,"","Cave Springs","Georgia","Job Turner","Itinerant","",34.108889,-85.336111
+1878,"Georgia Institution for Deaf-Mutes","Cave Springs","Georgia","Job Turner","Itinerant","",34.108889,-85.336111
+1879,"St. Stephen's Colored Church","Savannah","Georgia","Gallaudet, Turner","itinerant","",32.0809263,-81.0911768
+1879,"Christ Church","Savannah","Georgia","Gallaudet, Turner","itinerant","",32.0809263,-81.0911768
+1879,"Church of the Good Shepherd","Cave Springs","Georgia","Gallaudet, Turner","itinerant","",34.108889,-85.336111
+1879,"St. Philip's Church","Atlanta","Georgia","Turner","itinerant","",33.7490987,-84.3901849
+1879,"Emmanuel Church","Athens","Georgia","Turner","itinerant","",33.9597677,-83.376398
+1858,"St. James' Church","Chicago","Illinois","Thomas Gallaudet","itinerant","once",41.881944,-87.627778
+1875,"St. James' Church","Chicago","Illinois","Austin Mann","itinerant","intermittent",41.881944,-87.627778
+1876,"St. James' Church","Chicago","Illinois","Austin Mann","itinerant","intermittent",41.881944,-87.627778
+1877,"St. James' Church","Chicago","Illinois","Austin Mann","itinerant","Intermittent",41.881944,-87.627778
+1878,"Emmanuel Church","Rockford","Illinois","Austin Mann","Itinerant","intermittent",42.2713945,-89.093966
+1878,"Grace Church","Galesburg","Illinois","Austin Mann","Itinerant","intermittent",40.9479779,-90.3705842
+1878,"Cathedral of St. Peter and St. Paul","Chicago","Illinois","Gallaudet","Itinerant","once",41.881944,-87.627778
+1878,"St. Paul's Church","Springfield","Illinois","Gallaudet and Mann","Itinerant","once",39.7990175,-89.6439575
+1878,"St. John's Cathedral","Quincy","Illinois","Gallaudet and Mann","Itinerant","once",39.9356016,-91.4098727
+1878,"Grace Church","Galesburg","Illinois","Gallaudet and Mann","Itinerant","once",40.9479779,-90.3705842
+1878,"Church of the Redeemer","Princeton","Illinois","Gallaudet and Mann","Itinerant","once",41.368092,-89.4648145
+1878,"St. James' Church","Chicago","Illinois","Holmes, Mann, Gallaudet","occasional","intermittent",41.881944,-87.627778
+1878,"","Chicago","Illinois","Job Turner","Itinerant","",41.881944,-87.627778
+1878,"Illinois Institution for Deaf-Mutes","Jacksonville","Illinois","Job Turner","Itinerant","",39.7343037,-90.2288356
+1878,"Grace Church","Chicago","Illinois","Mann and Gallaudet","itinerant","once",41.881944,-87.627778
+1878,"Trinity Church","Jacksonville","Illinois","Mann and Gallaudet","Itinerant","once",39.7343037,-90.2288356
+1879,"Trinity Church","Jacksonville","Illinois","Austin Mann","Itinerant","once",39.7343037,-90.2288356
+1879,"Trinity Church","Chicago","Illinois","Austin Mann","itinerant","",41.881944,-87.627778
+1879,"Emmanuel Church","Rockford","Illinois","Austin Mann","itinerant","",42.2713945,-89.093966
+1879,"St. James' Church","Chicago","Illinois","Mann and Gallaudet","itinerant","",41.881944,-87.627778
+1879,"St. Paul's Church","Peoria","Illinois","Mann and Gallaudet","itinerant","once",40.6938609,-89.5891008
+1879,"Trinity Church","Rock Island","Illinois","Mann and Gallaudet","promotional","once",41.489167,-90.573056
+1879,"Christ Church","Joliet","Illinois","Austin Mann","itinerant","once",41.5263603,-88.0840212
+1879,"Illinois Institution for Deaf-Mutes","Jacksonville","Illinois","Austin Mann","itinerant","once",39.7343037,-90.2288356
+1879,"Grace Church","Galesburg","Illinois","Austin Mann","itinerant","once",40.9479779,-90.3705842
+1880,"Church of the Redeemer","Cairo","Illinois","Austin Mann","itinerant","once",37.0057958,-89.1772449
+1880,"Trinity Church","Jacksonville","Illinois","Austin Mann","itinerant","",39.7343037,-90.2288356
+1880,"Trinity Church","Mattoon","Illinois","Austin Mann","itinerant","once",39.4842821,-88.3773279
+1880,"St. James Church","Chicago","Illinois","Gallaudet and Mann","itinerant","",41.881944,-87.627778
+1880,"Cathedral","Chicago","Illinois","Austin Mann","itinerant","once",41.881944,-87.627778
+1880,"Emmanuel Church","Rockford","Illinois","Austin Mann","itinerant","once",42.2713945,-89.093966
+1877,"Trinity Church","Jacksonville","Illinois","Austin Mann","Itinerant","once",39.7343037,-90.2288356
+1877,"Christ Church","Indianapolis","Indiana","Mann and Gallaudet","promotional","once",39.7683331,-86.1583502
+1878,"Christ Church","Indianapolis","Indiana","Austin Mann","Itinerant","intermittent",39.7683331,-86.1583502
+1878,"Trinity Church","Michigan City","Indiana","Austin Mann","Itinerant","intermittent",41.7075394,-86.8950297
+1878,"Trinity Church","Fort Wayne","Indiana","Gallaudet","Itinerant","once",41.0799898,-85.1386015
+1877,"Indiana Institution for Deaf-Mutes","Indianapolis","Indiana","Austin Mann","Itinerant","once",39.7683331,-86.1583502
+1878,"Indiana Institution for Deaf-Mutes","Indianapolis","Indiana","Mann and Turner","Itinerant","",39.7683331,-86.1583502
+1878,"St. Paul's Cathedral","Indianapolis","Indiana","Mann and Gallaudet","Itinerant","once",39.7683331,-86.1583502
+1878,"Church of the Holy Communion","Indianapolis","Indiana","Mann and Gallaudet","Itinerant","once",39.7683331,-86.1583502
+1879,"Christ Church","Indianapolis","Indiana","Austin Mann","itinerant","",39.7683331,-86.1583502
+1878,"St. James' Church","South Bend","Indiana","Austin Mann","itinerant","once",41.6833813,-86.2500066
+1879,"Indiana Institution for Deaf-Mutes","Indianapolis","Indiana","Austin Mann","itinerant","intermittent",39.7683331,-86.1583502
+1878,"Grace Church","Muncie","Indiana","Austin Mann","itinerant","once",40.1936892,-85.3865271
+1879,"St. Paul's Church","Evansville","Indiana","Austin Mann","itinerant","once",37.9747645,-87.5558483
+1879,"Trinity Church","Michigan City","Indiana","Austin Mann","itinerant","intermittent",41.7075394,-86.8950297
+1879,"St. Paul's Church","New Albany","Indiana","Austin Mann","itinerant","once",38.2856247,-85.8241312
+1879,"St. Paul's Church","Richmond","Indiana","Austin Mann","itinerant","once",39.8286897,-84.8898521
+1880,"St. Thomas Church","Plymouth","Indiana","Austin Mann","itinerant","intermittent",41.3436555,-86.3097278
+1880,"Indiana Institution for Deaf-Mutes","Indianapolis","Indiana","Austin Mann","itinerant","intermittent",39.7683331,-86.1583502
+1880,"Christ Church","Indianapolis","Indiana","Austin Mann","itinerant","intermittent",39.7683331,-86.1583502
+1880,"Grace Church","Muncie","Indiana","Austin Mann","itinerant","once",40.1936892,-85.3865271
+1880,"Trinity Church","Michigan City","Indiana","Austin Mann","itinerant","intermittent",41.7075394,-86.8950297
+1880,"St. Paul's Church","Richmond","Indiana","Austin Mann","itinerant","once",39.8286897,-84.8898521
+1880,"Trinity Church","Fort Wayne","Indiana","Austin Mann","itinerant","once",41.0799898,-85.1386015
+1880,"Schoolhouse","Waterford","Indiana","Austin Mann","itinerant","once",41.6714294,-86.8450276
+1879,"Grace Cathedral","Davenport","Iowa","Mann and Gallaudet","","once",41.5236436,-90.5776368
+1879,"St. Paul's Church","Des Moines","Iowa","Mann and Gallaudet","","once",41.5910641,-93.6037149
+1879,"St. Paul's Church","Council Bluffs","Iowa","Mann and Gallaudet","","once",41.2621283,-95.8613912
+1879,"Iowa Institution for Deaf-Mutes","Council Bluffs","Iowa","Mann and Gallaudet","","once",41.2621283,-95.8613912
+1879,"College Chapel","Davenport","Iowa","Austin Mann","itinerant","once",41.5236436,-90.5776368
+1878,"Kansas Institution for Deaf-Mutes","Olathe","Kansas","Job Turner","Itinerant","",38.8838856,-94.81887
+1879,"Trinity Church","Atchison","Kansas","Mann and Gallaudet","promotional","once",39.5625,-95.128333
+1879,"Grace Cathedral","Topeka","Kansas","Mann and Gallaudet","promotional","once",39.049011,-95.677556
+1879,"Kansas Institution for the Deaf and Dumb","Olathe","Kansas","Mann and Gallaudet","promotional","once",38.8838856,-94.81887
+1877,"St. Paul's Church","Newport","Kentucky","Mann and Gallaudet","promotional","once",39.0889469,-84.4919524
+1877,"Christ Church","Louisville","Kentucky","Mann and Gallaudet","promotional","once",38.2542376,-85.759407
+1878,"Christ Church","Louisville","Kentucky","Austin Mann","Itinerant","once",38.2542376,-85.759407
+1878,"St. Paul's Church","Newport","Kentucky","Austin Mann","Itinerant","once",39.0889469,-84.4919524
+1878,"","Louisville","Kentucky","Job Turner","Itinerant","",38.2542376,-85.759407
+1878,"Kentucky Institution for Deaf-Mutes","Danville","Kentucky","Job Turner","Itinerant","",37.6456488,-84.7721823
+1879,"Grace Church","Hopkinsville","Kentucky","Job Turner","itinerant","",36.8657651,-87.4889532
+1878,"Christ Church","New Orleans","Louisiana","Job Turner","Itinerant","",29.9499323,-90.0701156
+1878,"Louisiana Institution for Deaf-Mutes","Baton Rouge","Louisiana","Job Turner","Itinerant","",30.4459596,-91.18738
+1879,"Christ Church","New Orleans","Louisiana","Gallaudet, Turner","itinerant","",29.9499323,-90.0701156
+1879,"St. Paul's Church","New Orleans","Louisiana","Turner","itinerant","",29.9499323,-90.0701156
+1862,"St. Stephen's Church","Portland","Maine","Thomas Gallaudet","itinerant","once",43.6610277,-70.2548596
+1873,"St. John's Church","Lowell","Massachusetts","","","",42.6334247,-71.3161718
+1873,"Christ Church","Biddeford","Maine","","","",43.4925843,-70.4533844
+1873,"Trinity Church","Saco","Maine","","","",43.5009176,-70.4428286
+1877,"Trinity Church","Saco","Maine","Job Turner","Itinerant","intermittent",43.5009176,-70.4428286
+1877,"St. Luke's Cathedral","Portland","Maine","Job Turner","Itinerant","once",43.6610277,-70.2548596
+1877,"Trinity Church","Lewiston","Maine","Job Turner","Itinerant","once",44.100351,-70.2147764
+1877,"Grace Church","Bath","Maine","Job Turner","Itinerant","once",43.910755,-69.820862
+1877,"St, Mark's Church","Augusta","Maine","Job Turner","Itinerant","once",44.310583,-69.779663
+1877,"","Damariscotta","Maine","Job Turner","Itinerant","once",44.0328573,-69.5186585
+1877,"","Belfast","Maine","Job Turner","Itinerant","once",44.4261194,-69.0067359
+1878,"St. John's Church","Bangor","Maine","Job Turner","Itinerant","",44.8011821,-68.7778138
+1878,"St. Mark's Church","Augusta","Maine","Job Turner","Itinerant","",44.310583,-69.779663
+1878,"Trinity Church","Lewiston","Maine","Job Turner","Itinerant","",44.100351,-70.2147764
+1878,"Trinity Church","Saco","Maine","Job Turner","Itinerant","",43.5009176,-70.4428286
+1878,"St. Luke's Cathedral","Portland","Maine","Job Turner","Itinerant","",43.6610277,-70.2548596
+1879,"St. Mark's Church","Augusta","Maine","William Bailey","occasional","intermittent",44.310583,-69.779663
+1879,"Trinity Church","Lewiston","Maine","William Bailey","occasional","intermittent",44.100351,-70.2147764
+1879,"","Belfast","Maine","William Bailey","occasional","intermittent",44.4261194,-69.0067359
+1879,"","New Gloucester","Maine","William Bailey","occasional","intermittent",43.963168,-70.282974
+1879,"","South Windham","Maine","William Bailey","occasional","intermittent",43.7361901,-70.4236631
+1880,"St. Mark's Church","Augusta","Maine","William Bailey","occasional","intermittent",44.310583,-69.779663
+1880,"","Belfast","Maine","William Bailey","occasional","intermittent",44.4261194,-69.0067359
+1880,"Trinity Church","Lewiston","Maine","William Bailey","occasional","intermittent",44.100351,-70.2147764
+1859,"Grace Church","Baltimore","Maryland","Adams","regular","weekly",39.2908816,-76.610759
+1859,"Grace Church","Baltimore","Maryland","Thomas Gallaudet","itinerant","once",39.2908816,-76.610759
+1860,"Grace Church","Baltimore","Maryland","Adams","regular","weekly",39.2908816,-76.610759
+1860,"Grace Church","Baltimore","Maryland","Ijams","regular","weekly",39.2908816,-76.610759
+1861,"Grace Church","Baltimore","Maryland","Samuel Adams","regular","weekly",39.2908816,-76.610759
+1861,"Grace Church","Baltimore","Maryland","Thomas Gallaudet","occasional","once",39.2908816,-76.610759
+1862,"Grace Church","Baltimore","Maryland","Samuel Adams","regular","weekly",39.2908816,-76.610759
+1863,"Grace Church","Baltimore","Maryland","Samuel Adams","regular","weekly",39.2908816,-76.610759
+1864,"Grace Church","Baltimore","Maryland","John P. Ijams","regular","weekly",39.2908816,-76.610759
+1865,"Grace Church","Baltimore","Maryland","John P. Ijams","regular","weekly",39.2908816,-76.610759
+1866,"Grace Church","Baltimore","Maryland","John P. Ijams","regular","weekly",39.2908816,-76.610759
+1867,"Grace Church","Baltimore","Maryland","Samuel Adams","regular","weekly",39.2908816,-76.610759
+1868,"Grace Church","Baltimore","Maryland","Samuel Adams","regular","weekly",39.2908816,-76.610759
+1869,"Grace Church","Baltimore","Maryland","Samuel Adams","regular","weekly",39.2908816,-76.610759
+1870,"Grace Church","Baltimore","Maryland","Samuel Adams","regular","weekly",39.2908816,-76.610759
+1871,"Grace Church","Baltimore","Maryland","Samuel Adams","regular","weekly",39.2908816,-76.610759
+1872,"Grace Church","Baltimore","Maryland","Samuel Adams","regular","weekly",39.2908816,-76.610759
+1873,"Grace Church","Baltimore","Maryland","Samuel Adams","regular","weekly",39.2908816,-76.610759
+1874,"Grace Church","Baltimore","Maryland","John Covell","regular","weekly",39.2908816,-76.610759
+1874,"St. Anne's Church","Annapolis","Maryland","","occasional","",38.9786401,-76.492786
+1875,"Grace Church","Baltimore","Maryland","Lewis C. Tuck","regular","weekly",39.2908816,-76.610759
+1876,"St. Anne's Church","Annapolis","Maryland","Gallaudet, Chamberlain","Itinerant","intermittent",38.9786401,-76.492786
+1876,"Grace Church","Baltimore","Maryland","Lewis C. Tuck","regular","weekly",39.2908816,-76.610759
+1877,"Grace Church","Baltimore","Maryland","Gallaudet, Chamberlain, Syle","","",39.2908816,-76.610759
+1878,"Grace Church","Baltimore","Maryland","Clerc","regular","monthly",39.2908816,-76.610759
+1878,"St. John's Church","Hagerstown","Maryland","Gallaudet","Itinerant","once",39.6419219,-77.7202641
+1878,"","Baltimore","Maryland","Job Turner","Itinerant","",39.2908816,-76.610759
+1878,"St. Anne's Church","Annapolis","Maryland","Turner; Chamberlain","Itinerant","",38.9786401,-76.492786
+1878,"Maryland Institution for Deaf-Mutes","Frederick","Maryland","Job Turner","Itinerant","",39.4142186,-77.4109269
+1879,"Grace Church","Baltimore","Maryland","Chamberlain","regular","weekly",39.2908816,-76.610759
+1879,"All Saints' Church","Frederick","Maryland","Gallaudet and Turner","itinerant","once",39.4142186,-77.4109269
+1879,"St. Anne's Church","Annapolis","Maryland","Turner; Chamberlain","itinerant","",38.9786401,-76.492786
+1879,"Maryland Institution for the Deaf and Dumb","Frederick","Maryland","Gallaudet, Turner","itinerant","once",39.4142186,-77.4109269
+1880,"Grace Church","Baltimore","Maryland","James S. Wells","regular","weekly",39.2908816,-76.610759
+1855,"Park Street Church","Boston","Massachusetts","Thomas Gallaudet","itinerant","once",42.3602534,-71.0582912
+1855,"Trinity Church","Boston","Massachusetts","Thomas Gallaudet","promotional","once",42.3602534,-71.0582912
+1855,"Trinity Church","Boston","Massachusetts","Thomas Gallaudet","itinerant","once",42.3602534,-71.0582912
+1856,"St. John's Church","North Adams","Massachusetts","Thomas Gallaudet","itinerant","once",42.6842884,-73.1146149
+1859,"St. Paul's Church","Boston","Massachusetts","Thomas Gallaudet","promotional","once",42.3602534,-71.0582912
+1859,"St. Paul's Church","Boston","Massachusetts","Thomas Gallaudet","itinerant","once",42.3602534,-71.0582912
+1860,"Church of the Advent","Boston","Massachusetts","Thomas Gallaudet","itinerant","once",42.3602534,-71.0582912
+1861,"Freeman Place Chapel","Boston","Massachusetts","Thomas Gallaudet","occasional","intermittent",42.3602534,-71.0582912
+1862,"Freeman Place Chapel","Boston","Massachusetts","Eastburn Benjamin","regular","weekly",42.3602534,-71.0582912
+1864,"Grace Church","Boston","Massachusetts","Thomas Gallaudet","regular","monthly",42.3602534,-71.0582912
+1867,"Trinity Church","Boston","Massachusetts","","regular","quarterly",42.3602534,-71.0582912
+1871,"Church of the Good Shepherd","Boston","Massachusetts","Thomas Gallaudet","regular","quarterly",42.3602534,-71.0582912
+1872,"Church of the Good Shepherd","Boston","Massachusetts","Thomas Gallaudet","regular","quarterly",42.3602534,-71.0582912
+1873,"Church of the Good Shepherd","Boston","Massachusetts","Thomas Gallaudet","regular","quarterly",42.3602534,-71.0582912
+1873,"Christ Church","Norwich","Massachusetts","","","",42.2889778,-72.8384294
+1873,"Christ Church","Springfield","Massachusetts","","","",42.1014831,-72.589811
+1873,"All Saints' Church","Worcester","Massachusetts","","","",42.2761217,-71.8058232
+1874,"Church of the Good Shepherd","Boston","Massachusetts","Thomas Gallaudet","regular","quarterly",42.3602534,-71.0582912
+1874,"St. Michael's Church","Marblehead","Massachusetts","","occasional","",42.500096,-70.8578253
+1874,"All Saints' Church","Worcester","Massachusetts","","occasional","",42.2761217,-71.8058232
+1875,"Church of the Good Shepherd","Boston","Massachusetts","Thomas Gallaudet","regular","quarterly",42.3602534,-71.0582912
+1876,"Church of the Good Shepherd","Boston","Massachusetts","Thomas Gallaudet","regular","quarterly",42.3602534,-71.0582912
+1876,"St. Michael's Church","Marblehead","Massachusetts","Gallaudet, Chamberlain","Itinerant","intermittent",42.500096,-70.8578253
+1876,"St. Peter's Church","Salem","Massachusetts","Gallaudet, Chamberlain","Itinerant","intermittent",42.5195292,-70.8967226
+1877,"Church of the Good Shepherd","Boston","Massachusetts","Gallaudet, Chamberlain","itinerant","intermittent",42.3602534,-71.0582912
+1877,"St. Paul's Church","Boston","Massachusetts","Thomas Gallaudet","itinerant","intermittent",42.3602534,-71.0582912
+1877,"St. Michael's Church","Marblehead","Massachusetts","Gallaudet","Itinerant","intermittent",42.500096,-70.8578253
+1877,"St. Peter's Church","Salem","Massachusetts","Gallaudet","Itinerant","intermittent",42.5195292,-70.8967226
+1877,"St. Peter's Church","Cambridge","Massachusetts","Gallaudet","Itinerant","quarterly",42.3750997,-71.1056157
+1877,"St. Paul's Church","Nantucket","Massachusetts","Gallaudet","promotional","once",41.282778,-70.099444
+1877,"All Saints' Church","Worcester","Massachusetts","Gallaudet, Mann","promotional","once",42.2761217,-71.8058232
+1877,"","Boston","Massachusetts","Job Turner","Itinerant","intermittent",42.3602534,-71.0582912
+1877,"Church of the Ascension","Fall River","Massachusetts","Job Turner","Itinerant","intermittent",41.7010642,-71.1546367
+1877,"","Cambridge","Massachusetts","Job Turner","Itinerant","once",42.3750997,-71.1056157
+1877,"St. Paul's Church","Newburyport","Massachusetts","Thomas Gallaudet ","Itinerant","once",42.8125913,-70.8772751
+1877,"St. John's Church","Cambridge","Massachusetts","Gallaudet","promotional","once",42.3750997,-71.1056157
+1877,"","Martha's Vineyard","Massachusetts","Job Turner","Itinerant","once",41.4,-70.616667
+1878,"St. Paul's Church","Boston","Massachusetts","Job Turner","regular","intermittent",42.3602534,-71.0582912
+1878,"St. Peter's Church","Cambridge","Massachusetts","Gallaudet","Itinerant","quarterly",42.3750997,-71.1056157
+1878,"Church of the Ascension","Fall River","Massachusetts","Gallaudet","Itinerant","once",41.7010642,-71.1546367
+1878,"St. Peter's Church","Beverly","Massachusetts","Gallaudet","itinerant","",42.5584284,-70.8800491
+1878,"Grace Church","Lawrence","Massachusetts","Gallaudet","itinerant","once",42.7070354,-71.1631137
+1878,"St. Anne's Church","Lowell","Massachusetts","Gallaudet","itinerant","once",42.6334247,-71.3161718
+1878,"","Worcester","Massachusetts","Job Turner","Itinerant","",42.2761217,-71.8058232
+1878,"St. Peter's Church","Salem","Massachusetts","William Bailey","occasional","intermittent",42.5195292,-70.8967226
+1879,"Christ Church","Springfield","Massachusetts","Turner","itinerant","",42.1014831,-72.589811
+1879,"St. Anne's Church","Lowell","Massachusetts","Turner","itinerant","",42.6334247,-71.3161718
+1879,"Christ Church","Fitchburg","Massachusetts","Turner","itinerant","",42.5903661,-71.8119837
+1879,"All Saints' Church","Worcester","Massachusetts","Turner","itinerant","",42.2761217,-71.8058232
+1879,"St. Paul's Church","Newburyport","Massachusetts","Turner","itinerant","",42.8125913,-70.8772751
+1879,"St. John's Church","Lawrence","Massachusetts","Turner","itinerant","",42.7070354,-71.1631137
+1879,"Church of the Good Shepherd","Boston","Massachusetts","William Bailey","regular","biweekly",42.3602534,-71.0582912
+1879,"St. Paul's Church","Boston","Massachusetts","William Bailey","regular","monthly",42.3602534,-71.0582912
+1879,"St. Peter's Church","Salem","Massachusetts","William Bailey","","",42.5195292,-70.8967226
+1879,"St. Peter's Church","Beverly","Massachusetts","William Bailey","","",42.5584284,-70.8800491
+1880,"Church of the Good Shepherd","Boston","Massachusetts","Bailey, Gallaudet, Chamberlain","occasional","intermittent",42.3602534,-71.0582912
+1880,"St. Matthew's Church","Boston","Massachusetts","Chamberlain","occasional","once",42.3602534,-71.0582912
+1880,"","Salem","Massachusetts","William Bailey","occasional","intermittent",42.5195292,-70.8967226
+1880,"St. Peter's Church","Beverly","Massachusetts","William Bailey","occasional","intermittent",42.5584284,-70.8800491
+1860,"Church of the Advent","Boston","Massachusetts","Thomas Gallaudet","occasional","intermittent",42.3602534,-71.0582912
+1861,"Grace Church","Lawrence","Massachusetts","Thomas Gallaudet","occasional","once",42.7070354,-71.1631137
+1860,"St. Anne's Church","Lowell","Massachusetts","Thomas Gallaudet","occasional","once",42.6334247,-71.3161718
+1873,"St. Paul's Church","Flint","Michigan","","itinerant","once",43.0171773,-83.7236024
+1874,"St. Paul's Church","Flint","Michigan","Austin Mann","regular","intermittent",43.0171773,-83.7236024
+1874,"St. Paul's Church","Jackson","Michigan","","occasional","",42.244167,-84.407222
+1875,"St. Paul's Church","Flint","Michigan","Austin Mann","","",43.0171773,-83.7236024
+1875,"St. Mark's Church","Grand Rapids","Michigan","Austin Mann","itinerant","intermittent",42.9632405,-85.6678639
+1875,"Christ Church","Detroit","Michigan","Austin Mann","itinerant","intermittent",42.3315509,-83.0466403
+1875,"St. Paul's Church","Jackson","Michigan","Austin Mann","itinerant","intermittent",42.244167,-84.407222
+1876,"St. Paul's Church","Flint","Michigan","Austin Mann","itinerant","intermittent",43.0171773,-83.7236024
+1876,"St. Mark's Church","Grand Rapids","Michigan","Austin Mann","itinerant","intermittent",42.9632405,-85.6678639
+1876,"St. John's Church","Detroit","Michigan","Austin Mann","itinerant","intermittent",42.3315509,-83.0466403
+1876,"Zion Church","Pontiac","Michigan","Austin Mann","Itinerant","once",42.6389216,-83.2910468
+1876,"St. Paul's Church","Jackson","Michigan","Austin Mann","itinerant","intermittent",42.244167,-84.407222
+1877,"St. Paul's Church","Flint","Michigan","Austin Mann","Itinerant","intermittent",43.0171773,-83.7236024
+1877,"St. John's Church","Detroit","Michigan","Austin Mann","Itinerant","intermittent",42.3315509,-83.0466403
+1877,"St. Paul's Church","Jackson","Michigan","Austin Mann","itinerant","intermittent",42.244167,-84.407222
+1878,"St. Paul's Church","Flint","Michigan","Austin Mann","itinerant","intermittent",43.0171773,-83.7236024
+1878,"St. John's Church","Detroit","Michigan","Austin Mann","itinerant","intermittent",42.3315509,-83.0466403
+1878,"Trinity Church","Niles","Michigan","Austin Mann","Itinerant","intermittent",41.8297694,-86.2541768
+1878,"Emmanuel Church","Hastings","Michigan","Austin Mann","Itinerant","once",42.6458683,-85.2908404
+1878,"Methodist Church","Coopersville","Michigan","Austin Mann","Itinerant","once",43.0639112,-85.9347667
+1878,"St. Andrew's Church","Ann Arbor","Michigan","Gallaudet and Mann","promotional","once",42.2681569,-83.7312291
+1878,"Michigan Institution for Deaf-Mutes","Flint","Michigan","Job Turner, Mann","Itinerant","",43.0171773,-83.7236024
+1878,"St. Paul's Church","Jackson","Michigan","Austin Mann","itinerant","intermittent",42.244167,-84.407222
+1879,"St. John's Church","Detroit","Michigan","Austin Mann","itinerant","intermittent",42.3315509,-83.0466403
+1879,"St. Paul's Church","Jackson","Michigan","Austin Mann","itinerant","intermittent",42.244167,-84.407222
+1879,"St. Paul's Church","Flint","Michigan","Austin Mann","itinerant","intermittent",43.0171773,-83.7236024
+1879,"St. Mark's Church","Grand Rapids","Michigan","Austin Mann","itinerant","",42.9632405,-85.6678639
+1879,"Trinity Church","Niles","Michigan","Austin Mann","itinerant","",41.8297694,-86.2541768
+1879,"Trinity Church","Monroe","Michigan","Austin Mann","itinerant","intermittent",41.916389,-83.397778
+1880,"Trinity Church","Monroe","Michigan","Mann and Gallaudet","itinerant","intermittent",41.916389,-83.397778
+1880,"St. Mark's Church","Grand Rapids","Michigan","Austin Mann","itinerant","once",42.9632405,-85.6678639
+1880,"St. Paul's Church","East Saginaw","Michigan","Mann and Gallaudet","itinerant","intermittent",43.4200387,-83.9490365
+1880,"","Flushing","Michigan","Austin Mann","itinerant","",43.0630834,-83.8510732
+1880,"St. John's Church","Detroit","Michigan","Gallaudet and Mann","itinerant","",42.3315509,-83.0466403
+1880,"St. Paul's Church","Flint","Michigan","Gallaudet and Mann","itinerant","",43.0171773,-83.7236024
+1880,"Michigan Institution for the Deaf and Dumb","Flint","Michigan","Gallaudet and Mann","itinerant","",43.0171773,-83.7236024
+1880,"Zion Church","Pontiac","Michigan","Gallaudet and Mann","itinerant","once",42.6389216,-83.2910468
+1880,"St. Paul's Church","Jackson","Michigan","Gallaudet and Mann","itinerant","",42.244167,-84.407222
+1880,"St. Luke's Church","Kalamazoo","Michigan","Gallaudet and Mann","itinerant","once",42.291707,-85.5872286
+1877,"Gethsemane Church","Minneapolis","Minnesota","Austin Mann","Itinerant","once",44.9772995,-93.2654692
+1880,"Cathedral of our Merciful Saviour","Fairbault","Minnesota","Gallaudet and Mann","itinerant","once",44.290589,-93.268319
+1880,"Minnesota Institution for the Deaf and Dumb","Fairbault","Minnesota","Gallaudet and Mann","itinerant","once",44.290589,-93.268319
+1880,"St. Paul's Church","St. Paul","Minnesota","Gallaudet and Mann","itinerant","once",44.9504037,-93.1015026
+1880,"Gethsemane Church","Minneapolis","Minnesota","Gallaudet and Mann","itinerant","once",44.9772995,-93.2654692
+1880,"Christ Church","Red Wing","Minnesota","Gallaudet and Mann","itinerant","once",44.5624676,-92.5338013
+1878,"Mississippi Institution for Deaf-Mutes","Jackson","Mississippi","Job Turner","Itinerant","",32.2990384,-90.1847691
+1879,"St. Andrew's Church","Jackson","Mississippi","Gallaudet, Turner","itinerant","",32.2990384,-90.1847691
+1877,"Christ Church","St. Louis","Missouri","Austin Mann","itinerant","intermittent",38.6268039,-90.1994097
+1878,"Christ Church","St. Louis","Missouri","Austin Mann","Itinerant","intermittent",38.6268039,-90.1994097
+1879,"Christ Church","St. Louis","Missouri","Delos A. Simpson","regular","biweekly",38.6268039,-90.1994097
+1879,"St. George's Church","St. Louis","Missouri","Mann and Gallaudet","promotional","",38.6268039,-90.1994097
+1879,"Christ Church","St. Joseph","Missouri","Mann and Gallaudet","promotional","once",39.7686055,-94.8466322
+1879,"Christ Church","St. Louis","Missouri","Mann and Gallaudet","itinerant","",38.6268039,-90.1994097
+1879,"St. George's Church","St. Louis","Missouri","Mann and Gallaudet","promotional","",38.6268039,-90.1994097
+1879,"St. Luke's Hospital","St. Louis","Missouri","Mann and Gallaudet","promotional","",38.6268039,-90.1994097
+1879,"Grace Church","Kansas City","Missouri","Mann and Gallaudet","promotional","once",39.100105,-94.5781416
+1879,"Missouri Institution for Deaf-mutes","Fulton","Missouri","Austin Mann","itinerant","intermittent",38.8467082,-91.9479586
+1880,"Christ Church","St. Louis","Missouri","Austin Mann","itinerant","intermittent",38.6268039,-90.1994097
+1880,"Christ Church","St. Louis","Missouri","Delos A Simpson","","",38.6268039,-90.1994097
+1879,"Nebraska Institution for the Deaf and Dumb","Omaha","Nebraska","Mann and Gallaudet","promotional","once",41.2587459,-95.9383758
+1879,"Trinity Cathedral","Omaha","Nebraska","Mann and Gallaudet","promotional","once",41.2587459,-95.9383758
+1877,"St. Paul's Church","Concord","New Hampshire","Job Turner","Itinerant","intermittent",43.207178,-71.537476
+1877,"Church of the Good Shepherd","Nashua","New Hampshire","Job Turner","Itinerant","once",42.7653662,-71.467566
+1877,"","West Henniker","New Hampshire","Job Turner","Itinerant","once",43.179645,-71.822433
+1878,"Congregationalist Church","Amherst","New Hampshire","Chamberlain","promotional","once",42.8642874,-71.6252484
+1878,"Congregational Church","Henniker","New Hampshire","Gallaudet","Itinerant","once",43.179645,-71.822433
+1878,"St. Paul's Church","Concord","New Hampshire","Job Turner","Itinerant","",43.207178,-71.537476
+1878,"","Henniker","New Hampshire","Job Turner","Itinerant","",43.179645,-71.822433
+1879,"Grace Church","Manchester","New Hampshire","Job Turner","itinerant","",42.9956397,-71.4547891
+1879,"St. Paul's Church","Concord","New Hampshire","Job Turner","itinerant","",43.207178,-71.537476
+1879,"Congregational Church","Henniker","New Hampshire","Job Turner","itinerant","",43.179645,-71.822433
+1879,"Union Church","Hooksett","New Hampshire","Turner and Gallaudet","itinerant","once",43.096972,-71.465378
+1879,"Church of the Good Shepherd","Nashua","New Hampshire","Turner, Gallaudet","itinerant","",42.7653662,-71.467566
+1880,"Grace Church","Manchester","New Hampshire","Chamberlain","itinerant","once",42.9956397,-71.4547891
+1857,"Christ Church","New Brunswick","New Jersey","Thomas Gallaudet","itinerant","once",40.4862174,-74.4518173
+1873,"St. Paul's Church","Paterson","New Jersey","","","",40.9167654,-74.171811
+1875,"Trinity Church","Newark","New Jersey","","itinerant","",40.735657,-74.1723667
+1875,"St. Stephen's Church","Newark","New Jersey","","itinerant","",40.735657,-74.1723667
+1875,"Christ Church","Newark","New Jersey","","itinerant","",40.735657,-74.1723667
+1875,"Christ Church","Newton","New Jersey","","itinerant","",41.0582103,-74.7530943
+1876,"Grace Church","Elizabeth","New Jersey","Gallaudet, Chamberlain","Itinerant","intermittent",40.6639916,-74.2107006
+1876,"Trinity Church","Newark","New Jersey","Gallaudet, Chamberlain","Itinerant","intermittent",40.735657,-74.1723667
+1877,"Trinity Church","Elizabeth","New Jersey","Gallaudet","promotional","once",40.6639916,-74.2107006
+1877,"Trinity Church","Newark","New Jersey","Gallaudet","Itinerant","once",40.735657,-74.1723667
+1877,"Grace Church","Jersey City","New Jersey","James Lewis","Itinerant","once",40.7281575,-74.0776417
+1877,"St. John's Church","Elizabeth","New Jersey","Gallaudet","promotional","once",40.6639916,-74.2107006
+1878,"St. John's Church","Newark","New Jersey","George C. Pennell","occasional","bimonthly",40.735657,-74.1723667
+1878,"Trinity Mission Chapel","Newark","New Jersey","Pennell, Gallaudet","itinerant","once",40.735657,-74.1723667
+1879,"St. John's Church","Newark","New Jersey","Pennell","regular","biweekly",40.735657,-74.1723667
+1879,"Trinity Mission Chapel","Newark","New Jersey","Pennell, Gallaudet","regular","biweekly",40.735657,-74.1723667
+1880,"Trinity Mission Chapel","Newark","New Jersey","George C. Pennell","occasional","intermittent",40.735657,-74.1723667
+1880,"","","New Jersey","Syle","","",40.0757384,-74.4041622
+1860,"St. Stephen's Church","Milburn","New Jersey","Thomas Gallaudet","occasional","once",40.686458,-74.633886
+1850,"St. Stephen's Church","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1850,"School Room, 59 Bond St.","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1851,"School Room, 59 Bond St.","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1852,"New York University Chapel","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1853,"New York University Chapel","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1854,"New York University Chapel","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1855,"New York University Chapel","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1856,"","Mabbettsville","New York","Thomas Gallaudet","itinerant","once",41.7925937,-73.6595723
+1856,"St. Thomas' Church","Mamaroneck","New York","Thomas Gallaudet","itinerant","once",40.9487097,-73.7326309
+1856,"New York University Chapel","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1856,"","Watervliet","New York","Thomas Gallaudet","itinerant","once",42.7300784,-73.7012299
+1857,"Presbyterian Church","Mexico","New York","Thomas Gallaudet","itinerant","once",43.459514,-76.228818
+1857,"private residence","New York City","New York","Thomas Gallaudet","occasional","once",40.71274,-74.005974
+1857,"New York University Chapel","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1857,"New York Historical Society","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1858,"New York Historical Society","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1858,"St. Peter's Church","Albany","New York","Thomas Gallaudet","promotional","once",42.6511674,-73.754968
+1858,"St. Peter's Church","Albany","New York","Thomas Gallaudet","itinerant","once",42.6511674,-73.754968
+1858,"St. John's Church","Buffalo","New York","Thomas Gallaudet","promotional","once",42.8867166,-78.8783922
+1858,"St. John's Church","Buffalo","New York","Thomas Gallaudet","itinerant","once",42.8867166,-78.8783922
+1859,"New York Historical Society","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1859,"St. Ann's Church","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1859,"St. Paul's Church","Albany","New York","Thomas Gallaudet","","",42.6511674,-73.754968
+1860,"St. Ann's Church","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1861,"St. Paul's Church","Albany","New York","Thomas Gallaudet","regular","intermmittent",42.6511674,-73.754968
+1861,"St. Ann's Church","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1862,"St. Paul's Church","Albany","New York","Thomas Gallaudet","regular","intermmittent",42.6511674,-73.754968
+1863,"St. Paul's Church","Albany","New York","Thomas Gallaudet","regular","intermmittent",42.6511674,-73.754968
+1862,"St. Ann's Church","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1863,"St. Ann's Church","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1864,"St. Paul's Church","Albany","New York","Thomas Gallaudet","regular","monthly",42.6511674,-73.754968
+1864,"St. Ann's Church","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1865,"St. Paul's Church","Albany","New York","Gallaudet, Benjamin","regular","monthly",42.6511674,-73.754968
+1865,"St. Paul's Church","Syracuse","New York","Gallaudet, Pennell","itinerant","once",43.0481221,-76.1474244
+1865,"St. Ann's Church","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1865,"Grace Church","Buffalo","New York","George C. Pennell","regular","monthly",42.8867166,-78.8783922
+1865,"Grace Church","Rochester","New York","George C. Pennell","itinerant","once",43.157285,-77.615214
+1865,"Zion Church","Palmyra","New York","George C. Pennell","itinerant","once",43.0623754,-77.2347245
+1866,"St. Paul's Church","Albany","New York","Gallaudet, Benjamin","regular","monthly",42.6511674,-73.754968
+1866,"St. Ann's Church","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1866,"Grace Church","Buffalo","New York","George C. Pennell","regular","monthly",42.8867166,-78.8783922
+1867,"St. Paul's Church","Albany","New York","Gallaudet, Benjamin","regular","monthly",42.6511674,-73.754968
+1867,"St. Ann's Church","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1867,"Grace Church","Buffalo","New York","George C. Pennell","regular","monthly",42.8867166,-78.8783922
+1868,"St. Paul's Church","Albany","New York","Gallaudet, Benjamin","regular","monthly",42.6511674,-73.754968
+1868,"St. Ann's Church","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1868,"Grace Church","Buffalo","New York","George C. Pennell","regular","monthly",42.8867166,-78.8783922
+1869,"St. Paul's Church","Albany","New York","Gallaudet, Benjamin","regular","monthly",42.6511674,-73.754968
+1869,"St. John's Church","Ithaca","New York","Thomas Gallaudet","itinerant","once",42.4396039,-76.4968019
+1869,"St. Ann's Church","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1870,"St. Paul's Church","Albany","New York","Gallaudet, Benjamin","regular","monthly",42.6511674,-73.754968
+1870,"St. Ann's Church","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1871,"St. Paul's Church","Albany","New York","Gallaudet, Benjamin","regular","monthly",42.6511674,-73.754968
+1871,"St. Ann's Church","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1872,"St. Paul's Church","Albany","New York","Gallaudet, Benjamin","regular","monthly",42.6511674,-73.754968
+1872,"St. Ann's Church","New York City","New York","Thomas Gallaudet","regular","weekly",40.71274,-74.005974
+1872,"St. Paul's Chapel","Troy","New York","","","",42.7284117,-73.6917878
+1873,"Grace Church","Mexico","New York","","","",43.459514,-76.228818
+1873,"Trinity Church","Watertown","New York","","","",43.9747838,-75.9107565
+1873,"Grace Church","Watertown","New York","","","",43.9747838,-75.9107565
+1873,"Grace Church","Syracuse","New York","","","",43.0481221,-76.1474244
+1873,"Trinity Church","Syracuse","New York","","","",43.0481221,-76.1474244
+1873,"St. Ann's Church","New York City","New York","Gallaudet, Chamberlain","regular","weekly",40.71274,-74.005974
+1873,"St. Paul's Church","Albany","New York","Thomas B. Berry","regular","monthly",42.6511674,-73.754968
+1873,"St. Paul's Chapel","Troy","New York","","","",42.7284117,-73.6917878
+1873,"St. Mark's Church","Tarrytown","New York","","","",41.0762077,-73.8587461
+1873,"St. Peter's Church","Portchester","New York","","","",41.005,-73.668889
+1873,"Zion Church","Rome","New York","","","",43.2128473,-75.4557304
+1873,"Trinity Church","Geneva","New York","","","",42.8690271,-76.9786122
+1873,"St. Luke's Church","Rochester","New York","","","",43.157285,-77.615214
+1873,"Christ Church","Rochester","New York","","","",43.157285,-77.615214
+1873,"Christ Church","Buffalo","New York","","","",42.8867166,-78.8783922
+1873,"St. Mary's Church","New York City","New York","","","",40.71274,-74.005974
+1873,"Church of the Messiah","New York City","New York","","","",40.71274,-74.005974
+1874,"St. Ann's Church","New York City","New York","Gallaudet, Chamberlain","regular","weekly",40.71274,-74.005974
+1874,"St. Paul's Church","Albany","New York","Thomas B. Berry","regular","monthly",42.6511674,-73.754968
+1874,"St. Mary's Church","New York City","New York","","occasional","",40.71274,-74.005974
+1874,"Christ Church","Rochester","New York","John C. Acker, Gallaudet, Berry","regular","",43.157285,-77.615214
+1874,"St. Paul's Chapel","Troy","New York","Thomas Berry","regular","monthly",42.7284117,-73.6917878
+1874,"Grace Church","Mexico","New York","","occasional","",43.459514,-76.228818
+1874,"St. James' Church","Syracuse","New York","","occasional","",43.0481221,-76.1474244
+1874,"Grace Church","Cherry Valley","New York","","occasional","",42.7956295,-74.7532018
+1874,"Good Shepherd","Canajoharie","New York","","occasional","",42.9056288,-74.5718073
+1874,"Trinity Church","Potsdam","New York","","occasional","",44.6697996,-74.9813349
+1874,"Christ Church","Buffalo","New York","","occasional","",42.8867166,-78.8783922
+1874,"St. Mark's Church","Tarrytown","New York","","occasional","",41.0762077,-73.8587461
+1875,"Trinity Church","Watertown","New York","Gallaudet and Berry","promotional","once",43.9747838,-75.9107565
+1875,"St. Paul's Church","Albany","New York","Gallaudet ","regular","quarterly",42.6511674,-73.754968
+1875,"St. Ann's Church","New York City","New York","Gallaudet, Chamberlain","regular","weekly",40.71274,-74.005974
+1875,"St. Mary's Church","New York City","New York","Gallaudet, Chamberlain, Wells, Lewis","regular","monthly",40.71274,-74.005974
+1875,"private residences","New York City","New York","James Lewis","occasional","intermittent",40.71274,-74.005974
+1875,"St. Mary's Church","New York City","New York","","itinerant","",40.71274,-74.005974
+1875,"St. Luke's Church","Rochester","New York","John C. Acker","regular","weekly",43.157285,-77.615214
+1875,"Trinity Church","Potsdam","New York","Thomas B. Berry","itinerant","once",44.6697996,-74.9813349
+1875,"St. Paul's Chapel","Troy","New York","Thomas Berry","regular","monthly",42.7284117,-73.6917878
+1875,"Grace Church","Mexico","New York","","itinerant","",43.459514,-76.228818
+1875,"St. Mark's Church","Tarrytown","New York","","itinerant","",41.0762077,-73.8587461
+1875,"St. Mark's Church","New York City","New York","","itinerant","",40.71274,-74.005974
+1875,"St. Andrew's Church","New York City","New York","","itinerant","",40.71274,-74.005974
+1876,"St. Paul's Church","Albany","New York","Gallaudet","regular","quarterly",42.6511674,-73.754968
+1876,"St. Ann's Church","New York City","New York","Gallaudet, Chamberlain","regular","weekly",40.71274,-74.005974
+1876,"St. Mary's Church","New York City","New York","Gallaudet, Chamberlain","Itinerant","intermittent",40.71274,-74.005974
+1876,"St. Mary's Church","New York City","New York","Gallaudet, Chamberlain or Lewis","regular","monthly",40.71274,-74.005974
+1876,"private residences","New York City","New York","James Lewis","occasional","intermittent",40.71274,-74.005974
+1876,"Zion Church","Rome","New York","Gallaudet, Chamberlain","Itinerant","intermittent",43.2128473,-75.4557304
+1876,"St. James Church","New York City","New York","Gallaudet, Chamberlain","Itinerant","intermittent",40.71274,-74.005974
+1876,"Grace Church","Mexico","New York","Gallaudet, Chamberlain","Itinerant","intermittent",43.459514,-76.228818
+1876,"Trinity Church","Lansingburgh","New York","Gallaudet, Chamberlain","Itinerant","intermittent",42.7845222,-73.6695624
+1876,"St. James Church","Syracuse","New York","Gallaudet, Chamberlain","Itinerant","intermittent",43.0481221,-76.1474244
+1876,"St. Luke's Church","New York City","New York","Gallaudet, Chamberlain","Itinerant","intermittent",40.71274,-74.005974
+1876,"St. Ann's Church","New York City","New York","Gallaudet, Chamberlain","Itinerant","intermittent",40.71274,-74.005974
+1876,"Grace Church","New York City","New York","Gallaudet, Chamberlain","Itinerant","intermittent",40.71274,-74.005974
+1876,"St. Paul's Church","New York City","New York","Gallaudet, Chamberlain","Itinerant","intermittent",40.71274,-74.005974
+1876,"Grace Church","Utica","New York","Gallaudet, Chamberlain","Itinerant","intermittent",43.1009031,-75.2326641
+1876,"St. Mark's Church","New York City","New York","Gallaudet, Chamberlain","Itinerant","intermittent",40.71274,-74.005974
+1876,"St. James' Church","New York City","New York","Gallaudet, Chamberlain","Itinerant","intermittent",40.71274,-74.005974
+1876,"Church of the Intercession","New York City","New York","Gallaudet, Chamberlain","Itinerant","intermittent",40.71274,-74.005974
+1876,"St. Peter's Church","Port Chester","New York","Gallaudet, Chamberlain","Itinerant","intermittent",41.0017643,-73.6656834
+1876,"Trinity Church","Granville","New York","Gallaudet, Chamberlain","Itinerant","intermittent",43.408041,-73.259583
+1876,"Grace Church","Cherry Valley","New York","Gallaudet, Chamberlain","Itinerant","intermittent",42.7956295,-74.7532018
+1876,"St. Paul's Church","Kinderhook","New York","Gallaudet, Chamberlain","Itinerant","intermittent",42.3953617,-73.6978983
+1876,"Trinity Church","Potsdam","New York","George C. Pennell","itinerant","intermittent",44.6697996,-74.9813349
+1876,"St. Luke's Church","Rochester","New York","John C. Acker","regular","weekly",43.157285,-77.615214
+1876,"St. Paul's Church","Troy","New York","Thomas Berry","regular","monthly",42.7284117,-73.6917878
+1877,"St. Ann's Church","New York City","New York","Gallaudet, Chamberlain","regular","weekly",40.71274,-74.005974
+1877,"St. Paul's Church","Albany","New York","Gallaudet","regular","quarterly",42.6511674,-73.754968
+1877,"St. Luke's Church","Rochester","New York","Gallaudet","itinerant","once",43.157285,-77.615214
+1877,"Church of the Intercession","New York City","New York","Gallaudet","occasional","intermittent",40.71274,-74.005974
+1877,"St. Luke's Church","New York City","New York","Gallaudet","promotional","once",40.71274,-74.005974
+1877,"Church of the Redeemer","New York City","New York","Gallaudet","promotional","once",40.71274,-74.005974
+1877,"Zion Church","Rome","New York","Gallaudet and Mann","Itinerant","once",43.2128473,-75.4557304
+1877,"Trinity Church","Granville","New York","Gallaudet, Berry","occasional","intermittent",43.408041,-73.259583
+1877,"St. Mary's Church","New York City","New York","Gallaudet, Chamberlain","Itinerant","intermittent",40.71274,-74.005974
+1877,"St. Mary's Church","New York City","New York","Gallaudet, Chamberlain, Lewis","regular","monthly",40.71274,-74.005974
+1877,"Grace Church","Elmira","New York","Gallaudet, Mann, Turner","Itinerant","once ",42.0897965,-76.8077338
+1877,"Trinity Church","Potsdam","New York","George C. Pennell","occasional","intermittent",44.6697996,-74.9813349
+1877,"private residences","New York City","New York","James Lewis","occasional","intermittent",40.71274,-74.005974
+1877,"","New York City","New York","Job Turner","Itinerant","intermittent",40.71274,-74.005974
+1877,"St Paul's Church","Owego","New York","Job Turner","Itinerant","once",42.1034075,-76.2621549
+1877,"St. Luke's Church","Rochester","New York","John C. Acker","regular","weekly",43.157285,-77.615214
+1877,"St. James' Church","Pulaski","New York","Mann and Gallaudet","promotional","once",43.567014,-76.127703
+1877,"St. Paul's Church","Troy","New York","Thomas Berry","regular","monthly",42.7284117,-73.6917878
+1878,"St. Ann's Church","New York City","New York","Gallaudet, Chamberlain, Lewis","regular","weekly",40.71274,-74.005974
+1878,"St. Paul's Church","Albany","New York","Gallaudet","regular","quarterly",42.6511674,-73.754968
+1878,"St. Paul's Church","Troy","New York","Gallaudet","","",42.7284117,-73.6917878
+1878,"Trinity Church","Geneva","New York","Gallaudet","itinerant","intermittent",42.8690271,-76.9786122
+1878,"St. Ann's Church","New York City","New York","Gallaudet","regular","monthly",40.71274,-74.005974
+1878,"Christ Church","New York City","New York","Gallaudet","occasional","monthly",40.71274,-74.005974
+1878,"Zion Church","Rome","New York","Gallaudet","Itinerant","intermittent",43.2128473,-75.4557304
+1878,"St. Luke's Church","New York City","New York","Gallaudet","promotional","once",40.71274,-74.005974
+1878,"St John's Church","Cohoes","New York","Gallaudet","Itinerant","once",42.7742446,-73.7001187
+1878,"Christ Church","Ballston Spa","New York","Gallaudet","Itinerant","once",43.0009087,-73.8490111
+1878,"Church of the Intercession","New York City","New York","Gallaudet","Itinerant","once",40.71274,-74.005974
+1878,"Bethesda Church","Saratoga Springs","New York","Gallaudet","Itinerant","once",43.0821793,-73.7853915
+1878,"Church of the Holy Spirit","New York City","New York","Gallaudet","promotional","once",40.71274,-74.005974
+1878,"St. Peter's Church","Auburn","New York","Gallaudet","Itinerant","once",42.9320202,-76.5672029
+1878,"All Saints Church","New York City","New York","Gallaudet","promotional","once",40.71274,-74.005974
+1878,"St. Paul's Church","New York City","New York","Gallaudet","promotional","once",40.71274,-74.005974
+1878,"Church of the Holy Trinity","New York City","New York","Gallaudet","promotional","once",40.71274,-74.005974
+1878,"St. Luke's Church","New York City","New York","Gallaudet","promotional","once",40.71274,-74.005974
+1878,"St. Andrew's Church","New York City","New York","Gallaudet, Chamberlain, Lewis","regular","monthly",40.71274,-74.005974
+1878,"St. Mary's Church","New York City","New York","Gallaudet, Chamberlain, Lewis","regular","monthly",40.71274,-74.005974
+1878,"Christ Church","New York City","New York","Gallaudet, Chamberlain, Lewis","regular","monthly",40.71274,-74.005974
+1878,"private residences","New York City","New York","James Lewis","occasional","intermittent",40.71274,-74.005974
+1878,"","Rome","New York","Job Turner","Itinerant","",43.2128473,-75.4557304
+1878,"","New York City","New York","Job Turner","Itinerant","",40.71274,-74.005974
+1878,"New York Institution for Deaf Mutes","New York City","New York","Job Turner","Itinerant","",40.71274,-74.005974
+1878,"St. Luke's Church","Rochester","New York","John C. Acker","regular","weekly",43.157285,-77.615214
+1878,"Church of the Messiah","Glens Falls","New York","Thomas Gallaudet","Itinerant","once",43.309941,-73.644447
+1878,"Grace Church","Mexico","New York","Turner, Gallaudet","Itinerant","intermittent",43.459514,-76.228818
+1878,"St. John's Church","Buffalo","New York","Mann and Gallaudet","itinerant","intermittent",42.8867166,-78.8783922
+1879,"St. Ann's Church","New York City","New York","Gallaudet, Chamberlain, Lewis, Wells","regular","weekly",40.71274,-74.005974
+1878,"John's Church","Buffalo","New York","Austin Mann","itinerant","",42.8867166,-78.8783922
+1879,"John's Church","Buffalo","New York","Turner","itinerant","",42.8867166,-78.8783922
+1879,"Church of the Redeemer","Astoria","New York","Chamberlain","promotional","once",40.767,-73.921
+1879,"Church of the Holy Comforter","Poughkeepsie","New York","Chamberlain","promotional","once",41.7065779,-73.9284101
+1879,"Christ Church","New York City","New York","Gallaudet","promotional","once",40.71274,-74.005974
+1879,"Church of the Ascension","New York City","New York","Gallaudet","itinerant","once",40.71274,-74.005974
+1879,"Trinity Church","Mount Vernon","New York","Gallaudet","promotional","once",40.914167,-73.830556
+1879,"Zion Church","Dobbs Ferry","New York","Gallaudet","promotional","once",41.0145418,-73.872635
+1879,"Church of the Intercession","New York City","New York","Gallaudet","itinerant","once",40.71274,-74.005974
+1879,"Trinity Church","Asbury Park","New Jersey","Gallaudet","promotional","",40.2203907,-74.0120817
+1879,"Bethesda Church","Saratoga Springs","New York","Gallaudet and Mann","Itinerant","once",43.0821793,-73.7853915
+1879,"St. Luke's Church","Rochester","New York","John C. Acker","regular","weekly",43.157285,-77.615214
+1879,"St. Ann's Church","New York City","New York","Lewis","regular","monthly",40.71274,-74.005974
+1879,"St. Paul's Church","Albany","New York","Lewis","regular","quarterly",42.6511674,-73.754968
+1879,"St. Andrew's Church","New York City","New York","Lewis, Chamberlain","regular","monthly",40.71274,-74.005974
+1879,"Trinity Church","Buffalo","New York","Mann and Gallaudet","itinerant","once",42.8867166,-78.8783922
+1879,"Trinity Church","Geneva","New York","Turner","itinerant","",42.8690271,-76.9786122
+1879,"St. James' Church","Syracuse","New York","Turner","itinerant","",43.0481221,-76.1474244
+1879,"Grace Church","Mexico","New York","Turner","itinerant","",43.459514,-76.228818
+1879,"Grace Church","Watertown","New York","Turner","itinerant","",43.9747838,-75.9107565
+1879,"Trinity Church","Potsdam","New York","Turner","itinerant","",44.6697996,-74.9813349
+1879,"Grace Church","New York City","New York","","promotional","once",40.71274,-74.005974
+1879,"Christ Church","New York City","New York","Lewis, Chamberlain","regular","monthly",40.71274,-74.005974
+1879,"St. Paul's Church","Troy","New York","","regular","weekly",42.7284117,-73.6917878
+1880,"St. Ann's Church","New York City","New York","Gallaudet, Chamberlain, Lewis, Turner","regular","weekly",40.71274,-74.005974
+1880,"Church of the Intercession","New York City","New York","Chamberlain","itinerant","once",40.71274,-74.005974
+1880,"St. Andrew's Church","New York City","New York","Chamberlain","regular","monthly",40.71274,-74.005974
+1880,"St. John's Chapel","New York City","New York","Gallaudet","promotional","once",40.71274,-74.005974
+1880,"Christ Church","New York City","New York","Gallaudet","itinerant","once",40.71274,-74.005974
+1880,"St. Ann's Church","New York City","New York","Gallaudet","itinerant","once",40.71274,-74.005974
+1880,"Trinity Church","Asbury Park","New Jersey","Gallaudet","","",40.2203907,-74.0120817
+1880,"Bethesda Church","Saratoga Springs","New York","Gallaudet","itinerant","once",43.0821793,-73.7853915
+1880,"St. James' Church","Goshen","New York","Gallaudet","itinerant","once",41.4020382,-74.3243191
+1880,"","Quarryville","New York","George W. Schutt","occasional","intermittent",42.1198121,-73.9870797
+1880,"St. Paul's Church","Albany","New York","George W. Schutt","occasional","quarterly",42.6511674,-73.754968
+1880,"St. John's Church","Kingston","New York","George W. Schutt","occasional","intermittent",41.9287812,-74.0023702
+1880,"St. George's Church","Newburgh","New York","George W. Schutt","occasional","intermittent",41.5034271,-74.0104179
+1880,"The Hall","Whiteport","New York","George W. Schutt","occasional","intermittent",41.8823148,-74.0551409
+1880,"Trinity Church","Saugerties","New York","George W. Schutt","occasional","intermittent",42.0775906,-73.9529126
+1880,"St. John's Church","Canterbury","New York","George W. Schutt","occasional","intermittent",43.2567362,-75.4154513
+1880,"Church of the Holy Comforter","Poughkeepsie","New York","George W. Schutt","occasional","intermittent",41.7065779,-73.9284101
+1880,"St Mark's Church","Tarrytown","New York","George W. Schutt","occasional","intermittent",41.0762077,-73.8587461
+1880,"St. Barnabas Chapel","Stottville","New York","George W. Schutt","occasional","intermittent",42.291795,-73.7512588
+1880,"St. Luke's Church","Rochester","New York","John C. Acker","regular","weekly",43.157285,-77.615214
+1880,"St. Paul's Church","Troy","New York","Mrs. Gould","","",42.7284117,-73.6917878
+1859,"Christ Church","Binghamton","New York","Thomas Gallaudet","promotional","once",42.096968,-75.914341
+1859,"Christ Church","Binghamton","New York","Thomas Gallaudet","itinerant","once",42.096968,-75.914341
+1859,"Christ Church","Hudson","New York","Thomas Gallaudet","promotional","once",42.2528649,-73.790959
+1859,"Christ Church","Hudson","New York","Thomas Gallaudet","itinerant","once",42.2528649,-73.790959
+1859,"St. Paul's Church","Oxford","New York","Thomas Gallaudet","promotional","once",42.4420181,-75.5976855
+1859,"St. Paul's Church","Oxford","New York","Thomas Gallaudet","itinerant","once",42.4420181,-75.5976855
+1859,"St. Paul's Church","Oxford","New York","Thomas Gallaudet","itinerant","once",42.4420181,-75.5976855
+1859,"St. John's Church","Yonkers","New York","Thomas Gallaudet","promotional","once",40.9312099,-73.8987469
+1859,"St. John's Church","Yonkers","New York","Thomas Gallaudet","itinerant","once",40.9312099,-73.8987469
+1861,"St. Paul's Church","Albany","New York","Thomas Gallaudet","occasional","intermittent",42.6511674,-73.754968
+1878,"Church of the Good Shepherd","Raleigh","North Carolina","Job Turner","Itinerant","",35.7803977,-78.6390989
+1878,"St. Peter's Church","Charlotte","North Carolina","Job Turner","Itinerant","",35.2272,-80.843083
+1878,"North Carolina Institution for Deaf-Mutes","Raleigh","North Carolina","Job Turner","Itinerant","",35.7803977,-78.6390989
+1879,"St. James' Church","Wilmington","North Carolina","Gallaudet","promotional","once",34.2257282,-77.9447107
+1879,"St. John's Church","Wilmington","North Carolina","Gallaudet","promotional","once",34.2257282,-77.9447107
+1879,"St. Mark's Church","Wilmington","North Carolina","Gallaudet, Turner","itinerant","once",34.2257282,-77.9447107
+1879,"St. Paul's Church","Wilmington","North Carolina","Gallaudet, Turner","itinerant","",34.2257282,-77.9447107
+1879,"North Carolina Institution for the Deaf and Dumb","Raleigh","North Carolina","Gallaudet, Turner","itinerant","",35.7803977,-78.6390989
+1879,"North Carolina Institution for the Deaf and Dumb","Raleigh","North Carolina","Gallaudet, Turner","itinerant","",35.7803977,-78.6390989
+1879,"Church of the Good Shepherd","Raleigh","North Carolina","Turner","itinerant","",35.7803977,-78.6390989
+1879,"Christ Church","Raleigh","North Carolina","Turner","itinerant","",35.7803977,-78.6390989
+1875,"Trinity Church","Columbus","Ohio","","itinerant","",39.9622601,-83.0007065
+1875,"Ohio Institution for Deaf-Mutes","Columbus","Ohio","Gallaudet","itinerant","once",39.9622601,-83.0007065
+1875,"Grace Church","Cleveland","Ohio","","itinerant","",41.5051613,-81.6934446
+1876,"St. John's Church","Cincinnati","Ohio","Austin Mann","itinerant","once",39.1014537,-84.5124602
+1876,"Grace Church","Cleveland","Ohio","Austin Mann","itinerant","intermittent",41.5051613,-81.6934446
+1877,"St. Peter's Church","Delaware","Ohio","Mann and Gallaudet","promotional","once",40.298889,-83.071944
+1877,"Trinity Church","Columbus","Ohio","Mann and Gallaudet","promotional","once",39.9622601,-83.0007065
+1877,"Christ Church","Dayton","Ohio","Mann and Gallaudet","promotional","once",39.7589478,-84.1916069
+1878,"Christ Church","Dayton","Ohio","Austin Mann","itinerant","intermittent",39.7589478,-84.1916069
+1877,"St. John's Church","Cincinnati","Ohio","Mann and Gallaudet","promotional","once",39.1014537,-84.5124602
+1877,"Grace Church","Cleveland","Ohio","Mann and Gallaudet","promotional","",41.5051613,-81.6934446
+1878,"St. Peter's Church","Delaware","Ohio","Austin Mann","Itinerant","intermittent",40.298889,-83.071944
+1878,"Grace Church","Cleveland","Ohio","Austin Mann","Itinerant","intermittent",41.5051613,-81.6934446
+1878,"St. John's Church","Cincinnati","Ohio","Austin Mann","Itinerant","intermittent",39.1014537,-84.5124602
+1878,"Christ Church","Portsmouth","Ohio","Austin Mann","Itinerant","once",38.7316375,-82.9965441
+1878,"St. Paul's Church","Marion","Ohio","Austin Mann","Itinerant","once",40.586667,-83.126389
+1878,"Lutheran Church","Shelby","Ohio","Austin Mann","Itinerant","once",40.884722,-82.659444
+1878,"St. Paul's Church","Columbus","Ohio","Gallaudet","Itinerant","once",39.9622601,-83.0007065
+1878,"Grace Church","Mansfield","Ohio","Gallaudet","Itinerant","once",40.75839,-82.5154471
+1879,"Grace Church","Mansfield","Ohio","Austin Mann and Gallaudet","Itinerant","once",40.75839,-82.5154471
+1878,"Ohio Institution for Deaf-Mutes","Columbus","Ohio","Job Turner","Itinerant","",39.9622601,-83.0007065
+1878,"St. John's Church","Cincinnati","Ohio","Robert P. McGregor","regular","biweekly",39.1014537,-84.5124602
+1879,"St. Paul's Church","Akron","Ohio","Austin Mann","itinerant","intermittent",41.083064,-81.518485
+1879,"St. Paul's Church","Marion","Ohio","Austin Mann","itinerant","once",40.586667,-83.126389
+1880,"St. Paul's Church","Marion","Ohio","Austin Mann","itinerant","intermittent",40.586667,-83.126389
+1879,"Christ Church","Dayton","Ohio","Austin Mann","itinerant","",39.7589478,-84.1916069
+1879,"St. Peter's Church","Delaware","Ohio","Austin Mann","itinerant","once",40.298889,-83.071944
+1879,"Personal residence","Delaware","Ohio","Austin Mann","itinerant","intermittent",40.298889,-83.071944
+1880,"Christ Church","Portsmouth","Ohio","Austin Mann","itinerant","once",38.7316375,-82.9965441
+1879,"Grace Church","Cleveland","Ohio","Austin W. Mann","itinerant","intermittent",41.5051613,-81.6934446
+1879,"Trinity Church","Cleveland","Ohio","Mann and Gallaudet","promotional","once",41.5051613,-81.6934446
+1879,"Trinity Church","Columbus","Ohio","Mann and Gallaudet","itinerant","",39.9622601,-83.0007065
+1879,"Ohio Institution for Deaf-Mutes","Columbus","Ohio","Mann and Gallaudet","itinerant","once",39.9622601,-83.0007065
+1880,"Ohio Institution for Deaf-Mutes","Columbus","Ohio","Austin Mann","itinerant","once",39.9622601,-83.0007065
+1879,"St. John's Church","Cincinnati","Ohio","R.P. McGregor","regular","biweekly",39.1014537,-84.5124602
+1880,"Christ Church","Dayton","Ohio","Austin Mann","itinerant","intermittent",39.7589478,-84.1916069
+1880,"","Mallet Creek","Ohio","Austin Mann","itinerant","",41.167222,-81.925556
+1880,"Grace Church","Bellefontaine","Ohio","Austin Mann","itinerant","once",40.3611643,-83.7596557
+1880,"St. Paul's Church","Cincinnati","Ohio","Chamberlain, Mann, Turner","itinerant","once",39.1014537,-84.5124602
+1880,"Grace Church","Cleveland","Ohio","Gallaudet and Mann","itinerant","",41.5051613,-81.6934446
+1880,"All Saints' Church","Cleveland","Ohio","Austin Mann","itinerant","once",41.5051613,-81.6934446
+1880,"Christ Church","Springfield","Ohio","Austin Mann","itinerant","once",39.9242266,-83.8088172
+1880,"St. Andrew's Church","Elyria","Ohio","Gallaudet and Mann","itinerant","",41.368251,-82.1065757
+1880,"Trinity Church","Newark","Ohio","Austin Mann","itinerant","once",40.0581205,-82.4012643
+1880,"St. John's Church","Cincinnati","Ohio","R.P. McGregor","","",39.1014537,-84.5124602
+1880,"Trinity Church","Columbus","Ohio","Austin Mann","Itinerant","once",39.9622601,-83.0007065
+1880,"Methodist Episcopal Church","Kenton","Ohio","Austin Mann","Itinerant","once",40.6478171,-83.6089968
+1880,"St. Paul's Church","Canton","Ohio","Austin Mann","Itinerant","once",40.7989522,-81.3784445
+1878,"Christ Church","Dayton","Ohio","Austin Mann","Itinerant","intermittent",39.7589478,-84.1916069
+1859,"St. Stephen's Church","Philadelphia","Pennsylvania","Thomas Gallaudet","promotional","once",39.9527237,-75.1635262
+1859,"St. Stephen's Church","Philadelphia","Pennsylvania","Thomas Gallaudet","itinerant","once",39.9527237,-75.1635262
+1865,"Calvary Church","Philadelphia","Pennsylvania","Eagan","regular","weekly",39.9527237,-75.1635262
+1866,"Calvary Church","Philadelphia","Pennsylvania","Clerc","regular","weekly",39.9527237,-75.1635262
+1866,"Calvary Church","Philadelphia","Pennsylvania","Eagan","regular","weekly",39.9527237,-75.1635262
+1867,"Calvary Church","Philadelphia","Pennsylvania","Clerc","regular","weekly",39.9527237,-75.1635262
+1868,"Grace Church","Allentown","Pennsylvania","Clerc","regular","weekly",40.6022059,-75.4712794
+1868,"Calvary Church","Philadelphia","Pennsylvania","Clerc","regular","weekly",39.9527237,-75.1635262
+1869,"St. Stephen's Church","Philadelphia","Pennsylvania","Clerc","regular","weekly",39.9527237,-75.1635262
+1870,"St. Stephen's Church","Philadelphia","Pennsylvania","Clerc","regular","weekly",39.9527237,-75.1635262
+1871,"St. Stephen's Church","Philadelphia","Pennsylvania","Clerc","regular","weekly",39.9527237,-75.1635262
+1872,"St. Stephen's Church","Philadelphia","Pennsylvania","","regular","monthly",39.9527237,-75.1635262
+1873,"St. Stephen's Church","Philadelphia","Pennsylvania","","regular","monthly",39.9527237,-75.1635262
+1873,"Church of the Mediator","Allentown","Pennsylvania","","","",40.6022059,-75.4712794
+1874,"St. Stephen's Church","Philadelphia","Pennsylvania","Clerc","regular","monthly",39.9527237,-75.1635262
+1874,"Church of the Mediator","Allentown","Pennsylvania","Thomas Roberts","regular","intermittent",40.6022059,-75.4712794
+1875,"St. Stephen's Church","Philadelphia","Pennsylvania","Syle","regular","weekly",39.9527237,-75.1635262
+1875,"Grace Church","Allentown","Pennsylvania","Thomas Roberts","regular","weekly",40.6022059,-75.4712794
+1875,"Trinity Church","Pittsburgh","Pennsylvania","","itinerant","",40.4416941,-79.9900861
+1875,"St. Paul's Church","Erie","Pennsylvania","","itinerant","",42.1294712,-80.0852695
+1876,"St. Stephen's Church","Philadelphia","Pennsylvania","Syle","regular","weekly",39.9527237,-75.1635262
+1876,"Grace Church","Allentown","Pennsylvania","Thomas Roberts","regular","weekly",40.6022059,-75.4712794
+1876,"Trinity Church","Pittsburg","Pennsylvania","Mann, Gallaudet","itinerant","once",40.4416941,-79.9900861
+1877,"St. Stephen's Church","Philadelphia","Pennsylvania","Syle","regular","weekly",39.9527237,-75.1635262
+1877,"Grace Church","Allentown","Pennsylvania","Thomas Roberts","regular","weekly",40.6022059,-75.4712794
+1877,"St. Barnabas Church","Reading","Pennsylvania","Chamberlain","Itinerant","intermittent",40.335345,-75.9279495
+1877,"St. John's Church","York","Pennsylvania","Clerc","occasional","intermittent",39.962398,-76.727392
+1877,"Trinity Church","Pittsburg","Pennsylvania","Mann","Itinerant","intermittent",40.4416941,-79.9900861
+1878,"St. Stephen's Church","Philadelphia","Pennsylvania","Syle","regular","weekly",39.9527237,-75.1635262
+1878,"Grace Church","Allentown","Pennsylvania","Thomas Roberts","","",40.6022059,-75.4712794
+1878,"Trinity Church","Pittsburg","Pennsylvania","Austin Mann","itinerant","intermittent",40.4416941,-79.9900861
+1878,"","York","Pennsylvania","Clerc","","",39.962398,-76.727392
+1878,"St. Luke's Church","Altoona","Pennsylvania","Gallaudet","Itinerant","once",40.518681,-78.394736
+1878,"St. Paul's Church","Erie","Pennsylvania","Gallaudet and Mann","itinerant","once",42.1294712,-80.0852695
+1878,"","York","Pennsylvania","Job Turner","Itinerant","",39.962398,-76.727392
+1878,"Pennsylvania Institution for Deaf-Mutes","Philadelphia","Pennsylvania","Job Turner","Itinerant","",39.9527237,-75.1635262
+1879,"Trinity Church","Pittsburg","Pennsylvania","Austin Mann","itinerant","",40.4416941,-79.9900861
+1878,"Christ Church","Meadville","Pennsylvania","Austin Mann","itinerant","",41.641445,-80.151449
+1879,"Christ Church","Meadville","Pennsylvania","Mann and Gallaudet","itinerant","once",41.641445,-80.151449
+1879,"St. Stephen's Church","Philadelphia","Pennsylvania","Henry W. Syle","regular","weekly",39.9527237,-75.1635262
+1879,"Trinity Church","Meadville","Pennsylvania","Mann and Gallaudet","itinerant","one",41.641445,-80.151449
+1879,"Grace Church","Allentown","Pennsylvania","Thomas S. Roberts","","",40.6022059,-75.4712794
+1879,"St. John's Church","York","Pennsylvania","Turner","itinerant","",39.962398,-76.727392
+1879,"Pennsylvania School for the Deaf","Philadelphia","Pennsylvania","Turner","itinerant","",39.9527237,-75.1635262
+1880,"St. Stephen's Church","Philadelphia","Pennsylvania","Henry W. Syle","regular","weekly",39.9527237,-75.1635262
+1880,"St. John's Church","York","Pennsylvania","Chamberlain","promotional","once",39.962398,-76.727392
+1861,"Church of the Ascension","Philadelphia","Pennsylvania","Thomas Gallaudet","occasional","intermittent",39.9527237,-75.1635262
+1880,"Trinity Church","Pittsburgh","Pennsylvania","Austin Mann","itinerant","intermittent",40.4416941,-79.9900861
+1880,"Emmanuel Church","Corry","Pennsylvania","Austin Mann","itinerant","once",41.920334,-79.640329
+1875,"Grace Church","Providence","Rhode Island","","itinerant","",41.8239891,-71.4128343
+1877,"","Providence","Rhode Island","Job Turner","Itinerant","intermittent",41.8239891,-71.4128343
+1877,"","Pawtucket","Rhode Island","Job Turner","Itinerant","once",41.878711,-71.3825558
+1877,"","Newport","Rhode Island","Job Turner","Itinerant","once",41.4899827,-71.3137707
+1878,"Zion Church","Newport","Rhode Island","Gallaudet","Itinerant","once",41.4899827,-71.3137707
+1878,"Grace Church","Providence","Rhode Island","Turner and Gallaudet","Itinerant","intermittent",41.8239891,-71.4128343
+1879,"St. Barnabas' Church","Providence","Rhode Island","Chamberlain","promotional","once",41.8239891,-71.4128343
+1879,"Grace Church","Providence","Rhode Island","Chamberlain","promotional","once",41.8239891,-71.4128343
+1879,"St. James' Church","Woonsocket","Rhode Island","Turner","itinerant","",42.0028761,-71.5147839
+1878,"Trinity Church","Columbia","South Carolina","Job Turner","Itinerant","",34.0007493,-81.0343313
+1878,"St. Phillip's Church","Charleston","South Carolina","Job Turner","Itinerant","",32.7876012,-79.9402728
+1878,"South Carolina Institution for Deaf-Mutes","Cedar Spring","South Carolina","Job Turner","Itinerant","",34.080556,-82.302222
+1879,"Grace Church","Charleston","South Carolina","Gallaudet, Turner","itinerant","",32.7876012,-79.9402728
+1879,"Church of Advent","Spartanburg","South Carolina","Turner","itinerant","",34.9498007,-81.9320157
+1880,"Calvary Church","Sioux Falls","South Dakota","Berry, Gallaudet and Mann","itinerant","once",43.5499749,-96.700327
+1879,"St. Mary's Cathedral","Memphis","Tennessee","Turner","itinerant","",35.1490215,-90.0516285
+1879,"Calvary Church","Memphis","Tennessee","Turner","itinerant","",35.1490215,-90.0516285
+1879,"St. David's Church","Jackson","Tennessee","Turner","itinerant","",35.6144446,-88.8177418
+1879,"Christ Church","Nashville","Tennessee","Turner","itinerant","",36.1622296,-86.7743531
+1879,"St. John's Church","Knoxville","Tennessee","Turner","itinerant","",35.9603948,-83.9210261
+1878,"Trinity Church","Galveston","Texas","Job Turner","Itinerant","",29.299328,-94.7945882
+1878,"Texas Institution for Deaf-Mutes","Austin","Texas","Job Turner","Itinerant","",30.2711286,-97.7436995
+1868,"St. Michael's Church","Brattleboro","Vermont","Thomas Gallaudet","itinerant","once",42.8509152,-72.5578678
+1879,"St. Andrew's Church","St. Johnsbury","Vermont","Chamberlain","itinerant","once",44.4192249,-72.0150951
+1879,"St. John's Church","West Randolph","Vermont","Turner","itinerant","",43.925099,-72.666321
+1878,"Trinity Church","Staunton","Virginia","Job Turner","Itinerant","",38.1495947,-79.072557
+1878,"St. Paul's Church","Richmond","Virginia","Job Turner","Itinerant","",37.5385087,-77.43428
+1878,"Grace Church","Petersburg","Virginia","Job Turner","Itinerant","",37.212778,-77.400278
+1878,"Christ Church","Norfolk","Virginia","Job Turner","Itinerant","",36.8462923,-76.2929252
+1878,"Virginia Institution for Deaf-Mutes","Staunton","Virginia","Job Turner","Itinerant","",38.1495947,-79.072557
+1879,"Virginia Institution","Staunton","Virginia","Gallaudet and Turner","itinerant","",38.1495947,-79.072557
+1879,"Christ Church","Norfolk","Virginia","Gallaudet, Turner","itinerant","",36.8462923,-76.2929252
+1879,"Grace Church","Petersburg","Virginia","Turner","itinerant","",37.212778,-77.400278
+1879,"St. Paul's Church","Lynchburg","Virginia","Turner","itinerant","",37.403611,-79.17
+1879,"St. James' Church","Richmond","Virginia","Turner","itinerant","",37.5385087,-77.43428
+1879,"Grace Church","Petersburg","Virginia","Turner","itinerant","",37.212778,-77.400278
+1879,"St. Paul's Church","Richmond","Virginia","Turner","itinerant","",37.5385087,-77.43428
+1879,"Trinity Church","Staunton","Virginia","Turner, Gallaudet","itinerant","",38.1495947,-79.072557
+1880,"Monumental Church","Richmond","Virginia","Gallaudet","itinerant","once",37.5385087,-77.43428
+1880,"St. Paul's Church","Richmond","Virginia","Gallaudet","itinerant","once",37.5385087,-77.43428
+1880,"Christ Church","Norfolk","Virginia","Gallaudet","itinerant","once",36.8462923,-76.2929252
+1880,"Trinity Church","Staunton","Virginia","Gallaudet and Turner","itinerant","once",38.1495947,-79.072557
+1875,"St. Matthew's Church","Wheeling","West Virginia","Austin Mann","itinerant","once",40.0639616,-80.7209149
+1878,"St. Matthew's Church","Wheeling ","West Virginia","Job Turner","Itinerant","",40.0639616,-80.7209149
+1878,"West Virginia Institution for Deaf-Mutes","Wheeling","West Virginia","Job Turner","Itinerant","",40.0639616,-80.7209149
+1879,"West Virginia Institution for Deaf-Mutes and the Blind","Romney","West Virginia","Gallaudet and Turner","itinerant","once",39.3419698,-78.7564522
+1879,"Christ Church","Fairmont","West Virginia","Austin Mann","itinerant","once",39.4850848,-80.1425781
+1875,"","Milwaukee","Wisconsin","Austin Mann","itinerant","intermittent",43.0349931,-87.922497
+1876,"All Saints' Church","Milwaukee","Wisconsin","Austin Mann","itinerant","intermittent",43.0349931,-87.922497
+1876,"Christ Church","Delavan","Wisconsin","Austin Mann","Itinerant","once",42.6330703,-88.6437138
+1876,"St. Paul's Church","Racine","Wisconsin","Austin Mann","Itinerant","once",42.7260523,-87.7825242
+1877,"All Saint's Cathedral","Milwaukee","Wisconsin","Austin Mann","itinerant","intermittent",43.0349931,-87.922497
+1878,"All Saint's Cathedral","Milwaukee","Wisconsin","Austin Mann","itinerent","intermittent",43.0349931,-87.922497
+1879,"","Milwaukee","Wisconsin","Berry","","",43.0349931,-87.922497
+1879,"Christ Church","Delavan","Wisconsin","Berry","","",42.6330703,-88.6437138
+1880,"Trinity Church","Monroe","Wisconsin","Gallaudet and Mann","itinerant","",42.6,-89.633333
+1880,"Grace Church","Madison","Wisconsin","Gallaudet and Mann","itinerant","once",43.074761,-89.3837613
