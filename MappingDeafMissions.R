@@ -132,7 +132,7 @@ leaflet(SchoolsGeocoded) %>%
                                   "<b> Founded: </b>", YearFounded, "<br>",
                                   "<b> Location: </b>", place, "<br>") )
 
-leaflet(ConGeocoded) %>%
+leaflet(ConGeocodedCorrected) %>%
   addTiles() %>%
   addCircleMarkers(lng = ~lng, 
                    lat = ~lat, 
@@ -146,7 +146,7 @@ leaflet(ConGeocoded) %>%
                                   "<b> Event Location: </b>", Location, "<br>",
                                   "<b> Location: </b>", place, "<br>") )
 
-leaflet(MissionsGeocoded) %>%
+leaflet(MissionsGeocodedCorrected) %>%
   addProviderTiles(providers$Esri.WorldShadedRelief) %>%
   addCircleMarkers(lng = ~lng, 
                    lat = ~lat, 
@@ -163,7 +163,7 @@ leaflet(MissionsGeocoded) %>%
 ## each of those is mapping correctly. There are a few questions here - one observation in New Jersey is missing lat/long data
 ## Lets put these things together
 
-leaflet(MissionsGeocoded) %>%
+leaflet(MissionsGeocodedCorrected) %>%
   addProviderTiles(providers$Esri.WorldShadedRelief) %>%
   addCircleMarkers(lng = ~lng, 
                    lat = ~lat, 
@@ -186,7 +186,7 @@ leaflet(MissionsGeocoded) %>%
                                   "<b> Founded: </b>", YearFounded, "<br>",
                                   "<b> Location: </b>", place, "<br>"), 
                    group = "Deaf Schools") %>%
-  addCircleMarkers(data = ConGeocoded,
+  addCircleMarkers(data = ConGeocodedCorrected,
                    lng = ~lng, 
                    lat = ~lat, 
                    color = '#D96262',
@@ -212,23 +212,24 @@ leaflet(MissionsGeocoded) %>%
 ##rr1845 <- read_sf("~/CMDM/USrailshps/RR1845/RR1845WGS84.shp")
 rr1850 <- read_sf("~/CMDM/USrailshps/RR1850/RR1850WGS84.shp")
 rr1855 <- read_sf("~/CMDM/USrailshps/RR1855/RR1855WGS84.shp")
-rr1861 <- read_sf("~/CMDM/USrailshps/RR1861/RR1861WGS84.shp")
+rr1860 <- read_sf("~/CMDM/USrailshps/RR1861/RR1861WGS84.shp")
+rr1865 <- read_sf("~/CMDM/USrailshps/RR1861/RR1861WGS84.shp")
 rr1870 <- read_sf("~/CMDM/USrailshps/RR1870/RR1870WGS84.shp")
+rr1875 <- read_sf("~/CMDM/USrailshps/RR1870/RR1870WGS84.shp")
+rr1880 <- read_sf("~/CMDM/USrailshps/RR1870/RR1870WGS84.shp")
 
-#tested to make sure these all mapped 
+#tested to make sure these all mapped  
 # okay let's try and make groups here.
 
 leaflet() %>%
   addTiles() %>%
-  addPolylines(data = rr1840, group = "Railways 1840-1844") %>%
-  addPolylines(data = rr1845, group = "Railways 1845-1849") %>%
   addPolylines(data = rr1850, group = "Railways 1850-1854") %>%
   addPolylines(data = rr1855, group = "Railways 1855-1860") %>%
   addPolylines(data = rr1861, group = "Railways 1861-1869") %>%
-  #addPolylines(data = rr1870, group = "Railways 1870-1880") %>%
+  addPolylines(data = rr1870, group = "Railways 1870-1880") %>%
   
   addLayersControl(
-    baseGroups = c("Railways 1840-1844", "Railways 1845-1849", "Railways 1850-1854", "Railways 1855-1860", "Railways 1861-1869"),
+    baseGroups = c("Railways 1840-1844", "Railways 1845-1849", "Railways 1850-1854", "Railways 1855-1860", "Railways 1861-1869", "Railways 1870-1880"),
     options = layersControlOptions(collapsed = FALSE)
   )
 
@@ -236,7 +237,7 @@ leaflet() %>%
 ## omitting 1870 for now. Let's put things together.
 
 
-leaflet(MissionsGeocoded) %>%
+leaflet(MissionsGeocodedCorrected) %>%
   addProviderTiles(providers$Esri.WorldShadedRelief) %>%
   addCircleMarkers(lng = ~lng, 
                    lat = ~lat, 
@@ -259,7 +260,7 @@ leaflet(MissionsGeocoded) %>%
                                   "<b> Founded: </b>", YearFounded, "<br>",
                                   "<b> Location: </b>", place, "<br>"), 
                    group = "Deaf Schools") %>%
-  addCircleMarkers(data = ConGeocoded,
+  addCircleMarkers(data = ConGeocodedCorrected,
                    lng = ~lng, 
                    lat = ~lat, 
                    color = '#D96262',
@@ -284,9 +285,307 @@ leaflet(MissionsGeocoded) %>%
                color = "grey",
                weight = 2,
                group = "Railways 1861-1869") %>%
+  addPolylines(data = rr, 
+               color = "grey",
+               weight = 2,
+               group = "RR") %>%
   addLayersControl(
-    baseGroups = c("Railways 1850-1854", "Railways 1855-1860", "Railways 1861-1869"),
+    baseGroups = c("Railways 1850-1854", "Railways 1855-1860", "Railways 1861-1869", "RR"),
     overlayGroups = c("Deaf Schools", "Conference Sites"),
     options = layersControlOptions(collapsed = FALSE))
 
+## lost the work below on slider content
+## Let's start over with the layers again - using the new dataframes
+
+
+leaflet() %>%
+  addProviderTiles(providers$Esri.WorldShadedRelief) %>%
+  addCircleMarkers(data = Missions1850,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1850-1854") %>%
+  addCircleMarkers(data = Missions1855,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1855-1859") %>%
+  addCircleMarkers(data = Missions1860,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1860-1864") %>%
+  addCircleMarkers(data = Missions1865,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1865-1869") %>%
+  addCircleMarkers(data = Missions1870,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1870-1874") %>%
+  addCircleMarkers(data = Missions1875,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1875-1879") %>%
+  addCircleMarkers(data = Missions1880,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1880") %>%
+  addCircleMarkers(data = Schools1850,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#8C4F2B',
+                   weight = 1,
+                   radius = 5,
+                   popup = ~paste("<b> School: </b>", School, "<br>",
+                                  "<b> Founded: </b>", YearFounded, "<br>",
+                                  "<b> Location: </b>", place, "<br>"),
+                   group = "1850-1854") %>%
+  addCircleMarkers(data = Schools1855,
+                 lng = ~lng, 
+                 lat = ~lat, 
+                 color = '#8C4F2B',
+                 weight = 1,
+                 radius = 5,
+                 popup = ~paste("<b> School: </b>", School, "<br>",
+                                "<b> Founded: </b>", YearFounded, "<br>",
+                                "<b> Location: </b>", place, "<br>"), 
+                 group = "1855-1859") %>%
+  addCircleMarkers(data = Schools1860,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#8C4F2B',
+                   weight = 1,
+                   radius = 5,
+                   popup = ~paste("<b> School: </b>", School, "<br>",
+                                  "<b> Founded: </b>", YearFounded, "<br>",
+                                  "<b> Location: </b>", place, "<br>"), 
+                   group = "1860-1864") %>%
+  addCircleMarkers(data = Schools1865,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#8C4F2B',
+                   weight = 1,
+                   radius = 5,
+                   popup = ~paste("<b> School: </b>", School, "<br>",
+                                  "<b> Founded: </b>", YearFounded, "<br>",
+                                  "<b> Location: </b>", place, "<br>"), 
+                   group = "1865-1869") %>%
+  addCircleMarkers(data = Schools1870,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#8C4F2B',
+                   weight = 1,
+                   radius = 5,
+                   popup = ~paste("<b> School: </b>", School, "<br>",
+                                  "<b> Founded: </b>", YearFounded, "<br>",
+                                  "<b> Location: </b>", place, "<br>"), 
+                   group = "1870-1874") %>%
+  addCircleMarkers(data = Schools1875,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#8C4F2B',
+                   weight = 1,
+                   radius = 5,
+                   popup = ~paste("<b> School: </b>", School, "<br>",
+                                  "<b> Founded: </b>", YearFounded, "<br>",
+                                  "<b> Location: </b>", place, "<br>"), 
+                   group = "1875-1879") %>%
+  addCircleMarkers(data = Schools1880,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#8C4F2B',
+                   weight = 1,
+                   radius = 5,
+                   popup = ~paste("<b> School: </b>", School, "<br>",
+                                  "<b> Founded: </b>", YearFounded, "<br>",
+                                  "<b> Location: </b>", place, "<br>"), 
+                   group = "1880") %>%
+  addCircleMarkers(data = Con1850,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#D96262',
+                   weight = 1,
+                   radius = 5,
+                   popup = ~paste("<b> Event: </b>", Event, "<br>",
+                                  "<b> Organization: </b>", Organization, "<br>",
+                                  "<b> Start Date: </b>", start.date, "<br>",
+                                  "<b> End Date: </b>", end.date, "<br>",
+                                  "<b> Event Location: </b>", Location, "<br>",
+                                  "<b> Location: </b>", place, "<br>"),
+                   group = "1850-1854") %>%
+  addCircleMarkers(data = Con1855,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#D96262',
+                   weight = 1,
+                   radius = 5,
+                   popup = ~paste("<b> Event: </b>", Event, "<br>",
+                                  "<b> Organization: </b>", Organization, "<br>",
+                                  "<b> Start Date: </b>", start.date, "<br>",
+                                  "<b> End Date: </b>", end.date, "<br>",
+                                  "<b> Event Location: </b>", Location, "<br>",
+                                  "<b> Location: </b>", place, "<br>"),
+                   group = "1855-1860") %>%
+  addCircleMarkers(data = Con1860,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#D96262',
+                   weight = 1,
+                   radius = 5,
+                   popup = ~paste("<b> Event: </b>", Event, "<br>",
+                                  "<b> Organization: </b>", Organization, "<br>",
+                                  "<b> Start Date: </b>", start.date, "<br>",
+                                  "<b> End Date: </b>", end.date, "<br>",
+                                  "<b> Event Location: </b>", Location, "<br>",
+                                  "<b> Location: </b>", place, "<br>"),
+                   group = "1860-1864") %>%
+  addCircleMarkers(data = Con1865,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#D96262',
+                   weight = 1,
+                   radius = 5,
+                   popup = ~paste("<b> Event: </b>", Event, "<br>",
+                                  "<b> Organization: </b>", Organization, "<br>",
+                                  "<b> Start Date: </b>", start.date, "<br>",
+                                  "<b> End Date: </b>", end.date, "<br>",
+                                  "<b> Event Location: </b>", Location, "<br>",
+                                  "<b> Location: </b>", place, "<br>"),
+                   group = "1865-1869") %>%
+  addCircleMarkers(data = Con1870,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#D96262',
+                   weight = 1,
+                   radius = 5,
+                   popup = ~paste("<b> Event: </b>", Event, "<br>",
+                                  "<b> Organization: </b>", Organization, "<br>",
+                                  "<b> Start Date: </b>", start.date, "<br>",
+                                  "<b> End Date: </b>", end.date, "<br>",
+                                  "<b> Event Location: </b>", Location, "<br>",
+                                  "<b> Location: </b>", place, "<br>"),
+                   group = "1870-1874") %>%
+  addCircleMarkers(data = Con1875,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#D96262',
+                   weight = 1,
+                   radius = 5,
+                   popup = ~paste("<b> Event: </b>", Event, "<br>",
+                                  "<b> Organization: </b>", Organization, "<br>",
+                                  "<b> Start Date: </b>", start.date, "<br>",
+                                  "<b> End Date: </b>", end.date, "<br>",
+                                  "<b> Event Location: </b>", Location, "<br>",
+                                  "<b> Location: </b>", place, "<br>"),
+                   group = "1875-1879") %>%
+  addCircleMarkers(data = Con1880,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#D96262',
+                   weight = 1,
+                   radius = 5,
+                   popup = ~paste("<b> Event: </b>", Event, "<br>",
+                                  "<b> Organization: </b>", Organization, "<br>",
+                                  "<b> Start Date: </b>", start.date, "<br>",
+                                  "<b> End Date: </b>", end.date, "<br>",
+                                  "<b> Event Location: </b>", Location, "<br>",
+                                  "<b> Location: </b>", place, "<br>"),
+                   group = "1880") %>%
+  addPolylines(data = rr1850, 
+               color = "grey",
+               weight = 2,
+               group = "1850-1854") %>%
+  addPolylines(data = rr1855,
+               color = "grey",
+               weight = 2,
+               group = "1855-1859") %>%
+  addPolylines(data = rr1860, 
+               color = "grey",
+               weight = 2,
+               group = "1860-1864") %>%
+  addPolylines(data = rr1865, 
+               color = "grey",
+               weight = 2,
+               group = "1865-1869") %>%
+ ## addPolylines(data = rr1870, 
+   ##            color = "grey",
+     ##          weight = 2,
+        ##       group = "1870-1875") %>%
+  ## addPolylines(data = rr1875, 
+     ##          color = "grey",
+     ##          weight = 2,
+     ##          group = "1875-1879") %>%
+##  addPolylines(data = rr1880, 
+   ##            color = "grey",
+     ##          weight = 2,
+     ##          group = "1880") %>%
+  addLayersControl(
+    overlayGroups = c("1850-1854", "1855-1859", "1860-1864", "1865-1869", "1870-1874", "1875-1879", "1880"),
+    options = layersControlOptions(collapsed = FALSE))
+
+
+## two new problems: 1870 polylines break everything again.
+## for some reason con1855 continues to appear.
+#1880 looks awkward as layers control.
 

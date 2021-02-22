@@ -7,6 +7,7 @@ library(maps)
 library(sf)
 library(leaflet)
 library(opencage)
+library(lubridate)
 Sys.setenv(OPENCAGE_KEY = 'c9df8f45fc114ffd88c2aa421814607f')
 opencage_key()
 
@@ -40,7 +41,7 @@ MissionGeocode <- map_dfr(MissionPlaces$place, function(x) {
   out$results
 })
 
-# Grabbing coordinates
+ # Grabbing coordinates
 
 MissionCoordinates <- MissionGeocode %>%
   select(place = query,
@@ -128,3 +129,99 @@ write.csv(ConGeocoded, "~/ConGeocodedRough.csv")
 ## Read that data back in
 
 ConGeocodedCorrected <- read.csv("~/ConGeocodedRoughCorrected.csv", stringsAsFactors = FALSE)
+
+# okay so now we've got some cleaned up datasets - need to break them back out into some year groupings. 
+# Let's start with schools because there is less of them.
+
+Schools1850 <- SchoolsGeocoded %>%
+  select(School, YearFounded, place, lat, lng) %>%
+  filter(YearFounded <= 1850)
+
+Schools1855 <- SchoolsGeocoded %>%
+  select(School, YearFounded, place, lat, lng) %>%
+  filter(YearFounded <= 1855)
+
+Schools1860 <- SchoolsGeocoded %>%
+  select(School, YearFounded, place, lat, lng) %>%
+  filter(YearFounded <= 1860)
+
+Schools1865 <- SchoolsGeocoded %>%
+  select(School, YearFounded, place, lat, lng) %>%
+  filter(YearFounded <= 1865)
+
+Schools1870 <- SchoolsGeocoded %>%
+  select(School, YearFounded, place, lat, lng) %>%
+  filter(YearFounded <= 1870)
+
+Schools1875 <- SchoolsGeocoded %>%
+  select(School, YearFounded, place, lat, lng) %>%
+  filter(YearFounded <= 1875)
+
+Schools1880 <- SchoolsGeocoded %>%
+  select(School, YearFounded, place, lat, lng) %>%
+  filter(YearFounded <= 1880)
+
+# those dataframes are donezo. Let's do the same for Conferences
+# HA! gotta change the numbers to a range (rather than cumulative)
+
+Con1850 <- ConGeocodedCorrected%>%
+  select(Organization, Event, year, start.date, end.date, Location, place, lat, lng) %>%
+  filter(between(year, 1850, 1854))
+
+Con1855 <- ConGeocodedCorrected%>%
+  select(Organization, Event, year, start.date, end.date, Location, place, lat, lng) %>%
+  filter(between(year, 1855, 1859))
+   
+
+Con1860 <- ConGeocodedCorrected%>%
+  select(Organization, Event, year, start.date, end.date, Location, place, lat, lng) %>%
+  filter(between(year, 1860, 1864))
+
+Con1865 <- ConGeocodedCorrected%>%
+  select(Organization, Event, year, start.date, end.date, Location, place, lat, lng) %>%
+  filter(between(year, 1865, 1869))
+
+Con1870 <- ConGeocodedCorrected%>%
+  select(Organization, Event, year, start.date, end.date, Location, place, lat, lng) %>%
+  filter(between(year, 1870, 1874))
+
+Con1875 <- ConGeocodedCorrected%>%
+  select(Organization, Event, year, start.date, end.date, Location, place, lat, lng) %>%
+  filter(between(year, 1875, 1879))
+
+Con1880 <- ConGeocodedCorrected%>%
+  select(Organization, Event, year, start.date, end.date, Location, place, lat, lng) %>%
+  filter(year == 1880)
+
+# does this make sense? Selecting 1855 gives conferences between 1855-1859
+# I think it makes sense.
+
+# oof here we go, now for Missions
+
+Missions1850 <- MissionsGeocodedCorrected %>%
+  select(year, facility, facilityClergy, bishop, cmdmWorker, serviceRegularity, serviceFrequency, place, lat, lng)%>%
+  filter(between(year, 1850, 1854))
+
+Missions1855 <- MissionsGeocodedCorrected %>%
+  select(year, facility, facilityClergy, bishop, cmdmWorker, serviceRegularity, serviceFrequency, place, lat, lng)%>%
+  filter(between(year, 1855, 1859))
+
+Missions1860 <- MissionsGeocodedCorrected %>%
+  select(year, facility, facilityClergy, bishop, cmdmWorker, serviceRegularity, serviceFrequency, place, lat, lng)%>%
+  filter(between(year, 1860, 1864))
+
+Missions1865 <- MissionsGeocodedCorrected %>%
+  select(year, facility, facilityClergy, bishop, cmdmWorker, serviceRegularity, serviceFrequency, place, lat, lng)%>%
+  filter(between(year, 1865, 1869))
+
+Missions1870 <- MissionsGeocodedCorrected %>%
+  select(year, facility, facilityClergy, bishop, cmdmWorker, serviceRegularity, serviceFrequency, place, lat, lng)%>%
+  filter(between(year, 1870, 1874))
+
+Missions1875 <- MissionsGeocodedCorrected %>%
+  select(year, facility, facilityClergy, bishop, cmdmWorker, serviceRegularity, serviceFrequency, place, lat, lng)%>%
+  filter(between(year, 1875, 1879))
+
+Missions1880 <- MissionsGeocodedCorrected %>%
+  select(year, facility, facilityClergy, bishop, cmdmWorker, serviceRegularity, serviceFrequency, place, lat, lng)%>%
+  filter(year == 1880)
