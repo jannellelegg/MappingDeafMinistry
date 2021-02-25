@@ -33,6 +33,92 @@ rr1870 <- read_sf("~/CMDM/USrailshps/RR1870/RR1870WGS84.shp")
 rr1875 <- read_sf("~/CMDM/USrailshps/RR1870/RR1870WGS84.shp")
 rr1880 <- read_sf("~/CMDM/USrailshps/RR1870/RR1870WGS84.shp")
 
+
+Schools1850 <- SchoolsGeocoded %>%
+  select(School, YearFounded, place, lat, lng) %>%
+  filter(YearFounded <= 1850)
+
+Schools1855 <- SchoolsGeocoded %>%
+  select(School, YearFounded, place, lat, lng) %>%
+  filter(YearFounded <= 1855)
+
+Schools1860 <- SchoolsGeocoded %>%
+  select(School, YearFounded, place, lat, lng) %>%
+  filter(YearFounded <= 1860)
+
+Schools1865 <- SchoolsGeocoded %>%
+  select(School, YearFounded, place, lat, lng) %>%
+  filter(YearFounded <= 1865)
+
+Schools1870 <- SchoolsGeocoded %>%
+  select(School, YearFounded, place, lat, lng) %>%
+  filter(YearFounded <= 1870)
+
+Schools1875 <- SchoolsGeocoded %>%
+  select(School, YearFounded, place, lat, lng) %>%
+  filter(YearFounded <= 1875)
+
+Schools1880 <- SchoolsGeocoded %>%
+  select(School, YearFounded, place, lat, lng) %>%
+  filter(YearFounded <= 1880)
+
+Con1850 <- ConGeocodedCorrected%>%
+  select(Organization, Event, year, start.date, end.date, Location, place, lat, lng) %>%
+  filter(between(year, 1850, 1854))
+
+Con1855 <- ConGeocodedCorrected%>%
+  select(Organization, Event, year, start.date, end.date, Location, place, lat, lng) %>%
+  filter(between(year, 1855, 1859))
+   
+
+Con1860 <- ConGeocodedCorrected%>%
+  select(Organization, Event, year, start.date, end.date, Location, place, lat, lng) %>%
+  filter(between(year, 1860, 1864))
+
+Con1865 <- ConGeocodedCorrected%>%
+  select(Organization, Event, year, start.date, end.date, Location, place, lat, lng) %>%
+  filter(between(year, 1865, 1869))
+
+Con1870 <- ConGeocodedCorrected%>%
+  select(Organization, Event, year, start.date, end.date, Location, place, lat, lng) %>%
+  filter(between(year, 1870, 1874))
+
+Con1875 <- ConGeocodedCorrected%>%
+  select(Organization, Event, year, start.date, end.date, Location, place, lat, lng) %>%
+  filter(between(year, 1875, 1879))
+
+Con1880 <- ConGeocodedCorrected%>%
+  select(Organization, Event, year, start.date, end.date, Location, place, lat, lng) %>%
+  filter(year == 1880)
+
+Missions1850 <- MissionsGeocodedCorrected %>%
+  select(year, facility, facilityClergy, bishop, cmdmWorker, serviceRegularity, serviceFrequency, place, lat, lng)%>%
+  filter(between(year, 1850, 1854))
+
+Missions1855 <- MissionsGeocodedCorrected %>%
+  select(year, facility, facilityClergy, bishop, cmdmWorker, serviceRegularity, serviceFrequency, place, lat, lng)%>%
+  filter(between(year, 1855, 1859))
+
+Missions1860 <- MissionsGeocodedCorrected %>%
+  select(year, facility, facilityClergy, bishop, cmdmWorker, serviceRegularity, serviceFrequency, place, lat, lng)%>%
+  filter(between(year, 1860, 1864))
+
+Missions1865 <- MissionsGeocodedCorrected %>%
+  select(year, facility, facilityClergy, bishop, cmdmWorker, serviceRegularity, serviceFrequency, place, lat, lng)%>%
+  filter(between(year, 1865, 1869))
+
+Missions1870 <- MissionsGeocodedCorrected %>%
+  select(year, facility, facilityClergy, bishop, cmdmWorker, serviceRegularity, serviceFrequency, place, lat, lng)%>%
+  filter(between(year, 1870, 1874))
+
+Missions1875 <- MissionsGeocodedCorrected %>%
+  select(year, facility, facilityClergy, bishop, cmdmWorker, serviceRegularity, serviceFrequency, place, lat, lng)%>%
+  filter(between(year, 1875, 1879))
+
+Missions1880 <- MissionsGeocodedCorrected %>%
+  select(year, facility, facilityClergy, bishop, cmdmWorker, serviceRegularity, serviceFrequency, place, lat, lng)%>%
+  filter(year == 1880)
+
 ```
 
 In the late nineteenth and early twentieth centuries, deaf and hearing members of the Protestant Episcopal Church organized a ministry for and by deaf people, one that enacted new forms of Protestant worship in built and borrowed church spaces. The shape of this effort however, is obscured due the itinerancy of the signing clergy and the scattered nature of deaf people. 
@@ -572,3 +658,7 @@ leaflet() %>%
 ```
 Signed services often coincided with conference events between 1850 and 1880. However these did not frequently become new sites for services. Rather, it would seem that signed services were a feature of the temporary place-making which occurred with conference events. Further still, mission sites, though varied in frequency, offer further insight on this form of place-making.
 
+
+Conclusion stuff
+
+Footnotes.
