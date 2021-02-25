@@ -23,7 +23,7 @@ ConGeocodedCorrected <- read.csv("~/ConGeocodedRoughCorrected.csv", stringsAsFac
 
 MissionsGeocodedCorrected <- read.csv("~/MissionsGeocodedRoughCorrected.csv", stringsAsFactors = FALSE)
 
-
+SchoolsGeocoded <- read.csv("~/SchoolsGeocoded.csv")
 
 rr1850 <- read_sf("~/CMDM/USrailshps/RR1850/RR1850WGS84.shp")
 rr1855 <- read_sf("~/CMDM/USrailshps/RR1855/RR1855WGS84.shp")
@@ -33,14 +33,43 @@ rr1870 <- read_sf("~/CMDM/USrailshps/RR1870/RR1870WGS84.shp")
 rr1875 <- read_sf("~/CMDM/USrailshps/RR1870/RR1870WGS84.shp")
 rr1880 <- read_sf("~/CMDM/USrailshps/RR1870/RR1870WGS84.shp")
 
-
 ```
 
-In the mid-nineteenth century, 
-he expansion of signed services to larger cities in the northeast began at the end of the 1850s. Growing outward with the financial and structural support of St. Ann’s Church, Gallaudet and a growing number of affiliates, offered intermittent Episcopal services in sign language in churches throughout New England and the Eastern states. 
+In the late nineteenth and early twentieth centuries, deaf and hearing members of the Protestant Episcopal Church organized a ministry for and by deaf people, one that enacted new forms of Protestant worship in built and borrowed church spaces. The shape of this effort however, is obscured due the itinerancy of the signing clergy and the scattered nature of deaf people. 
 
-```{r,  layout="l-body-outset", fig.width=15, fig.height=6, echo= FALSE, fig.cap= "Map in five year increments. Shows railways, schools, conferences, and missions."}
+This project traces the development of a signed ministry from the classroom to the church-house, exploring the emergence of the Church Mission to Deaf Mutes and Conference on Church Work Among the Deaf between 1850 and World War I. During this period, members of this ministry undertook a project that moved beyond efforts to redeem the souls of deaf people, and instead sought to create and defend deaf spaces of sacred and practical significance.
 
+Missions were organized in several places and development occurred unevenly. Services were held with varying frequency in borrowed or permanent spaces. In some cities, such as Philadelphia, early itinerant services grew into a Mission and soon the adherents were moved from borrowed vestry rooms to their own edifice, the All Souls’ Church for the Deaf by 1888. In Baltimore, a Bible class operated with signed services regularly for decades at Grace Church, however the mission never developed into a separate permanent religious space for deaf parishioners. Digital methods help to reveal the features of that growth.
+
+
+```{r,  layout="l-body-outset", fig.width=15, fig.height=6, echo= FALSE, fig.cap= "Map of total missions, 1850-1880."}
+
+leaflet() %>%
+  addProviderTiles(providers$Esri.WorldShadedRelief) %>%
+  addCircleMarkers(data = MissionsGeocodedCorrected,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 2,
+                   radius = 3,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Year: </b>", year, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Frequency: </b>", serviceFrequency, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity, "<br>") )
+
+```
+<h3 align="center">Deaf Schools as Centers of Deaf Life</h3>
+
+Much of the historical consideration of deaf life in the nineteenth century has focused on deaf residential schools as the quintessential sites of the deaf community. Deaf schools have long been acknowledged as “the central loci for the deaf community, places through which almost all deaf children would eventually pass, in which deaf people could guarantee to meet each other, interact visually, and pass language and shared knowledge from generation to generation.”  
+As described in chapter 1, deaf schools were central to the acquisition of sign language and the practices of socialization and worship were suited to the sensory experience of deaf students and faculty.
+
+Mapping the growth of missions with sites of deaf education, however, does not suggest a meaningful relationship between schools and missions. 
+
+```{r,  layout="l-body-outset", fig.width=15, fig.height=6, echo= FALSE, fig.cap= "Comparision: Mission Sites and School Sites, in 5 year increments"}
 leaflet() %>%
   addProviderTiles(providers$Esri.WorldShadedRelief) %>%
   addCircleMarkers(data = Missions1850,
@@ -204,6 +233,248 @@ leaflet() %>%
                                   "<b> Founded: </b>", YearFounded, "<br>",
                                   "<b> Location: </b>", place, "<br>"), 
                    group = "1880") %>%
+  addLayersControl(
+    overlayGroups = c("1850-1854", "1855-1859", "1860-1864", "1865-1869", "1870-1874", "1875-1879", "1880"),
+    options = layersControlOptions(collapsed = FALSE))
+```
+
+Though signing clergy shared a close relationship with deaf residential schools (a number of them having been employed as instructors prior) the focus of signing clergy was on adult deaf people, many of whom lived and worked outside of these centers of learning. 
+
+
+<h3 align="center">Routes and Railways</h3>
+
+The digital map confirms that services were offered in larger cities, emanating from New York City, beginning at the end of the 1850s. As Gallaudet described in 1858, the expansion of transportation options greatly extended the mission field covered by a single worker. In fact, selecting and deselecting annual data reveals that railways served as routes between and among mission sites. The expansion of the mission can be seen plotting a course along railway lines. 
+
+```{r, layout="l-body-outset", fig.width=15, fig.height=6, echo= FALSE, fig.cap= "Map in five year increments. Shows railways, schools, conferences, and missions."}
+
+leaflet() %>%
+  addProviderTiles(providers$Esri.WorldShadedRelief) %>%
+  addCircleMarkers(data = Missions1850,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1850-1854") %>%
+  addCircleMarkers(data = Missions1855,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1855-1859") %>%
+  addCircleMarkers(data = Missions1860,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1860-1864") %>%
+  addCircleMarkers(data = Missions1865,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1865-1869") %>%
+  addCircleMarkers(data = Missions1870,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1870-1874") %>%
+  addCircleMarkers(data = Missions1875,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1875-1879") %>%
+  addCircleMarkers(data = Missions1880,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1880") %>%
+  addPolylines(data = rr1850, 
+               color = "grey",
+               weight = 2,
+               group = "1850-1854") %>%
+  addPolylines(data = rr1855,
+               color = "grey",
+               weight = 2,
+               group = "1855-1859") %>%
+  addPolylines(data = rr1860, 
+               color = "grey",
+               weight = 2,
+               group = "1860-1864") %>%
+  addPolylines(data = rr1865, 
+               color = "grey",
+               weight = 2,
+               group = "1865-1869") %>%
+ ## addPolylines(data = rr1870, 
+    ##           color = "grey",
+     ##          weight = 2,
+      ##         group = "1870-1875") %>%
+  ## addPolylines(data = rr1875, 
+     ##          color = "grey",
+     ##          weight = 2,
+     ##          group = "1875-1879") %>%
+##  addPolylines(data = rr1880, 
+   ##            color = "grey",
+     ##          weight = 2,
+     ##          group = "1880") %>%
+  addLayersControl(
+    overlayGroups = c("1850-1854", "1855-1859", "1860-1864", "1865-1869", "1870-1874", "1875-1879", "1880"),
+    options = layersControlOptions(collapsed = FALSE))
+
+```
+
+Mapping these early missions has revealed a geography of deaf religious expression. The railway lines, crisscrossing the US were routes upon which deaf clergy and laity circulated their faith, their language, and their experiences. The map reveals several features about the emergence of sites of deaf religious expression. It reveals the mobilization of signing church workers in an ever-widening mission field and contextualizes that growth among and between temporary and permanent sites of gathering for deaf community members. It also serves as an indicator of the relays and routes navigated by members of the deaf ministry. The circulation of signing workers over space and time formed networks of exchange of information, language, support and faith. In short, visualizing this data geospatially highlights both “the means and the men” required to form and sustain the Church Mission to Deaf Mutes.
+
+<h3 align="center">Temporary Meeting Places</h3>
+
+In quick succession, an array of organizations emerged at local and national levels. It would seem that graduates of residential deaf schools, accustomed to the social opportunities of school life sought to remake these opportunities in their adult lives. This process of temporary place-making produced at least forty-four conventions, conferences, and reunions held in city halls, churches, residential deaf schools, and government buildings between 1850-1880. Members of the Protestant Episcopal ministry were embedded in the creation and maintenance of these translocal places. Both clergy and laity were among the attendees at many of the events during this period.
+
+```{r,  layout="l-body-outset", fig.width=15, fig.height=6, echo= FALSE, fig.cap= "Missions and Conferences, 1850-1880"}
+
+leaflet() %>%
+  addProviderTiles(providers$Esri.WorldShadedRelief) %>%
+  addCircleMarkers(data = Missions1850,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1850-1854") %>%
+  addCircleMarkers(data = Missions1855,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1855-1859") %>%
+  addCircleMarkers(data = Missions1860,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1860-1864") %>%
+  addCircleMarkers(data = Missions1865,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1865-1869") %>%
+  addCircleMarkers(data = Missions1870,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1870-1874") %>%
+  addCircleMarkers(data = Missions1875,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1875-1879") %>%
+  addCircleMarkers(data = Missions1880,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#2A3E59',
+                   weight = 1,
+                   radius = 4,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1880") %>%
   addCircleMarkers(data = Con1850,
                    lng = ~lng, 
                    lat = ~lat, 
@@ -295,45 +566,9 @@ leaflet() %>%
                                   "<b> Event Location: </b>", Location, "<br>",
                                   "<b> Location: </b>", place, "<br>"),
                    group = "1880") %>%
-  addPolylines(data = rr1850, 
-               color = "grey",
-               weight = 2,
-               group = "1850-1854") %>%
-  addPolylines(data = rr1855,
-               color = "grey",
-               weight = 2,
-               group = "1855-1859") %>%
-  addPolylines(data = rr1860, 
-               color = "grey",
-               weight = 2,
-               group = "1860-1864") %>%
-  addPolylines(data = rr1865, 
-               color = "grey",
-               weight = 2,
-               group = "1865-1869") %>%
- ## addPolylines(data = rr1870, 
-    ##           color = "grey",
-     ##          weight = 2,
-      ##         group = "1870-1875") %>%
-  ## addPolylines(data = rr1875, 
-     ##          color = "grey",
-     ##          weight = 2,
-     ##          group = "1875-1879") %>%
-##  addPolylines(data = rr1880, 
-   ##            color = "grey",
-     ##          weight = 2,
-     ##          group = "1880") %>%
   addLayersControl(
     overlayGroups = c("1850-1854", "1855-1859", "1860-1864", "1865-1869", "1870-1874", "1875-1879", "1880"),
     options = layersControlOptions(collapsed = FALSE))
 ```
+Signed services often coincided with conference events between 1850 and 1880. However these did not frequently become new sites for services. Rather, it would seem that signed services were a feature of the temporary place-making which occurred with conference events. Further still, mission sites, though varied in frequency, offer further insight on this form of place-making.
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
