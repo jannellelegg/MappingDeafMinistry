@@ -1,0 +1,749 @@
+"","year","facility","city","state","facilityClergy","bishop","cmdmWorker","serviceRegularity","serviceFrequency","place","lat","lng"
+"1",1878,"St. Peter's Church","Talladega","Alabama","J. F. Smith","Richard H. Wilmer","Job Turner","Itinerant","once","Talladega, Alabama",33.3967079,-86.1597137
+"2",1878,"St. John's Church","Montgomery","Alabama","Horace Stringfellow","Richard H. Wilmer","Job Turner","Itinerant","once","Montgomery, Alabama",32.3669656,-86.3006485
+"3",1878,"St. John's Church","Mobile","Alabama","T. J. Beard","Richard H. Wilmer","Job Turner","Itinerant","once","Mobile, Alabama",30.6943566,-88.0430541
+"4",1878,"Alabama Institution for Deaf-Mutes","Talladega","Alabama","J. F. Smith","Richard H. Wilmer","Job Turner","Itinerant","once","Talladega, Alabama",33.3967079,-86.1597137
+"5",1879,"St. Peter's Church","Talladega","Alabama","J. F. Smith","Richard H. Wilmer","Gallaudet and Turner","itinerant","once","Talladega, Alabama",33.3967079,-86.1597137
+"6",1879,"Trinity Church","Mobile","Alabama","J.A. Massey","Richard H. Wilmer","Gallaudet and Turner","itinerant","once","Mobile, Alabama",30.6943566,-88.0430541
+"7",1879,"Christ Church","Little Rock ","Arkansas","Tullius C. Tupper","Henry Niles Pierce","Turner","itinerant","once","Little Rock , Arkansas",34.7464809,-92.2895948
+"8",1855,"Trinity Church","Branford","Connecticut","Henry Olmstead","Thomas Church Brownell","Thomas Gallaudet","promotional","once","Branford, Connecticut",41.2795414,-72.8150989
+"9",1855,"Christ Church","Hartford","Connecticut","James M. Goodwin","Thomas Church Brownell","Thomas Gallaudet","promotional","once","Hartford, Connecticut",41.7655582,-72.6906128
+"10",1855,"Trinity Church","New Haven","Connecticut","Harry Croswell","Thomas Church Brownell","Thomas Gallaudet","promotional","once","New Haven, Connecticut",41.2984343,-72.9310234
+"11",1858,"St. John's Church","Hartford","Connecticut","Edward A. Washburn","Thomas Church Brownell","Thomas Gallaudet","promotional","once","Hartford, Connecticut",41.7655582,-72.6906128
+"12",1860,"St. Paul's Church","Hartford","Connecticut","Charles R. Fisher","Thomas Church Brownell","Thomas Gallaudet","itinerant","once","Hartford, Connecticut",41.7655582,-72.6906128
+"13",1866,"Trinity Church","Hartford","Connecticut","Robert Meech","Thomas Church Brownell","Thomas Gallaudet","itinerant","once","Hartford, Connecticut",41.7655582,-72.6906128
+"14",1873,"St. James' Church","New London","Connecticut","Robert Hallam","John Williams","","itinerant","once","New London, Connecticut",41.331256,-72.0964372
+"15",1873,"St. Paul's Church","Hartford","Connecticut","Charles R. Fisher","John Williams","","itinerant","once","Hartford, Connecticut",41.7655582,-72.6906128
+"16",1874,"St. John's Church","Bridgeport","Connecticut","Eaton W. Maxcy","John Williams","R.D. Beers","occasional","intermittent","Bridgeport, Connecticut",41.1847223,-73.1867205
+"17",1874,"St. Paul's Church","Hartford","Connecticut","Charles R. Fisher","John Williams","","occasional","intermittent","Hartford, Connecticut",41.7655582,-72.6906128
+"18",1875,"St. Paul's Church","Bridgeport","Connecticut","N.S. Richardson","John Williams","R.D. Beers, Gallaudet","occasional","intermittent","Bridgeport, Connecticut",41.1847223,-73.1867205
+"19",1875,"St. Paul's Church","New Haven","Connecticut","Francis Lobdell","John Williams","Thomas Gallaudet","itinerant","once","New Haven, Connecticut",41.2984343,-72.9310234
+"20",1875,"Christ Church","Norwich","Connecticut","Samuel H. Giesy","John Williams","","itinerant","intermittent","Norwich, Connecticut",41.5499565,-72.08919
+"21",1876,"St. Andrew's Church","Meriden","Connecticut","G. H. Deshon","John Williams","Gallaudet, Chamberlain","Itinerant","intermittent","Meriden, Connecticut",41.5378215,-72.8003388
+"22",1876,"St. Paul's Church","Hartford","Connecticut","Charles R. Fisher","John Williams","Gallaudet, Chamberlain","Itinerant","intermittent","Hartford, Connecticut",41.7655582,-72.6906128
+"23",1876,"St. James' Church","New London","Connecticut","W. B. Buckingham","John Williams","Gallaudet, Chamberlain","Itinerant","intermittent","New London, Connecticut",41.331256,-72.0964372
+"24",1876,"St. Paul's Church","Bridgeport","Connecticut","N.S. Richardson","John Williams","R.D. Beers","occasional","intermittent","Bridgeport, Connecticut",41.1847223,-73.1867205
+"25",1876,"St. Paul's Church","New Haven","Connecticut","Francis Lobdell","John Williams","Thomas Gallaudet","promotional","once","New Haven, Connecticut",41.2984343,-72.9310234
+"26",1877,"St. Paul's Church","Bridgeport","Connecticut","N.S. Richardson","John Williams","Chamberlain","occasional","intermittent","Bridgeport, Connecticut",41.1847223,-73.1867205
+"27",1877,"Park Congregational Church","Norwich","Connecticut","","","Gallaudet, Turner","itinerant","once","Norwich, Connecticut",41.5499565,-72.08919
+"28",1878,"Trinity Church","Hartford","Connecticut","Edwin E. Johnson","John Williams","Gallaudet","itinerant","once","Hartford, Connecticut",41.7655582,-72.6906128
+"29",1878,"St. Paul's Church","Bridgeport","Connecticut","N.S. Richardson","John Williams","R.D. Beers","","intermittent","Bridgeport, Connecticut",41.1847223,-73.1867205
+"30",1879,"St. Paul's Church","Bridgeport","Connecticut","N.S. Richardson","John Williams","R.D. Beers","","intermittent","Bridgeport, Connecticut",41.1847223,-73.1867205
+"31",1879,"Christ Church","Norwich","Connecticut","Samuel H. Giesy","John Williams","Turner","itinerant","once","Norwich, Connecticut",41.5499565,-72.08919
+"32",1879,"St. Andrew's Church","Meriden","Connecticut","G.H. Deshon","John Williams","Turner","itinerant","once","Meriden, Connecticut",41.5378215,-72.8003388
+"33",1879,"Trinity Church","Hartford","Connecticut","Edwin E. Johnson","John Williams","Turner","itinerant","once","Hartford, Connecticut",41.7655582,-72.6906128
+"34",1880,"St. Paul's Church","Bridgeport","Connecticut","N.S. Richardson","John Williams","R.D. Beers","","intermittent","Bridgeport, Connecticut",41.1847223,-73.1867205
+"35",1859,"Christ Church","Guilford","Connecticut","Lorenzo T. Bennett","Thomas Church Brownell","Thomas Gallaudet","promotional","once","Guilford, Connecticut",41.2889866,-72.6817616
+"36",1859,"Christ Church","Guilford","Connecticut","Lorenzo T. Bennett","Thomas Church Brownell","Thomas Gallaudet","itinerant","once","Guilford, Connecticut",41.2889866,-72.6817616
+"37",1859,"St. Paul's Church","Hartford","Connecticut","Charles R. Fisher","Thomas Church Brownell","Thomas Gallaudet","promotional","once","Hartford, Connecticut",41.7655582,-72.6906128
+"38",1859,"St. Paul's Church","Hartford","Connecticut","Charles R. Fisher","Thomas Church Brownell","Thomas Gallaudet","itinerant","once","Hartford, Connecticut",41.7655582,-72.6906128
+"39",1859,"Trinity Church","Southport","Connecticut","Samuel M. Emery","Thomas Church Brownell","Thomas Gallaudet","promotional","once","Southport, Connecticut",41.1364856,-73.2834486
+"40",1859,"Trinity Church","Southport","Connecticut","Samuel M. Emery","Thomas Church Brownell","Thomas Gallaudet","itinerant","once","Southport, Connecticut",41.1364856,-73.2834486
+"41",1861,"St. Paul's Church","Hartford","Connecticut","Charles R. Fisher","John Williams","Thomas Gallaudet","occasional","once","Hartford, Connecticut",41.7655582,-72.6906128
+"42",1861,"Christ Church","New Haven","Connecticut","Joseph Brewster","John Williams","Thomas Gallaudet","occasional","once","New Haven, Connecticut",41.2984343,-72.9310234
+"43",1860,"Trinity Church","Norwich","Connecticut","G.A. Easton","John Williams","Thomas Gallaudet","occasional","intermittent","Norwich, Connecticut",41.5499565,-72.08919
+"44",1861,"Trinity Church","Norwich","Connecticut","G.A. Easton","John Williams","Thomas Gallaudet","occasional","intermittent","Norwich, Connecticut",41.5499565,-72.08919
+"45",1876,"Trinity Church","Wilmington","Delaware","William J. Frost","Alfred Lee","Gallaudet, Chamberlain","Itinerant","intermittent","Wilmington, Delaware",39.7459468,-75.546589
+"46",1879,"Trinity Church","Wilmington","Delaware","William J. Frost","Alfred Lee","Turner","itinerant","intermittent","Wilmington, Delaware",39.7459468,-75.546589
+"47",1859,"Church of the Epiphany","Washington","District of Columbia","Charles H. Hall","William R. Whittingham","Thomas Gallaudet","promotional","once","Washington, District of Columbia",38.8890591,-77.04017
+"48",1859,"Church of the Epiphany","Washington","District of Columbia","Charles H. Hall","William R. Whittingham","Thomas Gallaudet","itinerant","once","Washington, District of Columbia",38.8890591,-77.04017
+"49",1859,"St. John's Church","Washington","District of Columbia","Charles H. Hall","William R. Whittingham","Thomas Gallaudet","promotional","once","Washington, District of Columbia",38.8890591,-77.04017
+"50",1859,"St. John's Church","Washington","District of Columbia","Charles H. Hall","William R. Whittingham","Thomas Gallaudet","itinerant","once","Washington, District of Columbia",38.8890591,-77.04017
+"51",1873,"St. Mark's Church","Washington","District of Columbia","A. Floridus Steele","William R. Whittingham","Thomas Gallaudet","itinerant","","Washington, District of Columbia",38.8890591,-77.04017
+"52",1874,"St. Mark's Church","Washington","District of Columbia","A. Floridus Steele","William R.Whittingham","","occasional","intermittent","Washington, District of Columbia",38.8890591,-77.04017
+"53",1875,"St. Mark's Church","Washington","District of Columbia","A. Floridus Steele","William R. Whittingham","","itinerant","intermittent","Washington, District of Columbia",38.8890591,-77.04017
+"54",1876,"St. Mark's Church","Washington","District of Columbia","A. Floridus Steele","William R. Whittingham","Gallaudet, Chamberlain","Itinerant","intermittent","Washington, District of Columbia",38.8890591,-77.04017
+"55",1877,"St. Mark's Church","Washington","District of Columbia","A. Floridus Steele","William R. Whittingham","Chamberlain","Itinerant","intermittent","Washington, District of Columbia",38.8890591,-77.04017
+"56",1879,"Church of the Epiphany","Washington","District of Columbia","William Paret","William R. Whittingham","Chamberlain","promotional","once","Washington, District of Columbia",38.8890591,-77.04017
+"57",1880,"Ascension Church","Washington","District of Columbia","John H. Elliott","William R. Whittingham","Chamberlain","promotional","once","Washington, District of Columbia",38.8890591,-77.04017
+"58",1878,"","Savannah","Georgia","","John W. Beckwith","Job Turner","Itinerant","","Savannah, Georgia",32.0809263,-81.0911768
+"59",1878,"St. Philip's Church","Atlanta","Georgia","","John W. Beckwith","Job Turner","Itinerant","","Atlanta, Georgia",33.7489924,-84.3902644
+"60",1878,"","Cave Springs","Georgia","","John W. Beckwith","Job Turner","Itinerant","","Cave Springs, Georgia",34.1959403,-83.6115562
+"61",1878,"Georgia Institution for Deaf-Mutes","Cave Springs","Georgia","","","Job Turner","Itinerant","","Cave Springs, Georgia",34.1959403,-83.6115562
+"62",1879,"St. Stephen's Colored Church","Savannah","Georgia","Robert Landsberger","John W. Beckwith","Gallaudet, Turner","itinerant","","Savannah, Georgia",32.0809263,-81.0911768
+"63",1879,"Christ Church","Savannah","Georgia","Thomas Boone","John W. Beckwith","Gallaudet, Turner","itinerant","","Savannah, Georgia",32.0809263,-81.0911768
+"64",1879,"Church of the Good Shepherd","Cave Springs","Georgia","W. E. Epps","John W. Beckwith","Gallaudet, Turner","itinerant","","Cave Springs, Georgia",34.1959403,-83.6115562
+"65",1879,"St. Philip's Church","Atlanta","Georgia","R. C. Foute","John W. Beckwith","Turner","itinerant","","Atlanta, Georgia",33.7489924,-84.3902644
+"66",1879,"Emmanuel Church","Athens","Georgia","Edward H. Ingle","John W. Beckwith","Turner","itinerant","","Athens, Georgia",33.9597677,-83.376398
+"67",1858,"St. James' Church","Chicago","Illinois","Robert Clarkson","Henry J. Whitehouse","Thomas Gallaudet","itinerant","once","Chicago, Illinois",41.8755616,-87.6244212
+"68",1875,"St. James' Church","Chicago","Illinois","Samuel S. Harris","William E. McLaren","Austin Mann","itinerant","intermittent","Chicago, Illinois",41.8755616,-87.6244212
+"69",1876,"St. James' Church","Chicago","Illinois","Samuel S. Harris","William E. McLaren","Austin Mann","itinerant","intermittent","Chicago, Illinois",41.8755616,-87.6244212
+"70",1877,"St. James' Church","Chicago","Illinois","Samuel S. Harris","William E. McLaren","Austin Mann","itinerant","Intermittent","Chicago, Illinois",41.8755616,-87.6244212
+"71",1878,"Emmanuel Church","Rockford","Illinois","A.W. Snyder","William E. McLaren","Austin Mann","Itinerant","intermittent","Rockford, Illinois",42.2713945,-89.093966
+"72",1878,"Grace Church","Galesburg","Illinois","George H. Higgins","Alexander Burgess","Austin Mann","Itinerant","intermittent","Galesburg, Illinois",40.9479779,-90.3705842
+"73",1878,"Cathedral of St. Peter and St. Paul","Chicago","Illinois","J.H. Knowles","William E. McLaren","Gallaudet","Itinerant","once","Chicago, Illinois",41.8755616,-87.6244212
+"74",1878,"St. Paul's Church","Springfield","Illinois","John W. Philips","George F. Seymour","Gallaudet and Mann","Itinerant","once","Springfield, Illinois",39.7990175,-89.6439575
+"75",1878,"St. John's Cathedral","Quincy","Illinois","William B. Corbyn","Alexander Burgess","Gallaudet and Mann","Itinerant","once","Quincy, Illinois",39.9356016,-91.4098727
+"76",1878,"Grace Church","Galesburg","Illinois","George H. Higgins","Alexander Burgess","Gallaudet and Mann","Itinerant","once","Galesburg, Illinois",40.9479779,-90.3705842
+"77",1878,"Church of the Redeemer","Princeton","Illinois","Vacant","Alexander Burgess","Gallaudet and Mann","Itinerant","once","Princeton, Illinois",41.368092,-89.4648145
+"78",1878,"St. James' Church","Chicago","Illinois","Samuel S. Harris","William E. McLaren","Holmes, Mann, Gallaudet","occasional","intermittent","Chicago, Illinois",41.8755616,-87.6244212
+"79",1878,"","Chicago","Illinois","","William E. McLaren","Job Turner","Itinerant","","Chicago, Illinois",41.8755616,-87.6244212
+"80",1878,"Illinois Institution for Deaf-Mutes","Jacksonville","Illinois","","","Job Turner","Itinerant","","Jacksonville, Illinois",39.7343037,-90.2288356
+"81",1878,"Grace Church","Chicago","Illinois","Clifton Locke","William E. McLaren","Mann and Gallaudet","itinerant","once","Chicago, Illinois",41.8755616,-87.6244212
+"82",1878,"Trinity Church","Jacksonville","Illinois","John D. Easter","George F. Seymour","Mann and Gallaudet","Itinerant","once","Jacksonville, Illinois",39.7343037,-90.2288356
+"83",1879,"Trinity Church","Jacksonville","Illinois","John D. Easter","George F. Seymour","Austin Mann","Itinerant","once","Jacksonville, Illinois",39.7343037,-90.2288356
+"84",1879,"Trinity Church","Chicago","Illinois","R.A. Holland","William E. McLaren","Austin Mann","itinerant","","Chicago, Illinois",41.8755616,-87.6244212
+"85",1879,"Emmanuel Church","Rockford","Illinois","A.W. Snyder","William E. McLaren","Austin Mann","itinerant","","Rockford, Illinois",42.2713945,-89.093966
+"86",1879,"St. James' Church","Chicago","Illinois","Frederick Courtney","William E. McLaren","Mann and Gallaudet","itinerant","","Chicago, Illinois",41.8755616,-87.6244212
+"87",1879,"St. Paul's Church","Peoria","Illinois","William B. Morrow","Alexander Burgess","Mann and Gallaudet","itinerant","once","Peoria, Illinois",40.6938609,-89.5891008
+"88",1879,"Trinity Church","Rock Island","Illinois","Alonzo B. Allen","Alexander Burgess","Mann and Gallaudet","promotional","once","Rock Island, Illinois",41.4411786,-90.5766144
+"89",1879,"Christ Church","Joliet","Illinois","Henry C. Kinney","William E. McLaren","Austin Mann","itinerant","once","Joliet, Illinois",41.5263603,-88.0840212
+"90",1879,"Illinois Institution for Deaf-Mutes","Jacksonville","Illinois","","","Austin Mann","itinerant","once","Jacksonville, Illinois",39.7343037,-90.2288356
+"91",1879,"Grace Church","Galesburg","Illinois","George H. Higgins","Alexander Burgess","Austin Mann","itinerant","once","Galesburg, Illinois",40.9479779,-90.3705842
+"92",1880,"Church of the Redeemer","Cairo","Illinois","David A. Bonnar","George F. Seymour","Austin Mann","itinerant","once","Cairo, Illinois",37.0057958,-89.1772449
+"93",1880,"Trinity Church","Jacksonville","Illinois","John D. Easter","George F. Seymour","Austin Mann","itinerant","","Jacksonville, Illinois",39.7343037,-90.2288356
+"94",1880,"Trinity Church","Mattoon","Illinois","Charles J. Hendley","George F. Seymour","Austin Mann","itinerant","once","Mattoon, Illinois",39.4842821,-88.3773279
+"95",1880,"St. James Church","Chicago","Illinois","Frederick Courtney","William E. McLaren","Gallaudet and Mann","itinerant","","Chicago, Illinois",41.8755616,-87.6244212
+"96",1880,"Cathedral","Chicago","Illinois","William E. McLaren","William E. McLaren","Austin Mann","itinerant","once","Chicago, Illinois",41.8755616,-87.6244212
+"97",1880,"Emmanuel Church","Rockford","Illinois","A.W. Snyder","William E. McLaren","Austin Mann","itinerant","once","Rockford, Illinois",42.2713945,-89.093966
+"98",1877,"Trinity Church","Jacksonville","Illinois","John D. Easter","George F. Seymour","Austin Mann","Itinerant","once","Jacksonville, Illinois",39.7343037,-90.2288356
+"99",1877,"Christ Church","Indianapolis","Indiana","Edward A. Bradley","Joseph C. Talbot","Mann and Gallaudet","promotional","once","Indianapolis, Indiana",39.7683331,-86.1583502
+"100",1878,"Christ Church","Indianapolis","Indiana","Edward A. Bradley","Joseph C. Talbot","Austin Mann","Itinerant","intermittent","Indianapolis, Indiana",39.7683331,-86.1583502
+"101",1878,"Trinity Church","Michigan City","Indiana","Samuel A. French","Joseph C. Talbot","Austin Mann","Itinerant","intermittent","Michigan City, Indiana",41.7075394,-86.8950297
+"102",1878,"Trinity Church","Fort Wayne","Indiana","Colin C. Tate","Joseph C. Talbot","Gallaudet","Itinerant","once","Fort Wayne, Indiana",41.0799898,-85.1386015
+"103",1877,"Indiana Institution for Deaf-Mutes","Indianapolis","Indiana","","","Austin Mann","Itinerant","once","Indianapolis, Indiana",39.7683331,-86.1583502
+"104",1878,"Indiana Institution for Deaf-Mutes","Indianapolis","Indiana","","","Mann and Turner","Itinerant","","Indianapolis, Indiana",39.7683331,-86.1583502
+"105",1878,"St. Paul's Cathedral","Indianapolis","Indiana","J. Sanders Reed","Joseph C. Talbot","Mann and Gallaudet","Itinerant","once","Indianapolis, Indiana",39.7683331,-86.1583502
+"106",1878,"Church of the Holy Communion","Indianapolis","Indiana","George B. Engle","Joseph C. Talbot","Mann and Gallaudet","Itinerant","once","Indianapolis, Indiana",39.7683331,-86.1583502
+"107",1879,"Christ Church","Indianapolis","Indiana","Edward A. Bradley","Joseph C. Talbot","Austin Mann","itinerant","","Indianapolis, Indiana",39.7683331,-86.1583502
+"108",1878,"St. James' Church","South Bend","Indiana","Alfred T. Perkins","Joseph C. Talbot","Austin Mann","itinerant","once","South Bend, Indiana",41.6833813,-86.2500066
+"109",1879,"Indiana Institution for Deaf-Mutes","Indianapolis","Indiana","","","Austin Mann","itinerant","intermittent","Indianapolis, Indiana",39.7683331,-86.1583502
+"110",1878,"Grace Church","Muncie","Indiana","Jesse R. Bicknell","Joseph C. Talbot","Austin Mann","itinerant","once","Muncie, Indiana",40.1936892,-85.3865271
+"111",1879,"St. Paul's Church","Evansville","Indiana","W.N. Webbe","Joseph C. Talbot","Austin Mann","itinerant","once","Evansville, Indiana",37.9747645,-87.5558483
+"112",1879,"Trinity Church","Michigan City","Indiana","Charles J. Wood","Joseph C. Talbot","Austin Mann","itinerant","intermittent","Michigan City, Indiana",41.7075394,-86.8950297
+"113",1879,"St. Paul's Church","New Albany","Indiana","Francis B. Dunham","Joseph C. Talbot","Austin Mann","itinerant","once","New Albany, Indiana",38.2856247,-85.8241312
+"114",1879,"St. Paul's Church","Richmond","Indiana","J.B. Wakefield","Joseph C. Talbot","Austin Mann","itinerant","once","Richmond, Indiana",39.8286897,-84.8898521
+"115",1880,"St. Thomas Church","Plymouth","Indiana","J.J. Faude","Joseph C. Talbot","Austin Mann","itinerant","intermittent","Plymouth, Indiana",41.3436555,-86.3097278
+"116",1880,"Indiana Institution for Deaf-Mutes","Indianapolis","Indiana","","","Austin Mann","itinerant","intermittent","Indianapolis, Indiana",39.7683331,-86.1583502
+"117",1880,"Christ Church","Indianapolis","Indiana","Edward A. Bradley","Joseph C. Talbot","Austin Mann","itinerant","intermittent","Indianapolis, Indiana",39.7683331,-86.1583502
+"118",1880,"Grace Church","Muncie","Indiana","Jessie R. Bicknell","Joseph C. Talbot","Austin Mann","itinerant","once","Muncie, Indiana",40.1936892,-85.3865271
+"119",1880,"Trinity Church","Michigan City","Indiana","Charles J. Wood","Joseph C. Talbot","Austin Mann","itinerant","intermittent","Michigan City, Indiana",41.7075394,-86.8950297
+"120",1880,"St. Paul's Church","Richmond","Indiana","J.B. Wakefield","Joseph C. Talbot","Austin Mann","itinerant","once","Richmond, Indiana",39.8286897,-84.8898521
+"121",1880,"Trinity Church","Fort Wayne","Indiana","William M. Webbe","Joseph C. Talbot","Austin Mann","itinerant","once","Fort Wayne, Indiana",41.0799898,-85.1386015
+"122",1880,"Schoolhouse","Waterford","Indiana","","","Austin Mann","itinerant","once","Waterford, Indiana",41.6714294,-86.8450276
+"123",1879,"Grace Cathedral","Davenport","Iowa","W.H. Barris","William S. Perry","Mann and Gallaudet","","once","Davenport, Iowa",41.5236436,-90.5776368
+"124",1879,"St. Paul's Church","Des Moines","Iowa","Joseph S. Jenckes","William S. Perry","Mann and Gallaudet","","once","Des Moines, Iowa",41.5910323,-93.6046655
+"125",1879,"St. Paul's Church","Council Bluffs","Iowa","Frederick T. Webb","William S. Perry","Mann and Gallaudet","","once","Council Bluffs, Iowa",41.2621283,-95.8613912
+"126",1879,"Iowa Institution for Deaf-Mutes","Council Bluffs","Iowa","","","Mann and Gallaudet","","once","Council Bluffs, Iowa",41.2621283,-95.8613912
+"127",1879,"College Chapel","Davenport","Iowa","William S. Perry","William S. Perry","Austin Mann","itinerant","once","Davenport, Iowa",41.5236436,-90.5776368
+"128",1878,"Kansas Institution for Deaf-Mutes","Olathe","Kansas","","","Job Turner","Itinerant","","Olathe, Kansas",38.8838856,-94.81887
+"129",1879,"Trinity Church","Atchison","Kansas","Frank O. Osborne","Thomas H. Vail","Mann and Gallaudet","promotional","once","Atchison, Kansas",39.545816,-95.3326052
+"130",1879,"Grace Cathedral","Topeka","Kansas","Thomas H. Vail","Thomas H. Vail","Mann and Gallaudet","promotional","once","Topeka, Kansas",39.049011,-95.677556
+"131",1879,"Kansas Institution for the Deaf and Dumb","Olathe","Kansas","","","Mann and Gallaudet","promotional","once","Olathe, Kansas",38.8838856,-94.81887
+"132",1877,"St. Paul's Church","Newport","Kentucky","W.M. Pettis","Benjamin B. Smith","Mann and Gallaudet","promotional","once","Newport, Kentucky",39.0889469,-84.4919524
+"133",1877,"Christ Church","Louisville","Kentucky","James Craik","Benjamin B. Smith","Mann and Gallaudet","promotional","once","Louisville, Kentucky",38.2542376,-85.759407
+"134",1878,"Christ Church","Louisville","Kentucky","James Craik","Benjamin B. Smith","Austin Mann","Itinerant","once","Louisville, Kentucky",38.2542376,-85.759407
+"135",1878,"St. Paul's Church","Newport","Kentucky","W.M. Pettis","Benjamin B. Smith","Austin Mann","Itinerant","once","Newport, Kentucky",39.0889469,-84.4919524
+"136",1878,"","Louisville","Kentucky","","Benjamin B. Smith","Job Turner","Itinerant","","Louisville, Kentucky",38.2542376,-85.759407
+"137",1878,"Kentucky Institution for Deaf-Mutes","Danville","Kentucky","","","Job Turner","Itinerant","","Danville, Kentucky",37.6456488,-84.7721823
+"138",1879,"Grace Church","Hopkinsville","Kentucky","Charles Morris","Benjamin B. Smith","Job Turner","itinerant","","Hopkinsville, Kentucky",36.8657651,-87.4889532
+"139",1878,"Christ Church","New Orleans","Louisiana","William T. Leacock","Joseph P.B. Wilmer","Job Turner","Itinerant","","New Orleans, Louisiana",29.9499323,-90.0701156
+"140",1878,"Louisiana Institution for Deaf-Mutes","Baton Rouge","Louisiana","","","Job Turner","Itinerant","","Baton Rouge, Louisiana",30.4459596,-91.18738
+"141",1879,"Christ Church","New Orleans","Louisiana","William T. Leacock","John N. Galleher","Gallaudet, Turner","itinerant","","New Orleans, Louisiana",29.9499323,-90.0701156
+"142",1879,"St. Paul's Church","New Orleans","Louisiana","Henry H. Waters","John N. Galleher","Turner","itinerant","","New Orleans, Louisiana",29.9499323,-90.0701156
+"143",1862,"St. Stephen's Church","Portland","Maine","Williams Stevens Perry","George Burgess","Thomas Gallaudet","itinerant","once","Portland, Maine",43.6610277,-70.2548596
+"144",1873,"St. John's Church","Lowell","Massachusetts","Leander C. Manchester","Benjamin H. Paddock","","","","Lowell, Massachusetts",42.6334247,-71.3161718
+"145",1873,"Christ Church","Biddeford","Maine","William J. Alger","Henry A. Neely","","","","Biddeford, Maine",43.4925843,-70.4533844
+"146",1873,"Trinity Church","Saco","Maine","William J. Alger","Henry A. Neely","","","","Saco, Maine",43.5009176,-70.4428286
+"147",1877,"Trinity Church","Saco","Maine","William J. Alger","Henry A. Neely","Job Turner","Itinerant","intermittent","Saco, Maine",43.5009176,-70.4428286
+"148",1877,"St. Luke's Cathedral","Portland","Maine","Henry A. Neely","Henry A. Neely","Job Turner","Itinerant","once","Portland, Maine",43.6610277,-70.2548596
+"149",1877,"Trinity Church","Lewiston","Maine","William H. Washburn","Henry A. Neely","Job Turner","Itinerant","once","Lewiston, Maine",44.100351,-70.2147764
+"150",1877,"Grace Church","Bath","Maine","John Gregson","Henry A. Neely","Job Turner","Itinerant","once","Bath, Maine",43.910755,-69.820862
+"151",1877,"St, Mark's Church","Augusta","Maine","Samuel Upjohn","Henry A. Neely","Job Turner","Itinerant","once","Augusta, Maine",44.310545,-69.7792759
+"152",1877,"","Damariscotta","Maine","","","Job Turner","Itinerant","once","Damariscotta, Maine",44.0328573,-69.5186585
+"153",1877,"","Belfast","Maine","","","Job Turner","Itinerant","once","Belfast, Maine",44.4261194,-69.0067359
+"154",1878,"St. John's Church","Bangor","Maine","Vacant","Henry A. Neely","Job Turner","Itinerant","","Bangor, Maine",44.8011821,-68.7778138
+"155",1878,"St. Mark's Church","Augusta","Maine","Samuel Upjohn","Henry A. Neely","Job Turner","Itinerant","","Augusta, Maine",44.310545,-69.7792759
+"156",1878,"Trinity Church","Lewiston","Maine","William H. Washburn","Henry A. Neely","Job Turner","Itinerant","","Lewiston, Maine",44.100351,-70.2147764
+"157",1878,"Trinity Church","Saco","Maine","William J. Alger","Henry A. Neely","Job Turner","Itinerant","","Saco, Maine",43.5009176,-70.4428286
+"158",1878,"St. Luke's Cathedral","Portland","Maine","Henry A. Neely","Henry A. Neely","Job Turner","Itinerant","","Portland, Maine",43.6610277,-70.2548596
+"159",1879,"St. Mark's Church","Augusta","Maine","Samuel Upjohn","Henry A. Neely","William Bailey","occasional","intermittent","Augusta, Maine",44.310545,-69.7792759
+"160",1879,"Trinity Church","Lewiston","Maine","Samuel Upjohn","Henry A. Neely","William Bailey","occasional","intermittent","Lewiston, Maine",44.100351,-70.2147764
+"161",1879,"","Belfast","Maine","","","William Bailey","occasional","intermittent","Belfast, Maine",44.4261194,-69.0067359
+"162",1879,"","New Gloucester","Maine","","","William Bailey","occasional","intermittent","New Gloucester, Maine",43.963168,-70.282974
+"163",1879,"","South Windham","Maine","","","William Bailey","occasional","intermittent","South Windham, Maine",43.7361901,-70.4236631
+"164",1880,"St. Mark's Church","Augusta","Maine","Samuel Upjohn","Henry A. Neely","William Bailey","occasional","intermittent","Augusta, Maine",44.310545,-69.7792759
+"165",1880,"","Belfast","Maine","","","William Bailey","occasional","intermittent","Belfast, Maine",44.4261194,-69.0067359
+"166",1880,"Trinity Church","Lewiston","Maine","William H. Washburn","Henry A. Neely","William Bailey","occasional","intermittent","Lewiston, Maine",44.100351,-70.2147764
+"167",1859,"Grace Church","Baltimore","Maryland","A. Cleveland Coxe","William R. Whittingham","Adams","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"168",1859,"Grace Church","Baltimore","Maryland","A. Cleveland Coxe","William R. Whittingham","Thomas Gallaudet","itinerant","once","Baltimore, Maryland",39.2908816,-76.610759
+"169",1860,"Grace Church","Baltimore","Maryland","A. Cleveland Coxe","William R. Whittingham","Adams","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"170",1860,"Grace Church","Baltimore","Maryland","A. Cleveland Coxe","William R. Whittingham","Ijams","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"171",1861,"Grace Church","Baltimore","Maryland","A. Cleveland Coxe","William R. Whittingham","Samuel Adams","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"172",1861,"Grace Church","Baltimore","Maryland","A. Cleveland Coxe","William R. Whittingham","Thomas Gallaudet","occasional","once","Baltimore, Maryland",39.2908816,-76.610759
+"173",1862,"Grace Church","Baltimore","Maryland","A. Cleveland Coxe","William R. Whittingham","Samuel Adams","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"174",1863,"Grace Church","Baltimore","Maryland","Benjamin B. Griswold","William R. Whittingham","Samuel Adams","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"175",1864,"Grace Church","Baltimore","Maryland","J.H. Hobart","William R. Whittingham","John P. Ijams","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"176",1865,"Grace Church","Baltimore","Maryland","J.H. Hobart","William R. Whittingham","John P. Ijams","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"177",1866,"Grace Church","Baltimore","Maryland","J.H. Hobart","William R. Whittingham","John P. Ijams","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"178",1867,"Grace Church","Baltimore","Maryland","George Leeds","William R. Whittingham","Samuel Adams","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"179",1868,"Grace Church","Baltimore","Maryland","George Leeds","William R. Whittingham","Samuel Adams","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"180",1869,"Grace Church","Baltimore","Maryland","George Leeds","William R. Whittingham","Samuel Adams","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"181",1870,"Grace Church","Baltimore","Maryland","George Leeds","William R. Whittingham","Samuel Adams","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"182",1871,"Grace Church","Baltimore","Maryland","George Leeds","William R. Whittingham","Samuel Adams","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"183",1872,"Grace Church","Baltimore","Maryland","George Leeds","William R. Whittingham","Samuel Adams","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"184",1873,"Grace Church","Baltimore","Maryland","George Leeds","William R. Whittingham","Samuel Adams","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"185",1874,"Grace Church","Baltimore","Maryland","George Leeds","William R. Whittingham","John Covell","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"186",1874,"St. Anne's Church","Annapolis","Maryland","William S. Southgate","William R. Whittingham","","occasional","","Annapolis, Maryland",38.9786401,-76.492786
+"187",1875,"Grace Church","Baltimore","Maryland","George Leeds","William R. Whittingham","Lewis C. Tuck","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"188",1876,"St. Anne's Church","Annapolis","Maryland","William S. Southgate","William R. Whittingham","Gallaudet, Chamberlain","Itinerant","intermittent","Annapolis, Maryland",38.9786401,-76.492786
+"189",1876,"Grace Church","Baltimore","Maryland","George Leeds","William R. Whittingham","Lewis C. Tuck","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"190",1877,"Grace Church","Baltimore","Maryland","George Leeds","William R. Whittingham","Gallaudet, Chamberlain, Syle","","","Baltimore, Maryland",39.2908816,-76.610759
+"191",1878,"Grace Church","Baltimore","Maryland","George Leeds","William R. Whittingham","Clerc","regular","monthly","Baltimore, Maryland",39.2908816,-76.610759
+"192",1878,"St. John's Church","Hagerstown","Maryland","Walter A. Mitchell","William R. Whittingham","Gallaudet","Itinerant","once","Hagerstown, Maryland",39.6419219,-77.7202641
+"193",1878,"","Baltimore","Maryland","","William R. Whittingham","Job Turner","Itinerant","","Baltimore, Maryland",39.2908816,-76.610759
+"194",1878,"St. Anne's Church","Annapolis","Maryland","William S. Southgate","William R. Whittingham","Turner; Chamberlain","Itinerant","","Annapolis, Maryland",38.9786401,-76.492786
+"195",1878,"Maryland Institution for Deaf-Mutes","Frederick","Maryland","","","Job Turner","Itinerant","","Frederick, Maryland",39.4142186,-77.4109269
+"196",1879,"Grace Church","Baltimore","Maryland","George Leeds","William R. Whittingham","Chamberlain","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"197",1879,"All Saints' Church","Frederick","Maryland","Osborne Ingle","William R. Whittingham","Gallaudet and Turner","itinerant","once","Frederick, Maryland",39.4142186,-77.4109269
+"198",1879,"St. Anne's Church","Annapolis","Maryland","William S. Southgate","William R. Whittingham","Turner; Chamberlain","itinerant","","Annapolis, Maryland",38.9786401,-76.492786
+"199",1879,"Maryland Institution for the Deaf and Dumb","Frederick","Maryland","","","Gallaudet, Turner","itinerant","once","Frederick, Maryland",39.4142186,-77.4109269
+"200",1880,"Grace Church","Baltimore","Maryland","George Leeds","William R. Whittingham","James S. Wells","regular","weekly","Baltimore, Maryland",39.2908816,-76.610759
+"201",1855,"Park Street Church","Boston","Massachusetts","","","Thomas Gallaudet","itinerant","once","Boston, Massachusetts",42.3602534,-71.0582912
+"202",1855,"Trinity Church","Boston","Massachusetts","Manton Eastburn","Manton Eastburn","Thomas Gallaudet","promotional","once","Boston, Massachusetts",42.3602534,-71.0582912
+"203",1855,"Trinity Church","Boston","Massachusetts","Manton Eastburn","Manton Eastburn","Thomas Gallaudet","itinerant","once","Boston, Massachusetts",42.3602534,-71.0582912
+"204",1856,"St. John's Church","North Adams","Massachusetts","William M. Willian","Manton Eastburn","Thomas Gallaudet","itinerant","once","North Adams, Massachusetts",42.6990321,-73.1118964
+"205",1859,"St. Paul's Church","Boston","Massachusetts","William R. Nicholson","Manton Eastburn","Thomas Gallaudet","promotional","once","Boston, Massachusetts",42.3602534,-71.0582912
+"206",1859,"St. Paul's Church","Boston","Massachusetts","William R. Nicholson","Manton Eastburn","Thomas Gallaudet","itinerant","once","Boston, Massachusetts",42.3602534,-71.0582912
+"207",1860,"Church of the Advent","Boston","Massachusetts","James A. Bolles","Manton Eastburn","Thomas Gallaudet","itinerant","once","Boston, Massachusetts",42.3602534,-71.0582912
+"208",1861,"Freeman Place Chapel","Boston","Massachusetts","","Manton Eastburn","Thomas Gallaudet","occasional","intermittent","Boston, Massachusetts",42.3602534,-71.0582912
+"209",1862,"Freeman Place Chapel","Boston","Massachusetts","","Manton Eastburn","Eastburn Benjamin","regular","weekly","Boston, Massachusetts",42.3602534,-71.0582912
+"210",1864,"Grace Church","Boston","Massachusetts","Samuel H. Hilliard","Manton Eastburn","Thomas Gallaudet","regular","monthly","Boston, Massachusetts",42.3602534,-71.0582912
+"211",1867,"Trinity Church","Boston","Massachusetts","Manton Eastburn","Manton Eastburn","","regular","quarterly","Boston, Massachusetts",42.3602534,-71.0582912
+"212",1871,"Church of the Good Shepherd","Boston","Massachusetts","Edward Krans","Manton Eastburn","Thomas Gallaudet","regular","quarterly","Boston, Massachusetts",42.3602534,-71.0582912
+"213",1872,"Church of the Good Shepherd","Boston","Massachusetts","Edward Krans","Manton Eastburn","Thomas Gallaudet","regular","quarterly","Boston, Massachusetts",42.3602534,-71.0582912
+"214",1873,"Church of the Good Shepherd","Boston","Massachusetts","Edward Krans","Benjamin H. Paddock","Thomas Gallaudet","regular","quarterly","Boston, Massachusetts",42.3602534,-71.0582912
+"215",1873,"Christ Church","Norwich","Massachusetts","","","","","","Norwich, Massachusetts",42.2889778,-72.8384294
+"216",1873,"Christ Church","Springfield","Massachusetts","Alexander Burgess","Benjamin H. Paddock","","","","Springfield, Massachusetts",42.1018764,-72.5886727
+"217",1873,"All Saints' Church","Worcester","Massachusetts","William R. Huntington","Benjamin H. Paddock","","","","Worcester, Massachusetts",42.2761217,-71.8058232
+"218",1874,"Church of the Good Shepherd","Boston","Massachusetts","Edward Krans","Benjamin H. Paddock","Thomas Gallaudet","regular","quarterly","Boston, Massachusetts",42.3602534,-71.0582912
+"219",1874,"St. Michael's Church","Marblehead","Massachusetts","John W. Leek","Benjamin H. Paddock","","occasional","","Marblehead, Massachusetts",42.500096,-70.8578253
+"220",1874,"All Saints' Church","Worcester","Massachusetts","William R. Huntington","Benjamin H. Paddock","","occasional","","Worcester, Massachusetts",42.2761217,-71.8058232
+"221",1875,"Church of the Good Shepherd","Boston","Massachusetts","George J. Prescott","Benjamin H. Paddock","Thomas Gallaudet","regular","quarterly","Boston, Massachusetts",42.3602534,-71.0582912
+"222",1876,"Church of the Good Shepherd","Boston","Massachusetts","George J. Prescott","Benjamin H. Paddock","Thomas Gallaudet","regular","quarterly","Boston, Massachusetts",42.3602534,-71.0582912
+"223",1876,"St. Michael's Church","Marblehead","Massachusetts","Julius H. Ward","Benjamin H. Paddock","Gallaudet, Chamberlain","Itinerant","intermittent","Marblehead, Massachusetts",42.500096,-70.8578253
+"224",1876,"St. Peter's Church","Salem","Massachusetts","Charles Arey","Benjamin H. Paddock","Gallaudet, Chamberlain","Itinerant","intermittent","Salem, Massachusetts",42.5195292,-70.8967226
+"225",1877,"Church of the Good Shepherd","Boston","Massachusetts","George J. Prescott","Benjamin H. Paddock","Gallaudet, Chamberlain","itinerant","intermittent","Boston, Massachusetts",42.3602534,-71.0582912
+"226",1877,"St. Paul's Church","Boston","Massachusetts","William W. Newton","Benjamin H. Paddock","Thomas Gallaudet","itinerant","intermittent","Boston, Massachusetts",42.3602534,-71.0582912
+"227",1877,"St. Michael's Church","Marblehead","Massachusetts","William R. Harris","Benjamin H. Paddock","Gallaudet","Itinerant","intermittent","Marblehead, Massachusetts",42.500096,-70.8578253
+"228",1877,"St. Peter's Church","Salem","Massachusetts","Charles Arey","Benjamin H. Paddock","Gallaudet","Itinerant","intermittent","Salem, Massachusetts",42.5195292,-70.8967226
+"229",1877,"St. Peter's Church","Cambridge","Massachusetts","Edward M. Gushee","Benjamin H. Paddock","Gallaudet","Itinerant","quarterly","Cambridge, Massachusetts",42.3750997,-71.1056157
+"230",1877,"St. Paul's Church","Nantucket","Massachusetts","Levi Boyer","Benjamin H. Paddock","Gallaudet","promotional","once","Nantucket, Massachusetts",41.3157314,-70.0090141
+"231",1877,"All Saints' Church","Worcester","Massachusetts","William R. Huntington","Benjamin H. Paddock","Gallaudet, Mann","promotional","once","Worcester, Massachusetts",42.2761217,-71.8058232
+"232",1877,"","Boston","Massachusetts","","Benjamin H. Paddock","Job Turner","Itinerant","intermittent","Boston, Massachusetts",42.3602534,-71.0582912
+"233",1877,"Church of the Ascension","Fall River","Massachusetts","William T. Fitch","Benjamin H. Paddock","Job Turner","Itinerant","intermittent","Fall River, Massachusetts",41.7010642,-71.1546367
+"234",1877,"","Cambridge","Massachusetts","","Benjamin H. Paddock","Job Turner","Itinerant","once","Cambridge, Massachusetts",42.3750997,-71.1056157
+"235",1877,"St. Paul's Church","Newburyport","Massachusetts","Edward L. Drown","Benjamin H. Paddock","Thomas Gallaudet ","Itinerant","once","Newburyport, Massachusetts",42.8125913,-70.8772751
+"236",1877,"St. John's Church","Cambridge","Massachusetts","George Z. Gray","Benjamin H. Paddock","Gallaudet","promotional","once","Cambridge, Massachusetts",42.3750997,-71.1056157
+"237",1877,"","Martha's Vineyard","Massachusetts","","Benjamin H. Paddock","Job Turner","Itinerant","once","Martha's Vineyard, Massachusetts",41.3918832,-70.6208543
+"238",1878,"St. Paul's Church","Boston","Massachusetts","William W. Newton","Benjamin H. Paddock","Job Turner","regular","intermittent","Boston, Massachusetts",42.3602534,-71.0582912
+"239",1878,"St. Peter's Church","Cambridge","Massachusetts","Edward M. Gushee","Benjamin H. Paddock","Gallaudet","Itinerant","quarterly","Cambridge, Massachusetts",42.3750997,-71.1056157
+"240",1878,"Church of the Ascension","Fall River","Massachusetts","William T. Fitch","Benjamin H. Paddock","Gallaudet","Itinerant","once","Fall River, Massachusetts",41.7010642,-71.1546367
+"241",1878,"St. Peter's Church","Beverly","Massachusetts","John C. Welwood","Benjamin H. Paddock","Gallaudet","itinerant","","Beverly, Massachusetts",42.5584284,-70.8800491
+"242",1878,"Grace Church","Lawrence","Massachusetts","William Lawrence","Benjamin H. Paddock","Gallaudet","itinerant","once","Lawrence, Massachusetts",42.7070354,-71.1631137
+"243",1878,"St. Anne's Church","Lowell","Massachusetts","Theodore Edson","Benjamin H. Paddock","Gallaudet","itinerant","once","Lowell, Massachusetts",42.6334247,-71.3161718
+"244",1878,"","Worcester","Massachusetts","","Benjamin H. Paddock","Job Turner","Itinerant","","Worcester, Massachusetts",42.2761217,-71.8058232
+"245",1878,"St. Peter's Church","Salem","Massachusetts","Charles Arey","Benjamin H. Paddock","William Bailey","occasional","intermittent","Salem, Massachusetts",42.5195292,-70.8967226
+"246",1879,"Christ Church","Springfield","Massachusetts","John C. Brooks","Benjamin H. Paddock","Turner","itinerant","","Springfield, Massachusetts",42.1018764,-72.5886727
+"247",1879,"St. Anne's Church","Lowell","Massachusetts","Theodore Edson","Benjamin H. Paddock","Turner","itinerant","","Lowell, Massachusetts",42.6334247,-71.3161718
+"248",1879,"Christ Church","Fitchburg","Massachusetts","Emelius W. Smith","Benjamin H. Paddock","Turner","itinerant","","Fitchburg, Massachusetts",42.5903661,-71.8119837
+"249",1879,"All Saints' Church","Worcester","Massachusetts","William R. Huntington","Benjamin H. Paddock","Turner","itinerant","","Worcester, Massachusetts",42.2761217,-71.8058232
+"250",1879,"St. Paul's Church","Newburyport","Massachusetts","Edward L. Drown","Benjamin H. Paddock","Turner","itinerant","","Newburyport, Massachusetts",42.8125913,-70.8772751
+"251",1879,"St. John's Church","Lawrence","Massachusetts","William G. Wells","Benjamin H. Paddock","Turner","itinerant","","Lawrence, Massachusetts",42.7070354,-71.1631137
+"252",1879,"Church of the Good Shepherd","Boston","Massachusetts","George J. Prescott","Benjamin H. Paddock","William Bailey","regular","biweekly","Boston, Massachusetts",42.3602534,-71.0582912
+"253",1879,"St. Paul's Church","Boston","Massachusetts","William W. Newton","Benjamin H. Paddock","William Bailey","regular","monthly","Boston, Massachusetts",42.3602534,-71.0582912
+"254",1879,"St. Peter's Church","Salem","Massachusetts","Charles Arey","Benjamin H. Paddock","William Bailey","","","Salem, Massachusetts",42.5195292,-70.8967226
+"255",1879,"St. Peter's Church","Beverly","Massachusetts","John C. Welwood","Benjamin H. Paddock","William Bailey","","","Beverly, Massachusetts",42.5584284,-70.8800491
+"256",1880,"Church of the Good Shepherd","Boston","Massachusetts","George J. Prescott","Benjamin H. Paddock","Bailey, Gallaudet, Chamberlain","occasional","intermittent","Boston, Massachusetts",42.3602534,-71.0582912
+"257",1880,"St. Matthew's Church","Boston","Massachusetts","John Wright","Benjamin H. Paddock","Chamberlain","occasional","once","Boston, Massachusetts",42.3602534,-71.0582912
+"258",1880,"","Salem","Massachusetts","","Benjamin H. Paddock","William Bailey","occasional","intermittent","Salem, Massachusetts",42.5195292,-70.8967226
+"259",1880,"St. Peter's Church","Beverly","Massachusetts","John C. Welwood","Benjamin H. Paddock","William Bailey","occasional","intermittent","Beverly, Massachusetts",42.5584284,-70.8800491
+"260",1860,"Church of the Advent","Boston","Massachusetts","James A. Bolles","Manton Eastburn","Thomas Gallaudet","occasional","intermittent","Boston, Massachusetts",42.3602534,-71.0582912
+"261",1861,"Grace Church","Lawrence","Massachusetts","George Packard","Manton Eastburn","Thomas Gallaudet","occasional","once","Lawrence, Massachusetts",42.7070354,-71.1631137
+"262",1860,"St. Anne's Church","Lowell","Massachusetts","Theodore Edson","Manton Eastburn","Thomas Gallaudet","occasional","once","Lowell, Massachusetts",42.6334247,-71.3161718
+"263",1873,"St. Paul's Church","Flint","Michigan","Marcus Lane","Samuel A. McCoskry","","itinerant","once","Flint, Michigan",43.0161693,-83.6900211
+"264",1874,"St. Paul's Church","Flint","Michigan","Marcus Lane","Samuel A. McCoskry","Austin Mann","regular","intermittent","Flint, Michigan",43.0161693,-83.6900211
+"265",1874,"St. Paul's Church","Jackson","Michigan","John T. Magrath","Samuel A. McCoskry","","occasional","","Jackson, Michigan",42.2416466,-84.425589
+"266",1875,"St. Paul's Church","Flint","Michigan","Marcus Lane","Samuel A. McCoskry","Austin Mann","","","Flint, Michigan",43.0161693,-83.6900211
+"267",1875,"St. Mark's Church","Grand Rapids","Michigan","Samuel Earp","George D. Gillespie","Austin Mann","itinerant","intermittent","Grand Rapids, Michigan",42.9632405,-85.6678639
+"268",1875,"Christ Church","Detroit","Michigan","John W. Brown","Samuel A. McCrosky","Austin Mann","itinerant","intermittent","Detroit, Michigan",42.3315509,-83.0466403
+"269",1875,"St. Paul's Church","Jackson","Michigan","John T. Magrath","Samuel A. McCrosky","Austin Mann","itinerant","intermittent","Jackson, Michigan",42.2416466,-84.425589
+"270",1876,"St. Paul's Church","Flint","Michigan","Marcus Lane","Samuel A. McCoskry","Austin Mann","itinerant","intermittent","Flint, Michigan",43.0161693,-83.6900211
+"271",1876,"St. Mark's Church","Grand Rapids","Michigan","George D.E. Mortimer","George D. Gillespie","Austin Mann","itinerant","intermittent","Grand Rapids, Michigan",42.9632405,-85.6678639
+"272",1876,"St. John's Church","Detroit","Michigan","George Worthington","Samuel A. McCoskry","Austin Mann","itinerant","intermittent","Detroit, Michigan",42.3315509,-83.0466403
+"273",1876,"Zion Church","Pontiac","Michigan","Richard Brass","Samuel A. McCoskry","Austin Mann","Itinerant","once","Pontiac, Michigan",42.6389216,-83.2910468
+"274",1876,"St. Paul's Church","Jackson","Michigan","John T. Magrath","Samuel A. McCoskry","Austin Mann","itinerant","intermittent","Jackson, Michigan",42.2416466,-84.425589
+"275",1877,"St. Paul's Church","Flint","Michigan","Marcus Lane","Samuel A. McCoskry","Austin Mann","Itinerant","intermittent","Flint, Michigan",43.0161693,-83.6900211
+"276",1877,"St. John's Church","Detroit","Michigan","Thomas P. Pitkin","Samuel A. McCoskry","Austin Mann","Itinerant","intermittent","Detroit, Michigan",42.3315509,-83.0466403
+"277",1877,"St. Paul's Church","Jackson","Michigan","John T. Magrath","Samuel A. McCoskry","Austin Mann","itinerant","intermittent","Jackson, Michigan",42.2416466,-84.425589
+"278",1878,"St. Paul's Church","Flint","Michigan","Marcus Lane","Samuel A. McCoskry","Austin Mann","itinerant","intermittent","Flint, Michigan",43.0161693,-83.6900211
+"279",1878,"St. John's Church","Detroit","Michigan","George Worthington","Samuel A. McCoskry","Austin Mann","itinerant","intermittent","Detroit, Michigan",42.3315509,-83.0466403
+"280",1878,"Trinity Church","Niles","Michigan","Robert McMurdy","George D. Gillespie","Austin Mann","Itinerant","intermittent","Niles, Michigan",41.8297694,-86.2541768
+"281",1878,"Emmanuel Church","Hastings","Michigan","Joseph W. Bancroft","George D. Gillespie","Austin Mann","Itinerant","once","Hastings, Michigan",42.6458683,-85.2908404
+"282",1878,"Methodist Church","Coopersville","Michigan","","","Austin Mann","Itinerant","once","Coopersville, Michigan",43.0639112,-85.9347667
+"283",1878,"St. Andrew's Church","Ann Arbor","Michigan","Wyllys Hall","Samuel A. McCoskry","Gallaudet and Mann","promotional","once","Ann Arbor, Michigan",42.2681569,-83.7312291
+"284",1878,"Michigan Institution for Deaf-Mutes","Flint","Michigan","","","Job Turner, Mann","Itinerant","","Flint, Michigan",43.0161693,-83.6900211
+"285",1878,"St. Paul's Church","Jackson","Michigan","Vacant","Samuel A. McCoskry","Austin Mann","itinerant","intermittent","Jackson, Michigan",42.2416466,-84.425589
+"286",1879,"St. John's Church","Detroit","Michigan","George Worthington","Samuel A. McCoskry","Austin Mann","itinerant","intermittent","Detroit, Michigan",42.3315509,-83.0466403
+"287",1879,"St. Paul's Church","Jackson","Michigan","M.A. Johnson","Samuel A. McCoskry","Austin Mann","itinerant","intermittent","Jackson, Michigan",42.2416466,-84.425589
+"288",1879,"St. Paul's Church","Flint","Michigan","Marcus Lane","Samuel A. McCoskry","Austin Mann","itinerant","intermittent","Flint, Michigan",43.0161693,-83.6900211
+"289",1879,"St. Mark's Church","Grand Rapids","Michigan","George D.E. Mortimer","George D. Gillespie","Austin Mann","itinerant","","Grand Rapids, Michigan",42.9632405,-85.6678639
+"290",1879,"Trinity Church","Niles","Michigan","Colin C. Tate","George D. Gillespie","Austin Mann","itinerant","","Niles, Michigan",41.8297694,-86.2541768
+"291",1879,"Trinity Church","Monroe","Michigan","Benjamin T. Hutchins","Samuel A. McCoskry","Austin Mann","itinerant","intermittent","Monroe, Michigan",41.9153358,-83.5135665
+"292",1880,"Trinity Church","Monroe","Michigan","Benjamin T. Hutchins","Samuel A. McCoskry","Mann and Gallaudet","itinerant","intermittent","Monroe, Michigan",41.9153358,-83.5135665
+"293",1880,"St. Mark's Church","Grand Rapids","Michigan","Spruille Burford","George D. Gillespie","Austin Mann","itinerant","once","Grand Rapids, Michigan",42.9632405,-85.6678639
+"294",1880,"St. Paul's Church","East Saginaw","Michigan","Charles DeLancey","Samuel A. McCoskry","Mann and Gallaudet","itinerant","intermittent","East Saginaw, Michigan",43.5359614,-84.0891064
+"295",1880,"","Flushing","Michigan","","","Austin Mann","itinerant","","Flushing, Michigan",43.0630834,-83.8510732
+"296",1880,"St. John's Church","Detroit","Michigan","George Worthington","Samuel A. McCoskry","Gallaudet and Mann","itinerant","","Detroit, Michigan",42.3315509,-83.0466403
+"297",1880,"St. Paul's Church","Flint","Michigan","Marcus Lane","Samuel A. McCoskry","Gallaudet and Mann","itinerant","","Flint, Michigan",43.0161693,-83.6900211
+"298",1880,"Michigan Institution for the Deaf and Dumb","Flint","Michigan","","","Gallaudet and Mann","itinerant","","Flint, Michigan",43.0161693,-83.6900211
+"299",1880,"Zion Church","Pontiac","Michigan","Theophilus J. Brookes","Samuel A. McCoskry","Gallaudet and Mann","itinerant","once","Pontiac, Michigan",42.6389216,-83.2910468
+"300",1880,"St. Paul's Church","Jackson","Michigan","M.A. Johnson","Samuel A. McCoskry","Gallaudet and Mann","itinerant","","Jackson, Michigan",42.2416466,-84.425589
+"301",1880,"St. Luke's Church","Kalamazoo","Michigan","James F. Conover","George D. Gillespie","Gallaudet and Mann","itinerant","once","Kalamazoo, Michigan",42.291707,-85.5872286
+"302",1877,"Gethsemane Church","Minneapolis","Minnesota","David B. Knickerbacker","Henry B. Whipple","Austin Mann","Itinerant","once","Minneapolis, Minnesota",44.9772995,-93.2654692
+"303",1880,"Cathedral of our Merciful Saviour","Fairbault","Minnesota","Henry B. Whipple","Henry B. Whipple","Gallaudet and Mann","itinerant","once","Fairbault, Minnesota",44.98938,-93.376625
+"304",1880,"Minnesota Institution for the Deaf and Dumb","Fairbault","Minnesota","","","Gallaudet and Mann","itinerant","once","Fairbault, Minnesota",44.98938,-93.376625
+"305",1880,"St. Paul's Church","St. Paul","Minnesota","K.S. Thomas","Henry B. Whipple","Gallaudet and Mann","itinerant","once","St. Paul, Minnesota",44.9504037,-93.1015026
+"306",1880,"Gethsemane Church","Minneapolis","Minnesota","David B. Knickerbacker","Henry B. Whipple","Gallaudet and Mann","itinerant","once","Minneapolis, Minnesota",44.9772995,-93.2654692
+"307",1880,"Christ Church","Red Wing","Minnesota","George W. Watson","Henry B. Whipple","Gallaudet and Mann","itinerant","once","Red Wing, Minnesota",44.5624676,-92.5338013
+"308",1878,"Mississippi Institution for Deaf-Mutes","Jackson","Mississippi","","","Job Turner","Itinerant","","Jackson, Mississippi",32.2990384,-90.1847691
+"309",1879,"St. Andrew's Church","Jackson","Mississippi","Joseph L. Tucker","William M. Green","Gallaudet, Turner","itinerant","","Jackson, Mississippi",32.2990384,-90.1847691
+"310",1877,"Christ Church","St. Louis","Missouri","Montgomery Schuyler","Charles F. Robertson","Austin Mann","itinerant","intermittent","St. Louis, Missouri",38.6264178,-90.1998378
+"311",1878,"Christ Church","St. Louis","Missouri","Montgomery Schuyler","Charles F. Robertson","Austin Mann","Itinerant","intermittent","St. Louis, Missouri",38.6264178,-90.1998378
+"312",1879,"Christ Church","St. Louis","Missouri","M. Schuyler","Charles F. Robertson","Delos A. Simpson","regular","biweekly","St. Louis, Missouri",38.6264178,-90.1998378
+"313",1879,"St. George's Church","St. Louis","Missouri","R.A. Holland","Charles F. Robertson","Mann and Gallaudet","promotional","","St. Louis, Missouri",38.6264178,-90.1998378
+"314",1879,"Christ Church","St. Joseph","Missouri","James Runcie","Charles F. Robertson","Mann and Gallaudet","promotional","once","St. Joseph, Missouri",39.7686055,-94.8466322
+"315",1879,"Christ Church","St. Louis","Missouri","M. Schuyler","Charles F. Robertson","Mann and Gallaudet","itinerant","","St. Louis, Missouri",38.6264178,-90.1998378
+"316",1879,"St. George's Church","St. Louis","Missouri","R. A. Holland","Charles F. Robertson","Mann and Gallaudet","promotional","","St. Louis, Missouri",38.6264178,-90.1998378
+"317",1879,"St. Luke's Hospital","St. Louis","Missouri","","","Mann and Gallaudet","promotional","","St. Louis, Missouri",38.6264178,-90.1998378
+"318",1879,"Grace Church","Kansas City","Missouri","Herman Cope Duncan","Charles F. Robertson","Mann and Gallaudet","promotional","once","Kansas City, Missouri",39.100105,-94.5781416
+"319",1879,"Missouri Institution for Deaf-mutes","Fulton","Missouri","","","Austin Mann","itinerant","intermittent","Fulton, Missouri",38.8467082,-91.9479586
+"320",1880,"Christ Church","St. Louis","Missouri","Montgomery Schuyler","Charles F. Robertson","Austin Mann","itinerant","intermittent","St. Louis, Missouri",38.6264178,-90.1998378
+"321",1880,"Christ Church","St. Louis","Missouri","Montgomery Schuyler","Charles F. Robertson","Delos A Simpson","","","St. Louis, Missouri",38.6264178,-90.1998378
+"322",1879,"Nebraska Institution for the Deaf and Dumb","Omaha","Nebraska","","","Mann and Gallaudet","promotional","once","Omaha, Nebraska",41.2587459,-95.9383758
+"323",1879,"Trinity Cathedral","Omaha","Nebraska","Robert H. Clarkson","Robert H. Clarkson","Mann and Gallaudet","promotional","once","Omaha, Nebraska",41.2587459,-95.9383758
+"324",1877,"St. Paul's Church","Concord","New Hampshire","James H. Eames","William W. Niles","Job Turner","Itinerant","intermittent","Concord, New Hampshire",43.207178,-71.537476
+"325",1877,"Church of the Good Shepherd","Nashua","New Hampshire","Jacob Leroy","William W. Niles","Job Turner","Itinerant","once","Nashua, New Hampshire",42.7656251,-71.4677032
+"326",1877,"","West Henniker","New Hampshire","","","Job Turner","Itinerant","once","West Henniker, New Hampshire",43.179645,-71.822433
+"327",1878,"Congregationalist Church","Amherst","New Hampshire","Rev. Dr. Davis","William W. Niles","Chamberlain","promotional","once","Amherst, New Hampshire",42.8642874,-71.6252484
+"328",1878,"Congregational Church","Henniker","New Hampshire","Rev. Mr. Hoffman","","Gallaudet","Itinerant","once","Henniker, New Hampshire",43.179645,-71.822433
+"329",1878,"St. Paul's Church","Concord","New Hampshire","William W. Niles","William W. Niles","Job Turner","Itinerant","","Concord, New Hampshire",43.207178,-71.537476
+"330",1878,"","Henniker","New Hampshire","","","Job Turner","Itinerant","","Henniker, New Hampshire",43.179645,-71.822433
+"331",1879,"Grace Church","Manchester","New Hampshire","Lorenzo Sears","William W. Niles","Job Turner","itinerant","","Manchester, New Hampshire",42.9956397,-71.4547891
+"332",1879,"St. Paul's Church","Concord","New Hampshire","William W. Niles","William W. Niles","Job Turner","itinerant","","Concord, New Hampshire",43.207178,-71.537476
+"333",1879,"Congregational Church","Henniker","New Hampshire","","","Job Turner","itinerant","","Henniker, New Hampshire",43.179645,-71.822433
+"334",1879,"Union Church","Hooksett","New Hampshire","","","Turner and Gallaudet","itinerant","once","Hooksett, New Hampshire",43.096972,-71.465378
+"335",1879,"Church of the Good Shepherd","Nashua","New Hampshire","Jacob LeRoy","William W. Niles","Turner, Gallaudet","itinerant","","Nashua, New Hampshire",42.7656251,-71.4677032
+"336",1880,"Grace Church","Manchester","New Hampshire","Lorenzo Sears","William W. Niles","Chamberlain","itinerant","once","Manchester, New Hampshire",42.9956397,-71.4547891
+"337",1857,"Christ Church","New Brunswick","New Jersey","Alfred Stubbs","George W. Doane","Thomas Gallaudet","itinerant","once","New Brunswick, New Jersey",40.4862174,-74.4518173
+"338",1873,"St. Paul's Church","Paterson","New Jersey","John M. Heffernan","William H. Odenheimer","","","","Paterson, New Jersey",40.9167654,-74.171811
+"339",1875,"Trinity Church","Newark","New Jersey","William W. Newton","William H. Odenheimer","","itinerant","","Newark, New Jersey",40.735657,-74.1723667
+"340",1875,"St. Stephen's Church","Newark","New Jersey","Edward B. Boggs","William H. Odenheimer","","itinerant","","Newark, New Jersey",40.735657,-74.1723667
+"341",1875,"Christ Church","Newark","New Jersey","J. Nicholas Stansbury","William H. Odenheimer","","itinerant","","Newark, New Jersey",40.735657,-74.1723667
+"342",1875,"Christ Church","Newton","New Jersey","W.H. Moffett","William H. Odenheimer","","itinerant","","Newton, New Jersey",41.0582103,-74.7530943
+"343",1876,"Grace Church","Elizabeth","New Jersey","Rev. Mr. Stoddard","John Scarborough","Gallaudet, Chamberlain","Itinerant","intermittent","Elizabeth, New Jersey",40.6639916,-74.2107006
+"344",1876,"Trinity Church","Newark","New Jersey","Rev. Mr. Newton","William H. Odenheimer","Gallaudet, Chamberlain","Itinerant","intermittent","Newark, New Jersey",40.735657,-74.1723667
+"345",1877,"Trinity Church","Elizabeth","New Jersey","F. Marion McAllister","John Scarborough","Gallaudet","promotional","once","Elizabeth, New Jersey",40.6639916,-74.2107006
+"346",1877,"Trinity Church","Newark","New Jersey","J. Houston Eccleston","William H. Odenheimer","Gallaudet","Itinerant","once","Newark, New Jersey",40.735657,-74.1723667
+"347",1877,"Grace Church","Jersey City","New Jersey","Spencer M. Rice","William H. Odenheimer","James Lewis","Itinerant","once","Jersey City, New Jersey",40.7281575,-74.0776417
+"348",1877,"St. John's Church","Elizabeth","New Jersey","William S. Langford","John Scarborough","Gallaudet","promotional","once","Elizabeth, New Jersey",40.6639916,-74.2107006
+"349",1878,"St. John's Church","Newark","New Jersey","George C. Pennell","William H. Odenheimer","George C. Pennell","occasional","bimonthly","Newark, New Jersey",40.735657,-74.1723667
+"350",1878,"Trinity Mission Chapel","Newark","New Jersey","J. Houston Eccleston","William H. Odenheimer","Pennell, Gallaudet","itinerant","once","Newark, New Jersey",40.735657,-74.1723667
+"351",1879,"St. John's Church","Newark","New Jersey","George C. Pennell","William H. Odenheimer","Pennell","regular","biweekly","Newark, New Jersey",40.735657,-74.1723667
+"352",1879,"Trinity Mission Chapel","Newark","New Jersey","J. Houston Eccleston","William H. Odenheimer","Pennell, Gallaudet","regular","biweekly","Newark, New Jersey",40.735657,-74.1723667
+"353",1880,"Trinity Mission Chapel","Newark","New Jersey","J. Houston Eccleston","William H. Odenheimer","George C. Pennell","occasional","intermittent","Newark, New Jersey",40.735657,-74.1723667
+"354",1880,"","","New Jersey","","","Syle","","",", New Jersey",NA,NA
+"355",1860,"St. Stephen's Church","Milburn","New Jersey","George C. Pennell","William H. Odenheimer","Thomas Gallaudet","occasional","once","Milburn, New Jersey",40.7247515,-74.2995152
+"356",1850,"St. Stephen's Church","New York City","New York","Rev. Dr. Price","John Mayhew Wainwright","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"357",1850,"School Room, 59 Bond St.","New York City","New York","Thomas Gallaudet","John Mayhew Wainwright","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"358",1851,"School Room, 59 Bond St.","New York City","New York","Thomas Gallaudet","John Mayhew Wainwright","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"359",1852,"New York University Chapel","New York City","New York","Thomas Gallaudet","John Mayhew Wainwright","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"360",1853,"New York University Chapel","New York City","New York","Thomas Gallaudet","John Mayhew Wainwright","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"361",1854,"New York University Chapel","New York City","New York","Thomas Gallaudet","John Mayhew Wainwright","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"362",1855,"New York University Chapel","New York City","New York","Thomas Gallaudet","Horatio Potter","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"363",1856,"","Mabbettsville","New York","","Horatio Potter","Thomas Gallaudet","itinerant","once","Mabbettsville, New York",41.7925937,-73.6595723
+"364",1856,"St. Thomas' Church","Mamaroneck","New York","John M. Ward","Horatio Potter","Thomas Gallaudet","itinerant","once","Mamaroneck, New York",40.9487097,-73.7326309
+"365",1856,"New York University Chapel","New York City","New York","Thomas Gallaudet","Horatio Potter","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"366",1856,"","Watervliet","New York","","Horatio Potter","Thomas Gallaudet","itinerant","once","Watervliet, New York",42.7300784,-73.7012299
+"367",1857,"Presbyterian Church","Mexico","New York","","Horatio Potter","Thomas Gallaudet","itinerant","once","Mexico, New York",35.0586534,-107.527271
+"368",1857,"private residence","New York City","New York","","Horatio Potter","Thomas Gallaudet","occasional","once","New York City, New York",40.7127281,-74.0060152
+"369",1857,"New York University Chapel","New York City","New York","Thomas Gallaudet","Horatio Potter","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"370",1857,"New York Historical Society","New York City","New York","Thomas Gallaudet","Horatio Potter","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"371",1858,"New York Historical Society","New York City","New York","Thomas Gallaudet","Horatio Potter","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"372",1858,"St. Peter's Church","Albany","New York","Thomas C. Pitkin","Horatio Potter","Thomas Gallaudet","promotional","once","Albany, New York",40.7127281,-74.0060152
+"373",1858,"St. Peter's Church","Albany","New York","Thomas C. Pitkin","Horatio Potter","Thomas Gallaudet","itinerant","once","Albany, New York",40.7127281,-74.0060152
+"374",1858,"St. John's Church","Buffalo","New York","William B. Ashley","William H. De Lancey","Thomas Gallaudet","promotional","once","Buffalo, New York",42.8867166,-78.8783922
+"375",1858,"St. John's Church","Buffalo","New York","William B. Ashley","William H. De Lancey","Thomas Gallaudet","itinerant","once","Buffalo, New York",42.8867166,-78.8783922
+"376",1859,"New York Historical Society","New York City","New York","Thomas Gallaudet","Horatio Potter","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"377",1859,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"378",1859,"St. Paul's Church","Albany","New York","William Rudder","Horatio Potter","Thomas Gallaudet","","","Albany, New York",40.7127281,-74.0060152
+"379",1860,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"380",1861,"St. Paul's Church","Albany","New York","William Rudder","Horatio Potter","Thomas Gallaudet","regular","intermmittent","Albany, New York",40.7127281,-74.0060152
+"381",1861,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"382",1862,"St. Paul's Church","Albany","New York","William Rudder","Horatio Potter","Thomas Gallaudet","regular","intermmittent","Albany, New York",40.7127281,-74.0060152
+"383",1863,"St. Paul's Church","Albany","New York","William Rudder","Horatio Potter","Thomas Gallaudet","regular","intermmittent","Albany, New York",40.7127281,-74.0060152
+"384",1862,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"385",1863,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"386",1864,"St. Paul's Church","Albany","New York","J. Livingston Reese","Horatio Potter","Thomas Gallaudet","regular","monthly","Albany, New York",40.7127281,-74.0060152
+"387",1864,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"388",1865,"St. Paul's Church","Albany","New York","J. Livingston Reese","Horatio Potter","Gallaudet, Benjamin","regular","monthly","Albany, New York",40.7127281,-74.0060152
+"389",1865,"St. Paul's Church","Syracuse","New York","George M. Hills","Arthur C. Coxe","Gallaudet, Pennell","itinerant","once","Syracuse, New York",43.0481221,-76.1474244
+"390",1865,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"391",1865,"Grace Church","Buffalo","New York","George C. Pennell","Arthur C. Coxe","George C. Pennell","regular","monthly","Buffalo, New York",42.8867166,-78.8783922
+"392",1865,"Grace Church","Rochester","New York","Israel Foote","Arthur C. Coxe","George C. Pennell","itinerant","once","Rochester, New York",43.157285,-77.615214
+"393",1865,"Zion Church","Palmyra","New York","John Leech","Arthur C. Coxe","George C. Pennell","itinerant","once","Palmyra, New York",43.0623754,-77.2347245
+"394",1866,"St. Paul's Church","Albany","New York","J. Livingston Reese","Horatio Potter","Gallaudet, Benjamin","regular","monthly","Albany, New York",40.7127281,-74.0060152
+"395",1866,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"396",1866,"Grace Church","Buffalo","New York","George C. Pennell","Arthur C. Coxe","George C. Pennell","regular","monthly","Buffalo, New York",42.8867166,-78.8783922
+"397",1867,"St. Paul's Church","Albany","New York","J. Livingston Reese","Horatio Potter","Gallaudet, Benjamin","regular","monthly","Albany, New York",40.7127281,-74.0060152
+"398",1867,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"399",1867,"Grace Church","Buffalo","New York","Charles G. Gilliat","Arthur C. Coxe","George C. Pennell","regular","monthly","Buffalo, New York",42.8867166,-78.8783922
+"400",1868,"St. Paul's Church","Albany","New York","J. Livingston Reese","Horatio Potter","Gallaudet, Benjamin","regular","monthly","Albany, New York",40.7127281,-74.0060152
+"401",1868,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"402",1868,"Grace Church","Buffalo","New York","Charles G. Gilliat","Arthur C. Coxe","George C. Pennell","regular","monthly","Buffalo, New York",42.8867166,-78.8783922
+"403",1869,"St. Paul's Church","Albany","New York","J. Livingston Reese","William C. Doane","Gallaudet, Benjamin","regular","monthly","Albany, New York",40.7127281,-74.0060152
+"404",1869,"St. John's Church","Ithaca","New York","John W. Payne","Frederic D. Huntington","Thomas Gallaudet","itinerant","once","Ithaca, New York",42.4396039,-76.4968019
+"405",1869,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"406",1870,"St. Paul's Church","Albany","New York","J. Livingston Reese","William C. Doane","Gallaudet, Benjamin","regular","monthly","Albany, New York",40.7127281,-74.0060152
+"407",1870,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"408",1871,"St. Paul's Church","Albany","New York","J. Livingston Reese","William C. Doane","Gallaudet, Benjamin","regular","monthly","Albany, New York",40.7127281,-74.0060152
+"409",1871,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"410",1872,"St. Paul's Church","Albany","New York","J. Livingston Reese","William C. Doane","Gallaudet, Benjamin","regular","monthly","Albany, New York",40.7127281,-74.0060152
+"411",1872,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Thomas Gallaudet","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"412",1872,"St. Paul's Chapel","Troy","New York","Walker Gwynne","William C. Doane","","","","Troy, New York",40.7402557,-74.0055355
+"413",1873,"Grace Church","Mexico","New York","George H. Watson","Frederic D. Huntington","","","","Mexico, New York",35.0586534,-107.527271
+"414",1873,"Trinity Church","Watertown","New York","Leigh R. Brewer","Frederic D. Huntington","","","","Watertown, New York",43.9747838,-75.9107565
+"415",1873,"Grace Church","Watertown","New York","John A. Staunton","Frederic D. Huntington","","","","Watertown, New York",43.9747838,-75.9107565
+"416",1873,"Grace Church","Syracuse","New York","Thomas Pattison","Frederic D. Huntington","","","","Syracuse, New York",43.0481221,-76.1474244
+"417",1873,"Trinity Church","Syracuse","New York","J.E. Pratt","Frederic D. Huntington","","","","Syracuse, New York",43.0481221,-76.1474244
+"418",1873,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Gallaudet, Chamberlain","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"419",1873,"St. Paul's Church","Albany","New York","J. Livingston Reese","William C. Doane","Thomas B. Berry","regular","monthly","Albany, New York",40.7127281,-74.0060152
+"420",1873,"St. Paul's Chapel","Troy","New York","Walker Gwynne","William C. Doane","","","","Troy, New York",40.7402557,-74.0055355
+"421",1873,"St. Mark's Church","Tarrytown","New York","Edmund Guilbert","Horatio Potter","","","","Tarrytown, New York",41.065586,-73.8673293
+"422",1873,"St. Peter's Church","Portchester","New York","Brockholst Morgan","Horatio Potter","","","","Portchester, New York",41.6351571,-73.5656318
+"423",1873,"Zion Church","Rome","New York","Hugh L.M. Clarke","Frederic D. Huntington","","","","Rome, New York",43.2128473,-75.4557304
+"424",1873,"Trinity Church","Geneva","New York","William S. Perry","Arthur C. Coxe","","","","Geneva, New York",42.8690271,-76.9786122
+"425",1873,"St. Luke's Church","Rochester","New York","Henry Anstice","Arthur C. Coxe","","","","Rochester, New York",43.157285,-77.615214
+"426",1873,"Christ Church","Rochester","New York","W.W. Battershall","Arthur C. Coxe","","","","Rochester, New York",43.157285,-77.615214
+"427",1873,"Christ Church","Buffalo","New York","O. Witherspoon","Arthur C. Coxe","","","","Buffalo, New York",42.8867166,-78.8783922
+"428",1873,"St. Mary's Church","New York City","New York","Charles S. Knapp","Horatio Potter","","","","New York City, New York",40.7127281,-74.0060152
+"429",1873,"Church of the Messiah","New York City","New York","William H. Josephus","Horatio Potter","","","","New York City, New York",40.7127281,-74.0060152
+"430",1874,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Gallaudet, Chamberlain","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"431",1874,"St. Paul's Church","Albany","New York","J. Livingston Reese","William C. Doane","Thomas B. Berry","regular","monthly","Albany, New York",40.7127281,-74.0060152
+"432",1874,"St. Mary's Church","New York City","New York","Daniel V.M. Johnson","Abram N. Littlejohn","","occasional","","New York City, New York",40.7127281,-74.0060152
+"433",1874,"Christ Church","Rochester","New York","Walton W. Battershall","Arthur C. Coxe","John C. Acker, Gallaudet, Berry","regular","","Rochester, New York",43.157285,-77.615214
+"434",1874,"St. Paul's Chapel","Troy","New York","Walker Gwynne","William C. Doane","Thomas Berry","regular","monthly","Troy, New York",40.7402557,-74.0055355
+"435",1874,"Grace Church","Mexico","New York","Benjamin T. Hall","Frederic D. Huntington","","occasional","","Mexico, New York",35.0586534,-107.527271
+"436",1874,"St. James' Church","Syracuse","New York","Joseph M. Clarke","Frederic D. Huntington","","occasional","","Syracuse, New York",43.0481221,-76.1474244
+"437",1874,"Grace Church","Cherry Valley","New York","Henry H. Oberly","William C. Doane","","occasional","","Cherry Valley, New York",42.7956295,-74.7532018
+"438",1874,"Good Shepherd","Canajoharie","New York","R. Andrews Poole","William C. Doane","","occasional","","Canajoharie, New York",42.9056288,-74.5718073
+"439",1874,"Trinity Church","Potsdam","New York","Henry R. Howard","William C. Doane","","occasional","","Potsdam, New York",44.6697996,-74.9813349
+"440",1874,"Christ Church","Buffalo","New York","Orlando Witherspoon","Arthur C. Coxe","","occasional","","Buffalo, New York",42.8867166,-78.8783922
+"441",1874,"St. Mark's Church","Tarrytown","New York","Edmund Guilbert","Horatio Potter","","occasional","","Tarrytown, New York",41.065586,-73.8673293
+"442",1875,"Trinity Church","Watertown","New York","Leigh R. Brewer","Frederic D. Huntington","Gallaudet and Berry","promotional","once","Watertown, New York",43.9747838,-75.9107565
+"443",1875,"St. Paul's Church","Albany","New York","J. Livingston Reese","William C. Doane","Gallaudet ","regular","quarterly","Albany, New York",40.7127281,-74.0060152
+"444",1875,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Gallaudet, Chamberlain","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"445",1875,"St. Mary's Church","New York City","New York","Daniel V.M. Johnson","Abram N. Littlejohn","Gallaudet, Chamberlain, Wells, Lewis","regular","monthly","New York City, New York",40.7127281,-74.0060152
+"446",1875,"private residences","New York City","New York","","Horatio Potter","James Lewis","occasional","intermittent","New York City, New York",40.7127281,-74.0060152
+"447",1875,"St. Mary's Church","New York City","New York","Christopher S. Stephenson","Horatio Potter","","itinerant","","New York City, New York",40.7127281,-74.0060152
+"448",1875,"St. Luke's Church","Rochester","New York","Henry Anstice","Arthur C. Coxe","John C. Acker","regular","weekly","Rochester, New York",43.157285,-77.615214
+"449",1875,"Trinity Church","Potsdam","New York","Henry R. Howard","William C. Doane","Thomas B. Berry","itinerant","once","Potsdam, New York",44.6697996,-74.9813349
+"450",1875,"St. Paul's Chapel","Troy","New York","Walker Gwynne","William C. Doane","Thomas Berry","regular","monthly","Troy, New York",40.7402557,-74.0055355
+"451",1875,"Grace Church","Mexico","New York","William L. Parker","Frederic D. Huntington","","itinerant","","Mexico, New York",35.0586534,-107.527271
+"452",1875,"St. Mark's Church","Tarrytown","New York","","Horatio Potter","","itinerant","","Tarrytown, New York",41.065586,-73.8673293
+"453",1875,"St. Mark's Church","New York City","New York","J.H. Rylance","Horatio Potter","","itinerant","","New York City, New York",40.7127281,-74.0060152
+"454",1875,"St. Andrew's Church","New York City","New York","George B. Draper","Horatio Potter","","itinerant","","New York City, New York",40.7127281,-74.0060152
+"455",1876,"St. Paul's Church","Albany","New York","J. Livingston Reese","William C. Doane","Gallaudet","regular","quarterly","Albany, New York",40.7127281,-74.0060152
+"456",1876,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Gallaudet, Chamberlain","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"457",1876,"St. Mary's Church","New York City","New York","Christopher S. Stephenson","Horatio Potter","Gallaudet, Chamberlain","Itinerant","intermittent","New York City, New York",40.7127281,-74.0060152
+"458",1876,"St. Mary's Church","New York City","New York","Daniel V.M. Johnson","Abram N. Littlejohn","Gallaudet, Chamberlain or Lewis","regular","monthly","New York City, New York",40.7127281,-74.0060152
+"459",1876,"private residences","New York City","New York","","Horatio Potter","James Lewis","occasional","intermittent","New York City, New York",40.7127281,-74.0060152
+"460",1876,"Zion Church","Rome","New York","Hugh L.M. Clarke","Frederic D. Huntington","Gallaudet, Chamberlain","Itinerant","intermittent","Rome, New York",43.2128473,-75.4557304
+"461",1876,"St. James Church","New York City","New York","C.B. Smith","Horatio Potter","Gallaudet, Chamberlain","Itinerant","intermittent","New York City, New York",40.7127281,-74.0060152
+"462",1876,"Grace Church","Mexico","New York","Richard M. Hayden","Frederic D. Huntington","Gallaudet, Chamberlain","Itinerant","intermittent","Mexico, New York",35.0586534,-107.527271
+"463",1876,"Trinity Church","Lansingburgh","New York","Byron J. Hall","William C. Doane","Gallaudet, Chamberlain","Itinerant","intermittent","Lansingburgh, New York",42.7845222,-73.6695624
+"464",1876,"St. James Church","Syracuse","New York","Rev. Dr. Clarke","Frederic D. Huntington","Gallaudet, Chamberlain","Itinerant","intermittent","Syracuse, New York",43.0481221,-76.1474244
+"465",1876,"St. Luke's Church","New York City","New York","Jacob W. Diller","Abram N. Littlejohn","Gallaudet, Chamberlain","Itinerant","intermittent","New York City, New York",40.7127281,-74.0060152
+"466",1876,"St. Ann's Church","New York City","New York","Noah H. Schenck","Abram N. Littlejohn","Gallaudet, Chamberlain","Itinerant","intermittent","New York City, New York",40.7127281,-74.0060152
+"467",1876,"Grace Church","New York City","New York","William A. Snively","Abram N. Littlejohn","Gallaudet, Chamberlain","Itinerant","intermittent","New York City, New York",40.7127281,-74.0060152
+"468",1876,"St. Paul's Church","New York City","New York","Albert U. Stanley","Horatio Potter","Gallaudet, Chamberlain","Itinerant","intermittent","New York City, New York",40.7127281,-74.0060152
+"469",1876,"Grace Church","Utica","New York","Rev. Dr. Van Deusen","Frederic D. Huntington","Gallaudet, Chamberlain","Itinerant","intermittent","Utica, New York",43.1009031,-75.2326641
+"470",1876,"St. Mark's Church","New York City","New York","Samuel M. Haskins","Abram N. Littlejohn","Gallaudet, Chamberlain","Itinerant","intermittent","New York City, New York",40.7127281,-74.0060152
+"471",1876,"St. James' Church","New York City","New York","Charles W. Homer","Abram N. Littlejohn","Gallaudet, Chamberlain","Itinerant","intermittent","New York City, New York",40.7127281,-74.0060152
+"472",1876,"Church of the Intercession","New York City","New York","E.W. Donald","Horatio Potter","Gallaudet, Chamberlain","Itinerant","intermittent","New York City, New York",40.7127281,-74.0060152
+"473",1876,"St. Peter's Church","Port Chester","New York","Brockholst Morgan","Horatio Potter","Gallaudet, Chamberlain","Itinerant","intermittent","Port Chester, New York",41.0017643,-73.6656834
+"474",1876,"Trinity Church","Granville","New York","Thomas B. Berry","William C. Doane","Gallaudet, Chamberlain","Itinerant","intermittent","Granville, New York",43.408041,-73.259583
+"475",1876,"Grace Church","Cherry Valley","New York","Reeve Hobbie","William C. Doane","Gallaudet, Chamberlain","Itinerant","intermittent","Cherry Valley, New York",42.7956295,-74.7532018
+"476",1876,"St. Paul's Church","Kinderhook","New York","Newton Dexter","William C. Doane","Gallaudet, Chamberlain","Itinerant","intermittent","Kinderhook, New York",42.3953617,-73.6978983
+"477",1876,"Trinity Church","Potsdam","New York","Henry R. Howard","William C. Doane","George C. Pennell","itinerant","intermittent","Potsdam, New York",44.6697996,-74.9813349
+"478",1876,"St. Luke's Church","Rochester","New York","Henry Anstice","Arthur C. Coxe","John C. Acker","regular","weekly","Rochester, New York",43.157285,-77.615214
+"479",1876,"St. Paul's Church","Troy","New York","Francis Harison","William C. Doane","Thomas Berry","regular","monthly","Troy, New York",40.7402557,-74.0055355
+"480",1877,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Gallaudet, Chamberlain","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"481",1877,"St. Paul's Church","Albany","New York","J. Livingston Reese","William C. Doane","Gallaudet","regular","quarterly","Albany, New York",40.7127281,-74.0060152
+"482",1877,"St. Luke's Church","Rochester","New York","Henry Anstice","Arthur C. Coxe","Gallaudet","itinerant","once","Rochester, New York",43.157285,-77.615214
+"483",1877,"Church of the Intercession","New York City","New York","E. Winchester Donald","Horatio Potter","Gallaudet","occasional","intermittent","New York City, New York",40.7127281,-74.0060152
+"484",1877,"St. Luke's Church","New York City","New York","Isaac H. Tuttle","Horatio Potter","Gallaudet","promotional","once","New York City, New York",40.7127281,-74.0060152
+"485",1877,"Church of the Redeemer","New York City","New York","J.W. Shackelford","Horatio Potter","Gallaudet","promotional","once","New York City, New York",40.7127281,-74.0060152
+"486",1877,"Zion Church","Rome","New York","Hugh L.M. Clarke","Frederic D. Huntington","Gallaudet and Mann","Itinerant","once","Rome, New York",43.2128473,-75.4557304
+"487",1877,"Trinity Church","Granville","New York","Thomas B. Berry","William C. Doane","Gallaudet, Berry","occasional","intermittent","Granville, New York",43.408041,-73.259583
+"488",1877,"St. Mary's Church","New York City","New York","Charles C. Adams","Horatio Potter","Gallaudet, Chamberlain","Itinerant","intermittent","New York City, New York",40.7127281,-74.0060152
+"489",1877,"St. Mary's Church","New York City","New York","Daniel V.M. Johnson","Abram N. Littlejohn","Gallaudet, Chamberlain, Lewis","regular","monthly","New York City, New York",40.7127281,-74.0060152
+"490",1877,"Grace Church","Elmira","New York","Francis D. Hoskins","Frederic D. Huntington","Gallaudet, Mann, Turner","Itinerant","once ","Elmira, New York",42.0897965,-76.8077338
+"491",1877,"Trinity Church","Potsdam","New York","Henry R. Howard","William C. Doane","George C. Pennell","occasional","intermittent","Potsdam, New York",44.6697996,-74.9813349
+"492",1877,"private residences","New York City","New York","","","James Lewis","occasional","intermittent","New York City, New York",40.7127281,-74.0060152
+"493",1877,"","New York City","New York","","","Job Turner","Itinerant","intermittent","New York City, New York",40.7127281,-74.0060152
+"494",1877,"St Paul's Church","Owego","New York","James H. Kidder","Frederic D. Huntington","Job Turner","Itinerant","once","Owego, New York",42.1033319,-76.2621898
+"495",1877,"St. Luke's Church","Rochester","New York","Henry Anstice","Arthur C. Coxe","John C. Acker","regular","weekly","Rochester, New York",43.157285,-77.615214
+"496",1877,"St. James' Church","Pulaski","New York","James P. Foster","Frederic D. Huntington","Mann and Gallaudet","promotional","once","Pulaski, New York",43.567014,-76.127703
+"497",1877,"St. Paul's Church","Troy","New York","Francis Harison","William C. Doane","Thomas Berry","regular","monthly","Troy, New York",40.7402557,-74.0055355
+"498",1878,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Gallaudet, Chamberlain, Lewis","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"499",1878,"St. Paul's Church","Albany","New York","J. Livingston Reese","William C. Doane","Gallaudet","regular","quarterly","Albany, New York",40.7127281,-74.0060152
+"500",1878,"St. Paul's Church","Troy","New York","Francis Harrison","William C. Doane","Gallaudet","","","Troy, New York",40.7402557,-74.0055355
+"501",1878,"Trinity Church","Geneva","New York","Henry W. Nelson Jr.","Arthur C. Coxe","Gallaudet","itinerant","intermittent","Geneva, New York",42.8690271,-76.9786122
+"502",1878,"St. Ann's Church","New York City","New York","Noah H. Schenck","Abram N. Littlejohn","Gallaudet","regular","monthly","New York City, New York",40.7127281,-74.0060152
+"503",1878,"Christ Church","New York City","New York","Alfred H. Partridge","Abram N. Littlejohn","Gallaudet","occasional","monthly","New York City, New York",40.7127281,-74.0060152
+"504",1878,"Zion Church","Rome","New York","Hugh L.M. Clarke","Frederic D. Huntington","Gallaudet","Itinerant","intermittent","Rome, New York",43.2128473,-75.4557304
+"505",1878,"St. Luke's Church","New York City","New York","Isaac H. Tuttle","Horatio Potter","Gallaudet","promotional","once","New York City, New York",40.7127281,-74.0060152
+"506",1878,"St John's Church","Cohoes","New York","Walker Gwynne","William C. Doane","Gallaudet","Itinerant","once","Cohoes, New York",42.7742446,-73.7001187
+"507",1878,"Christ Church","Ballston Spa","New York","Walter Delafield","William C. Doane","Gallaudet","Itinerant","once","Ballston Spa, New York",43.0009087,-73.8490111
+"508",1878,"Church of the Intercession","New York City","New York","Elijah W. Donald","Horatio Potter","Gallaudet","Itinerant","once","New York City, New York",40.7127281,-74.0060152
+"509",1878,"Bethesda Church","Saratoga Springs","New York","Joseph Carey","William C. Doane","Gallaudet","Itinerant","once","Saratoga Springs, New York",43.0821793,-73.7853915
+"510",1878,"Church of the Holy Spirit","New York City","New York","Edmund Guilbert","Horatio Potter","Gallaudet","promotional","once","New York City, New York",40.7127281,-74.0060152
+"511",1878,"St. Peter's Church","Auburn","New York","John Brainard","Frederic D. Huntington","Gallaudet","Itinerant","once","Auburn, New York",42.9320202,-76.5672029
+"512",1878,"All Saints Church","New York City","New York","William N. Dunnell","Horatio Potter","Gallaudet","promotional","once","New York City, New York",40.7127281,-74.0060152
+"513",1878,"St. Paul's Church","New York City","New York","Albert U. Stanley","Horatio Potter","Gallaudet","promotional","once","New York City, New York",40.7127281,-74.0060152
+"514",1878,"Church of the Holy Trinity","New York City","New York","Stephen H. Tyng","Horatio Potter","Gallaudet","promotional","once","New York City, New York",40.7127281,-74.0060152
+"515",1878,"St. Luke's Church","New York City","New York","Jacob W. Diller","Abram N. Littlejohn","Gallaudet","promotional","once","New York City, New York",40.7127281,-74.0060152
+"516",1878,"St. Andrew's Church","New York City","New York","Samuel Earp","Horatio Potter","Gallaudet, Chamberlain, Lewis","regular","monthly","New York City, New York",40.7127281,-74.0060152
+"517",1878,"St. Mary's Church","New York City","New York","Daniel V.M. Johnson","Abram N. Littlejohn","Gallaudet, Chamberlain, Lewis","regular","monthly","New York City, New York",40.7127281,-74.0060152
+"518",1878,"Christ Church","New York City","New York","Lucius W. Bancroft","Abram N. Littlejohn","Gallaudet, Chamberlain, Lewis","regular","monthly","New York City, New York",40.7127281,-74.0060152
+"519",1878,"private residences","New York City","New York","","","James Lewis","occasional","intermittent","New York City, New York",40.7127281,-74.0060152
+"520",1878,"","Rome","New York","","Frederic D. Huntington","Job Turner","Itinerant","","Rome, New York",43.2128473,-75.4557304
+"521",1878,"","New York City","New York","","","Job Turner","Itinerant","","New York City, New York",40.7127281,-74.0060152
+"522",1878,"New York Institution for Deaf Mutes","New York City","New York","","","Job Turner","Itinerant","","New York City, New York",40.7127281,-74.0060152
+"523",1878,"St. Luke's Church","Rochester","New York","Henry Anstice","Arthur C. Coxe","John C. Acker","regular","weekly","Rochester, New York",43.157285,-77.615214
+"524",1878,"Church of the Messiah","Glens Falls","New York","Russell A. Olin","William Croswell Doane","Thomas Gallaudet","Itinerant","once","Glens Falls, New York",43.309941,-73.644447
+"525",1878,"Grace Church","Mexico","New York","Joseph Cross","Frederic D. Huntington","Turner, Gallaudet","Itinerant","intermittent","Mexico, New York",35.0586534,-107.527271
+"526",1878,"St. John's Church","Buffalo","New York","William H. Hughes","Arthur C. Coxe","Mann and Gallaudet","itinerant","intermittent","Buffalo, New York",42.8867166,-78.8783922
+"527",1879,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Gallaudet, Chamberlain, Lewis, Wells","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"528",1878,"John's Church","Buffalo","New York","William M. Hughes","Arthur C. Coxe","Austin Mann","itinerant","","Buffalo, New York",42.8867166,-78.8783922
+"529",1879,"John's Church","Buffalo","New York","William M. Hughes","Arthur C. Coxe","Turner","itinerant","","Buffalo, New York",42.8867166,-78.8783922
+"530",1879,"Church of the Redeemer","Astoria","New York","Edmund D. Cooper","Abram N. Littlejohn","Chamberlain","promotional","once","Astoria, New York",40.7720145,-73.9302673
+"531",1879,"Church of the Holy Comforter","Poughkeepsie","New York","Robert F. Crary","Horatio Potter","Chamberlain","promotional","once","Poughkeepsie, New York",41.7065539,-73.9283672
+"532",1879,"Christ Church","New York City","New York","George D. Johnson","Horatio Potter","Gallaudet","promotional","once","New York City, New York",40.7127281,-74.0060152
+"533",1879,"Church of the Ascension","New York City","New York","C. Ellis Stevens","Abram N. Littlejohn","Gallaudet","itinerant","once","New York City, New York",40.7127281,-74.0060152
+"534",1879,"Trinity Church","Mount Vernon","New York","Stephen F. Holmes","Horatio Potter","Gallaudet","promotional","once","Mount Vernon, New York",40.9125815,-73.8370786
+"535",1879,"Zion Church","Dobbs Ferry","New York","George B. Reese Jr.","Horatio Potter","Gallaudet","promotional","once","Dobbs Ferry, New York",41.0110045,-73.8714145
+"536",1879,"Church of the Intercession","New York City","New York","E. Winchester Donald","Horatio Potter","Gallaudet","itinerant","once","New York City, New York",40.7127281,-74.0060152
+"537",1879,"Trinity Church","Asbury Park","New Jersey","William H Capers","John Scarborough","Gallaudet","promotional","","Asbury Park, New Jersey",40.2203907,-74.0120817
+"538",1879,"Bethesda Church","Saratoga Springs","New York","Joseph Carey","William C. Doane","Gallaudet and Mann","Itinerant","once","Saratoga Springs, New York",43.0821793,-73.7853915
+"539",1879,"St. Luke's Church","Rochester","New York","Henry Anstice","Arthur C. Coxe","John C. Acker","regular","weekly","Rochester, New York",43.157285,-77.615214
+"540",1879,"St. Ann's Church","New York City","New York","Noah H. Schenck","Abram N. Littlejohn","Lewis","regular","monthly","New York City, New York",40.7127281,-74.0060152
+"541",1879,"St. Paul's Church","Albany","New York","Rev. J. Livingston Reese","William C. Doane","Lewis","regular","quarterly","Albany, New York",40.7127281,-74.0060152
+"542",1879,"St. Andrew's Church","New York City","New York","Francis Lobdell","Horatio Potter","Lewis, Chamberlain","regular","monthly","New York City, New York",40.7127281,-74.0060152
+"543",1879,"Trinity Church","Buffalo","New York","Edward Ingersoll","Arthur C. Coxe","Mann and Gallaudet","itinerant","once","Buffalo, New York",42.8867166,-78.8783922
+"544",1879,"Trinity Church","Geneva","New York","H.W. Nelson","Arthur C. Coxe","Turner","itinerant","","Geneva, New York",42.8690271,-76.9786122
+"545",1879,"St. James' Church","Syracuse","New York","Joseph M. Clarke","Frederic D. Huntington","Turner","itinerant","","Syracuse, New York",43.0481221,-76.1474244
+"546",1879,"Grace Church","Mexico","New York","F.B.A. Lewis","Frederic D. Huntington","Turner","itinerant","","Mexico, New York",35.0586534,-107.527271
+"547",1879,"Grace Church","Watertown","New York","George T. LeBoutillier","Frederic D. Huntington","Turner","itinerant","","Watertown, New York",43.9747838,-75.9107565
+"548",1879,"Trinity Church","Potsdam","New York","Henry R. Howard","William C. Doane","Turner","itinerant","","Potsdam, New York",44.6697996,-74.9813349
+"549",1879,"Grace Church","New York City","New York","D. Brainerd","Horatio Potter","","promotional","once","New York City, New York",40.7127281,-74.0060152
+"550",1879,"Christ Church","New York City","New York","Lucius W. Bancroft","Abram N. Littlejohn","Lewis, Chamberlain","regular","monthly","New York City, New York",40.7127281,-74.0060152
+"551",1879,"St. Paul's Church","Troy","New York","Francis Harison","William C. Doane","","regular","weekly","Troy, New York",40.7402557,-74.0055355
+"552",1880,"St. Ann's Church","New York City","New York","Thomas Gallaudet","Horatio Potter","Gallaudet, Chamberlain, Lewis, Turner","regular","weekly","New York City, New York",40.7127281,-74.0060152
+"553",1880,"Church of the Intercession","New York City","New York","E. Winchester Donald","Horatio Potter","Chamberlain","itinerant","once","New York City, New York",40.7127281,-74.0060152
+"554",1880,"St. Andrew's Church","New York City","New York","Francis Lobdell","Horatio Potter","Chamberlain","regular","monthly","New York City, New York",40.7127281,-74.0060152
+"555",1880,"St. John's Chapel","New York City","New York","Sullivan H. Weston","Horatio Potter","Gallaudet","promotional","once","New York City, New York",40.7127281,-74.0060152
+"556",1880,"Christ Church","New York City","New York","Alfred H. Partridge","Abram N. Littlejohn","Gallaudet","itinerant","once","New York City, New York",40.7127281,-74.0060152
+"557",1880,"St. Ann's Church","New York City","New York","William A. Schenck","Abram N. Littlejohn","Gallaudet","itinerant","once","New York City, New York",40.7127281,-74.0060152
+"558",1880,"Trinity Church","Asbury Park","New Jersey","William H. Capers","John Scarborough","Gallaudet","","","Asbury Park, New Jersey",40.2203907,-74.0120817
+"559",1880,"Bethesda Church","Saratoga Springs","New York","Joseph Carey","William C. Doane","Gallaudet","itinerant","once","Saratoga Springs, New York",43.0821793,-73.7853915
+"560",1880,"St. James' Church","Goshen","New York","William H.D. Grannis","Horatio Potter","Gallaudet","itinerant","once","Goshen, New York",41.4020382,-74.3243191
+"561",1880,"","Quarryville","New York","","","George W. Schutt","occasional","intermittent","Quarryville, New York",42.1198121,-73.9870797
+"562",1880,"St. Paul's Church","Albany","New York","J. Livingston Reese","William C. Doane","George W. Schutt","occasional","quarterly","Albany, New York",40.7127281,-74.0060152
+"563",1880,"St. John's Church","Kingston","New York","C. William Camp","Horatio Potter","George W. Schutt","occasional","intermittent","Kingston, New York",41.9287812,-74.0023702
+"564",1880,"St. George's Church","Newburgh","New York","John Brown","Horatio Potter","George W. Schutt","occasional","intermittent","Newburgh, New York",41.5034271,-74.0104179
+"565",1880,"The Hall","Whiteport","New York","","","George W. Schutt","occasional","intermittent","Whiteport, New York",41.8823148,-74.0551409
+"566",1880,"Trinity Church","Saugerties","New York","Thomas Cole","Horatio Potter","George W. Schutt","occasional","intermittent","Saugerties, New York",42.0775906,-73.9529126
+"567",1880,"St. John's Church","Canterbury","New York","William E. Snowden","Horatio Potter","George W. Schutt","occasional","intermittent","Canterbury, New York",39.9839869,-76.7096887
+"568",1880,"Church of the Holy Comforter","Poughkeepsie","New York","Robert F. Crary","Horatio Potter","George W. Schutt","occasional","intermittent","Poughkeepsie, New York",41.7065539,-73.9283672
+"569",1880,"St Mark's Church","Tarrytown","New York","John F. Herrlich","Horatio Potter","George W. Schutt","occasional","intermittent","Tarrytown, New York",41.065586,-73.8673293
+"570",1880,"St. Barnabas Chapel","Stottville","New York","William B. Reynolds","William C. Doane","George W. Schutt","occasional","intermittent","Stottville, New York",42.291795,-73.7512588
+"571",1880,"St. Luke's Church","Rochester","New York","Henry Anstice","Arthur C. Coxe","John C. Acker","regular","weekly","Rochester, New York",43.157285,-77.615214
+"572",1880,"St. Paul's Church","Troy","New York","Francis Harison","William C. Doane","Mrs. Gould","","","Troy, New York",40.7402557,-74.0055355
+"573",1859,"Christ Church","Binghamton","New York","Amos B. Beach","William H. De Lancey","Thomas Gallaudet","promotional","once","Binghamton, New York",42.096968,-75.914341
+"574",1859,"Christ Church","Binghamton","New York","Amos B. Beach","William H. De Lancey","Thomas Gallaudet","itinerant","once","Binghamton, New York",42.096968,-75.914341
+"575",1859,"Christ Church","Hudson","New York","William Watson","Horatio Potter","Thomas Gallaudet","promotional","once","Hudson, New York",42.2528649,-73.790959
+"576",1859,"Christ Church","Hudson","New York","William Watson","Horatio Potter","Thomas Gallaudet","itinerant","once","Hudson, New York",42.2528649,-73.790959
+"577",1859,"St. Paul's Church","Oxford","New York","David H. Macurdy","William H. De Lancey","Thomas Gallaudet","promotional","once","Oxford, New York",42.4420181,-75.5976855
+"578",1859,"St. Paul's Church","Oxford","New York","David H. Macurdy","William H. De Lancey","Thomas Gallaudet","itinerant","once","Oxford, New York",42.4420181,-75.5976855
+"579",1859,"St. Paul's Church","Oxford","New York","David H. Macurdy","William H. De Lancey","Thomas Gallaudet","itinerant","once","Oxford, New York",42.4420181,-75.5976855
+"580",1859,"St. John's Church","Yonkers","New York","Abraham B. Carter","Horatio Potter","Thomas Gallaudet","promotional","once","Yonkers, New York",40.9312099,-73.8987469
+"581",1859,"St. John's Church","Yonkers","New York","Abraham B. Carter","Horatio Potter","Thomas Gallaudet","itinerant","once","Yonkers, New York",40.9312099,-73.8987469
+"582",1861,"St. Paul's Church","Albany","New York","William Rudder","Horatio Potter","Thomas Gallaudet","occasional","intermittent","Albany, New York",40.7127281,-74.0060152
+"583",1878,"Church of the Good Shepherd","Raleigh","North Carolina","Edward R. Rich","Thomas Atkinson","Job Turner","Itinerant","","Raleigh, North Carolina",35.7803977,-78.6390989
+"584",1878,"St. Peter's Church","Charlotte","North Carolina","Benjamin S. Bronson","Thomas Atkinson","Job Turner","Itinerant","","Charlotte, North Carolina",35.2272086,-80.8430827
+"585",1878,"North Carolina Institution for Deaf-Mutes","Raleigh","North Carolina","","","Job Turner","Itinerant","","Raleigh, North Carolina",35.7803977,-78.6390989
+"586",1879,"St. James' Church","Wilmington","North Carolina","Alfred Watson","Thomas Atkinson","Gallaudet","promotional","once","Wilmington, North Carolina",34.2257282,-77.9447107
+"587",1879,"St. John's Church","Wilmington","North Carolina","George Patterson","Thomas Atkinson","Gallaudet","promotional","once","Wilmington, North Carolina",34.2257282,-77.9447107
+"588",1879,"St. Mark's Church","Wilmington","North Carolina","Charles O. Brady","Thomas Atkinson","Gallaudet, Turner","itinerant","once","Wilmington, North Carolina",34.2257282,-77.9447107
+"589",1879,"St. Paul's Church","Wilmington","North Carolina","T.M. Ambler","Thomas Atkinson","Gallaudet, Turner","itinerant","","Wilmington, North Carolina",34.2257282,-77.9447107
+"590",1879,"North Carolina Institution for the Deaf and Dumb","Raleigh","North Carolina","","","Gallaudet, Turner","itinerant","","Raleigh, North Carolina",35.7803977,-78.6390989
+"591",1879,"North Carolina Institution for the Deaf and Dumb","Raleigh","North Carolina","","","Gallaudet, Turner","itinerant","","Raleigh, North Carolina",35.7803977,-78.6390989
+"592",1879,"Church of the Good Shepherd","Raleigh","North Carolina","Edward R. Rich","Thomas Atkinson","Turner","itinerant","","Raleigh, North Carolina",35.7803977,-78.6390989
+"593",1879,"Christ Church","Raleigh","North Carolina","M.M. Marshall","Thomas Atkinson","Turner","itinerant","","Raleigh, North Carolina",35.7803977,-78.6390989
+"594",1875,"Trinity Church","Columbus","Ohio","Rufus W. Clark","Thomas A. Jaggar","","itinerant","","Columbus, Ohio",39.9622601,-83.0007065
+"595",1875,"Ohio Institution for Deaf-Mutes","Columbus","Ohio","","","Gallaudet","itinerant","once","Columbus, Ohio",39.9622601,-83.0007065
+"596",1875,"Grace Church","Cleveland","Ohio","A. H. Washburn","Gregory T. Bedell","","itinerant","","Cleveland, Ohio",41.5051613,-81.6934446
+"597",1876,"St. John's Church","Cincinnati","Ohio","Rev. Mr. Morgan","Thomas A. Jaggar","Austin Mann","itinerant","once","Cincinnati, Ohio",39.1014537,-84.5124602
+"598",1876,"Grace Church","Cleveland","Ohio","A. H. Washburn","Gregory T. Bedell","Austin Mann","itinerant","intermittent","Cleveland, Ohio",41.5051613,-81.6934446
+"599",1877,"St. Peter's Church","Delaware","Ohio","John Ufford","Thomas A. Jaggar","Mann and Gallaudet","promotional","once","Delaware, Ohio",40.2317686,-82.9651045
+"600",1877,"Trinity Church","Columbus","Ohio","Rufus W. Clark","Thomas A. Jaggar","Mann and Gallaudet","promotional","once","Columbus, Ohio",39.9622601,-83.0007065
+"601",1877,"Christ Church","Dayton","Ohio","Edward H. Jewett","Thomas A. Jaggar","Mann and Gallaudet","promotional","once","Dayton, Ohio",39.7589478,-84.1916069
+"602",1878,"Christ Church","Dayton","Ohio","Edward H. Jewett","Thomas A. Jaggar","Austin Mann","itinerant","intermittent","Dayton, Ohio",39.7589478,-84.1916069
+"603",1877,"St. John's Church","Cincinnati","Ohio","P.B. Morgan","Thomas A. Jaggar","Mann and Gallaudet","promotional","once","Cincinnati, Ohio",39.1014537,-84.5124602
+"604",1877,"Grace Church","Cleveland","Ohio","George W. Carter","Gregory T. Bedell","Mann and Gallaudet","promotional","","Cleveland, Ohio",41.5051613,-81.6934446
+"605",1878,"St. Peter's Church","Delaware","Ohio","John Ufford","Thomas A. Jaggar","Austin Mann","Itinerant","intermittent","Delaware, Ohio",40.2317686,-82.9651045
+"606",1878,"Grace Church","Cleveland","Ohio","George W. Hinkle","Gregory T. Bedell","Austin Mann","Itinerant","intermittent","Cleveland, Ohio",41.5051613,-81.6934446
+"607",1878,"St. John's Church","Cincinnati","Ohio","P.B. Morgan","Thomas A. Jaggar","Austin Mann","Itinerant","intermittent","Cincinnati, Ohio",39.1014537,-84.5124602
+"608",1878,"Christ Church","Portsmouth","Ohio","F.K. Brooke","Thomas A. Jaggar","Austin Mann","Itinerant","once","Portsmouth, Ohio",38.7316375,-82.9965441
+"609",1878,"St. Paul's Church","Marion","Ohio","Joseph E, Jullian","Gregory T. Bedell","Austin Mann","Itinerant","once","Marion, Ohio",40.5886259,-83.1287349
+"610",1878,"Lutheran Church","Shelby","Ohio","","","Austin Mann","Itinerant","once","Shelby, Ohio",40.881436,-82.6618953
+"611",1878,"St. Paul's Church","Columbus","Ohio","Robert W. Grange","Thomas A. Jaggar","Gallaudet","Itinerant","once","Columbus, Ohio",39.9622601,-83.0007065
+"612",1878,"Grace Church","Mansfield","Ohio","Sherlock A. Bronson","Gregory T. Bedell","Gallaudet","Itinerant","once","Mansfield, Ohio",40.75839,-82.5154471
+"613",1879,"Grace Church","Mansfield","Ohio","Sherlock A. Bronson","Gregory T. Bedell","Austin Mann and Gallaudet","Itinerant","once","Mansfield, Ohio",40.75839,-82.5154471
+"614",1878,"Ohio Institution for Deaf-Mutes","Columbus","Ohio","","","Job Turner","Itinerant","","Columbus, Ohio",39.9622601,-83.0007065
+"615",1878,"St. John's Church","Cincinnati","Ohio","P.B. Morgan","Thomas A. Jaggar","Robert P. McGregor","regular","biweekly","Cincinnati, Ohio",39.1014537,-84.5124602
+"616",1879,"St. Paul's Church","Akron","Ohio","R.L. Ganter","Gregory T. Bedell","Austin Mann","itinerant","intermittent","Akron, Ohio",41.083064,-81.518485
+"617",1879,"St. Paul's Church","Marion","Ohio","Joseph E. Julian","Gregory T. Bedell","Austin Mann","itinerant","once","Marion, Ohio",40.5886259,-83.1287349
+"618",1880,"St. Paul's Church","Marion","Ohio","Joseph E. Julian","Gregory T. Bedell","Austin Mann","itinerant","intermittent","Marion, Ohio",40.5886259,-83.1287349
+"619",1879,"Christ Church","Dayton","Ohio","Vacant","Thomas A. Jaggar","Austin Mann","itinerant","","Dayton, Ohio",39.7589478,-84.1916069
+"620",1879,"St. Peter's Church","Delaware","Ohio","John Ufford","Thomas A. Jaggar","Austin Mann","itinerant","once","Delaware, Ohio",40.2317686,-82.9651045
+"621",1879,"Personal residence","Delaware","Ohio","","","Austin Mann","itinerant","intermittent","Delaware, Ohio",40.2317686,-82.9651045
+"622",1880,"Christ Church","Portsmouth","Ohio","F.K. Brooke","Thomas A. Jaggar","Austin Mann","itinerant","once","Portsmouth, Ohio",38.7316375,-82.9965441
+"623",1879,"Grace Church","Cleveland","Ohio","George W. Hinkle","Gregory T. Bedell","Austin W. Mann","itinerant","intermittent","Cleveland, Ohio",41.5051613,-81.6934446
+"624",1879,"Trinity Church","Cleveland","Ohio","John W. Brown","Gregory T. Bedell","Mann and Gallaudet","promotional","once","Cleveland, Ohio",41.5051613,-81.6934446
+"625",1879,"Trinity Church","Columbus","Ohio","Charles H. Babcock","Thomas A. Jaggar","Mann and Gallaudet","itinerant","","Columbus, Ohio",39.9622601,-83.0007065
+"626",1879,"Ohio Institution for Deaf-Mutes","Columbus","Ohio","","","Mann and Gallaudet","itinerant","once","Columbus, Ohio",39.9622601,-83.0007065
+"627",1880,"Ohio Institution for Deaf-Mutes","Columbus","Ohio","","","Austin Mann","itinerant","once","Columbus, Ohio",39.9622601,-83.0007065
+"628",1879,"St. John's Church","Cincinnati","Ohio","George H. Kinsolving","Thomas A. Jaggar","R.P. McGregor","regular","biweekly","Cincinnati, Ohio",39.1014537,-84.5124602
+"629",1880,"Christ Church","Dayton","Ohio","J.T. Webster","Thomas A. Jaggar","Austin Mann","itinerant","intermittent","Dayton, Ohio",39.7589478,-84.1916069
+"630",1880,"","Mallet Creek","Ohio","","","Austin Mann","itinerant","","Mallet Creek, Ohio",41.1672766,-81.9254167
+"631",1880,"Grace Church","Bellefontaine","Ohio","","","Austin Mann","itinerant","once","Bellefontaine, Ohio",40.3611643,-83.7596557
+"632",1880,"St. Paul's Church","Cincinnati","Ohio","Samuel Benedict","Thomas A. Jaggar","Chamberlain, Mann, Turner","itinerant","once","Cincinnati, Ohio",39.1014537,-84.5124602
+"633",1880,"Grace Church","Cleveland","Ohio","George W. Hinkle","Gregory T. Bedell","Gallaudet and Mann","itinerant","","Cleveland, Ohio",41.5051613,-81.6934446
+"634",1880,"All Saints' Church","Cleveland","Ohio","Lewis W. Burton","Gregory T. Bedell","Austin Mann","itinerant","once","Cleveland, Ohio",41.5051613,-81.6934446
+"635",1880,"Christ Church","Springfield","Ohio","John T. Rose","Thomas A. Jaggar","Austin Mann","itinerant","once","Springfield, Ohio",39.9234046,-83.810138
+"636",1880,"St. Andrew's Church","Elyria","Ohio","Henry H. Morrell","Gregory T. Bedell","Gallaudet and Mann","itinerant","","Elyria, Ohio",41.3673191,-82.1073583
+"637",1880,"Trinity Church","Newark","Ohio","Francis M. Hall","Thomas A. Jaggar","Austin Mann","itinerant","once","Newark, Ohio",40.0581205,-82.4012643
+"638",1880,"St. John's Church","Cincinnati","Ohio","George H. Kinsolving","Thomas A. Jaggar","R.P. McGregor","","","Cincinnati, Ohio",39.1014537,-84.5124602
+"639",1880,"Trinity Church","Columbus","Ohio","Charles H. Babcock","Thomas A. Jaggar","Austin Mann","Itinerant","once","Columbus, Ohio",39.9622601,-83.0007065
+"640",1880,"Methodist Episcopal Church","Kenton","Ohio","","","Austin Mann","Itinerant","once","Kenton, Ohio",40.6478171,-83.6089968
+"641",1880,"St. Paul's Church","Canton","Ohio","Vacant","Gregory T. Bedell","Austin Mann","Itinerant","once","Canton, Ohio",40.7985464,-81.3749508
+"642",1878,"Christ Church","Dayton","Ohio","Edward H. Jewett","Thomas A. Jaggar","Austin Mann","Itinerant","intermittent","Dayton, Ohio",39.7589478,-84.1916069
+"643",1859,"St. Stephen's Church","Philadelphia","Pennsylvania","H.W. Ducachet","Alonzo Potter","Thomas Gallaudet","promotional","once","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"644",1859,"St. Stephen's Church","Philadelphia","Pennsylvania","H.W. Ducachet","Alonzo Potter","Thomas Gallaudet","itinerant","once","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"645",1865,"Calvary Church","Philadelphia","Pennsylvania","Eagan","William B. Stevens","Eagan","regular","weekly","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"646",1866,"Calvary Church","Philadelphia","Pennsylvania","Francis J. Clerc","William B. Stevens","Clerc","regular","weekly","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"647",1866,"Calvary Church","Philadelphia","Pennsylvania","Eagan","William B. Stevens","Eagan","regular","weekly","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"648",1867,"Calvary Church","Philadelphia","Pennsylvania","Francis J. Clerc","William B. Stevens","Clerc","regular","weekly","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"649",1868,"Grace Church","Allentown","Pennsylvania","W.R. Gries","William B. Stevens","Clerc","regular","weekly","Allentown, Pennsylvania",40.6022059,-75.4712794
+"650",1868,"Calvary Church","Philadelphia","Pennsylvania","Francis J. Clerc","William B. Stevens","Clerc","regular","weekly","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"651",1869,"St. Stephen's Church","Philadelphia","Pennsylvania","William Rudder","William B. Stevens","Clerc","regular","weekly","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"652",1870,"St. Stephen's Church","Philadelphia","Pennsylvania","William Rudder","William B. Stevens","Clerc","regular","weekly","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"653",1871,"St. Stephen's Church","Philadelphia","Pennsylvania","William Rudder","William B. Stevens","Clerc","regular","weekly","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"654",1872,"St. Stephen's Church","Philadelphia","Pennsylvania","William Rudder","William B. Stevens","","regular","monthly","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"655",1873,"St. Stephen's Church","Philadelphia","Pennsylvania","William Rudder","William B. Stevens","","regular","monthly","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"656",1873,"Church of the Mediator","Allentown","Pennsylvania","Charles E.D. Griffith","M.A. DeWolfe Howe","","","","Allentown, Pennsylvania",40.6022059,-75.4712794
+"657",1874,"St. Stephen's Church","Philadelphia","Pennsylvania","William Rudder","William B. Stevens","Clerc","regular","monthly","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"658",1874,"Church of the Mediator","Allentown","Pennsylvania","Charles E.D. Griffith","M.A. DeWolfe Howe","Thomas Roberts","regular","intermittent","Allentown, Pennsylvania",40.6022059,-75.4712794
+"659",1875,"St. Stephen's Church","Philadelphia","Pennsylvania","William Rudder","William B. Stevens","Syle","regular","weekly","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"660",1875,"Grace Church","Allentown","Pennsylvania","DeWitt C. Byllesby","M.A. DeWolfe Howe","Thomas Roberts","regular","weekly","Allentown, Pennsylvania",40.6022059,-75.4712794
+"661",1875,"Trinity Church","Pittsburgh","Pennsylvania","William A. Hitchcock","John B. Kerfoot","","itinerant","","Pittsburgh, Pennsylvania",40.4416941,-79.9900861
+"662",1875,"St. Paul's Church","Erie","Pennsylvania","W.H. Mills","John B. Kerfoot","","itinerant","","Erie, Pennsylvania",42.1294712,-80.0852695
+"663",1876,"St. Stephen's Church","Philadelphia","Pennsylvania","William Rudder","William B. Stevens","Syle","regular","weekly","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"664",1876,"Grace Church","Allentown","Pennsylvania","Charles S.M. Stewart","M.A. DeWolfe Howe","Thomas Roberts","regular","weekly","Allentown, Pennsylvania",40.6022059,-75.4712794
+"665",1876,"Trinity Church","Pittsburg","Pennsylvania","William A. Hitchcock","John B. Kerfoot","Mann, Gallaudet","itinerant","once","Pittsburg, Pennsylvania",40.4416941,-79.9900861
+"666",1877,"St. Stephen's Church","Philadelphia","Pennsylvania","William Rudder","William B. Stevens","Syle","regular","weekly","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"667",1877,"Grace Church","Allentown","Pennsylvania","Charles S.M. Stewart","M.A. DeWolfe Howe","Thomas Roberts","regular","weekly","Allentown, Pennsylvania",40.6022059,-75.4712794
+"668",1877,"St. Barnabas Church","Reading","Pennsylvania","W. B. Burk","M.A. DeWolfe Howe","Chamberlain","Itinerant","intermittent","Reading, Pennsylvania",40.335345,-75.9279495
+"669",1877,"St. John's Church","York","Pennsylvania","W.T. Wilson","M.A. DeWolfe Howe","Clerc","occasional","intermittent","York, Pennsylvania",39.962398,-76.727392
+"670",1877,"Trinity Church","Pittsburg","Pennsylvania","William A. Hitchcock","John B. Kerfoot","Mann","Itinerant","intermittent","Pittsburg, Pennsylvania",40.4416941,-79.9900861
+"671",1878,"St. Stephen's Church","Philadelphia","Pennsylvania","William Rudder","William B. Stevens","Syle","regular","weekly","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"672",1878,"Grace Church","Allentown","Pennsylvania","Hugh R. Scott","M.A. DeWolfe Howe","Thomas Roberts","","","Allentown, Pennsylvania",40.6022059,-75.4712794
+"673",1878,"Trinity Church","Pittsburg","Pennsylvania","William A. Hitchcock","John B. Kerfoot","Austin Mann","itinerant","intermittent","Pittsburg, Pennsylvania",40.4416941,-79.9900861
+"674",1878,"","York","Pennsylvania","","","Clerc","","","York, Pennsylvania",39.962398,-76.727392
+"675",1878,"St. Luke's Church","Altoona","Pennsylvania","Allan S. Woodle","M.A. DeWolfe Howe","Gallaudet","Itinerant","once","Altoona, Pennsylvania",40.518681,-78.394736
+"676",1878,"St. Paul's Church","Erie","Pennsylvania","William H. Mills","John B. Kerfoot","Gallaudet and Mann","itinerant","once","Erie, Pennsylvania",42.1294712,-80.0852695
+"677",1878,"","York","Pennsylvania","","","Job Turner","Itinerant","","York, Pennsylvania",39.962398,-76.727392
+"678",1878,"Pennsylvania Institution for Deaf-Mutes","Philadelphia","Pennsylvania","","","Job Turner","Itinerant","","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"679",1879,"Trinity Church","Pittsburg","Pennsylvania","William A. Hitchcock","John B. Kerfoot","Austin Mann","itinerant","","Pittsburg, Pennsylvania",40.4416941,-79.9900861
+"680",1878,"Christ Church","Meadville","Pennsylvania","G.A. Cartensen","John B. Kerfoot","Austin Mann","itinerant","","Meadville, Pennsylvania",41.641445,-80.151449
+"681",1879,"Christ Church","Meadville","Pennsylvania","G.A. Cartensen","John B. Kerfoot","Mann and Gallaudet","itinerant","once","Meadville, Pennsylvania",41.641445,-80.151449
+"682",1879,"St. Stephen's Church","Philadelphia","Pennsylvania","William Rudder","William B. Stevens","Henry W. Syle","regular","weekly","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"683",1879,"Trinity Church","Meadville","Pennsylvania","Rev. Mr. Carstensen","","Mann and Gallaudet","itinerant","one","Meadville, Pennsylvania",41.641445,-80.151449
+"684",1879,"Grace Church","Allentown","Pennsylvania","","M.A. DeWolfe Howe","Thomas S. Roberts","","","Allentown, Pennsylvania",40.6022059,-75.4712794
+"685",1879,"St. John's Church","York","Pennsylvania","H.W. Spalding","M.A. DeWolfe Howe","Turner","itinerant","","York, Pennsylvania",39.962398,-76.727392
+"686",1879,"Pennsylvania School for the Deaf","Philadelphia","Pennsylvania","","","Turner","itinerant","","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"687",1880,"St. Stephen's Church","Philadelphia","Pennsylvania","William Rudder","William B. Stevens","Henry W. Syle","regular","weekly","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"688",1880,"St. John's Church","York","Pennsylvania","H.W. Spalding","M.A. DeWolfe Howe","Chamberlain","promotional","once","York, Pennsylvania",39.962398,-76.727392
+"689",1861,"Church of the Ascension","Philadelphia","Pennsylvania","","","Thomas Gallaudet","occasional","intermittent","Philadelphia, Pennsylvania",39.9527237,-75.1635262
+"690",1880,"Trinity Church","Pittsburgh","Pennsylvania","William A. Hitchcock","John B. Kerfoot","Austin Mann","itinerant","intermittent","Pittsburgh, Pennsylvania",40.4416941,-79.9900861
+"691",1880,"Emmanuel Church","Corry","Pennsylvania","Thomas A. Stevenson","John B. Kerfoot","Austin Mann","itinerant","once","Corry, Pennsylvania",41.920334,-79.640329
+"692",1875,"Grace Church","Providence","Rhode Island","David H. Greer","Thomas M. Clark","","itinerant","","Providence, Rhode Island",41.8239891,-71.4128343
+"693",1877,"","Providence","Rhode Island","","Thomas M. Clark","Job Turner","Itinerant","intermittent","Providence, Rhode Island",41.8239891,-71.4128343
+"694",1877,"","Pawtucket","Rhode Island","","Thomas M. Clark","Job Turner","Itinerant","once","Pawtucket, Rhode Island",41.878711,-71.3825558
+"695",1877,"","Newport","Rhode Island","","Thomas M. Clark","Job Turner","Itinerant","once","Newport, Rhode Island",41.5524614,-71.2703783
+"696",1878,"Zion Church","Newport","Rhode Island","E.H. Kettell","Thomas M. Clark","Gallaudet","Itinerant","once","Newport, Rhode Island",41.5524614,-71.2703783
+"697",1878,"Grace Church","Providence","Rhode Island","Charles H. Wheeler","Thomas M. Clark","Turner and Gallaudet","Itinerant","intermittent","Providence, Rhode Island",41.8239891,-71.4128343
+"698",1879,"St. Barnabas' Church","Providence","Rhode Island","","Thomas M. Clark","Chamberlain","promotional","once","Providence, Rhode Island",41.8239891,-71.4128343
+"699",1879,"Grace Church","Providence","Rhode Island","David H. Greer","Thomas M. Clark","Chamberlain","promotional","once","Providence, Rhode Island",41.8239891,-71.4128343
+"700",1879,"St. James' Church","Woonsocket","Rhode Island","Joseph L. Miller","Thomas M. Clark","Turner","itinerant","","Woonsocket, Rhode Island",42.0028761,-71.5147839
+"701",1878,"Trinity Church","Columbia","South Carolina","Peter J. Shand","William B.W. Howe","Job Turner","Itinerant","","Columbia, South Carolina",38.8897441,-77.0408608
+"702",1878,"St. Phillip's Church","Charleston","South Carolina","John Johnson","William B.W. Howe","Job Turner","Itinerant","","Charleston, South Carolina",32.7876012,-79.9402728
+"703",1878,"South Carolina Institution for Deaf-Mutes","Cedar Spring","South Carolina","","","Job Turner","Itinerant","","Cedar Spring, South Carolina",34.5167799,-82.5305271
+"704",1879,"Grace Church","Charleston","South Carolina","C.C. Pickney","William B.W. Howe","Gallaudet, Turner","itinerant","","Charleston, South Carolina",32.7876012,-79.9402728
+"705",1879,"Church of Advent","Spartanburg","South Carolina","Milnor Jones","William B.W. Howe","Turner","itinerant","","Spartanburg, South Carolina",34.9498007,-81.9320157
+"706",1880,"Calvary Church","Sioux Falls","South Dakota","Thomas B. Berry","William H. Hare","Berry, Gallaudet and Mann","itinerant","once","Sioux Falls, South Dakota",43.549973,-96.7003324
+"707",1879,"St. Mary's Cathedral","Memphis","Tennessee","Charles T. Quintard","Charles T. Quintard","Turner","itinerant","","Memphis, Tennessee",35.1490215,-90.0516285
+"708",1879,"Calvary Church","Memphis","Tennessee","George White","Charles T. Quintard","Turner","itinerant","","Memphis, Tennessee",35.1490215,-90.0516285
+"709",1879,"St. David's Church","Jackson","Tennessee","","","Turner","itinerant","","Jackson, Tennessee",35.6144446,-88.8177418
+"710",1879,"Christ Church","Nashville","Tennessee","W. Graham","Charles T. Quintard","Turner","itinerant","","Nashville, Tennessee",36.1622296,-86.7743531
+"711",1879,"St. John's Church","Knoxville","Tennessee","Thomas Duncan","Charles T. Quintard","Turner","itinerant","","Knoxville, Tennessee",35.9603948,-83.9210261
+"712",1878,"Trinity Church","Galveston","Texas","Stephen M. Bird","Alexander Gregg","Job Turner","Itinerant","","Galveston, Texas",29.299328,-94.7945882
+"713",1878,"Texas Institution for Deaf-Mutes","Austin","Texas","","","Job Turner","Itinerant","","Austin, Texas",30.2711286,-97.7436995
+"714",1868,"St. Michael's Church","Brattleboro","Vermont","Francis W. Smith","William H.A. Bissell","Thomas Gallaudet","itinerant","once","Brattleboro, Vermont",42.8509152,-72.5578678
+"715",1879,"St. Andrew's Church","St. Johnsbury","Vermont","Nathaniel F. Putnam","William H.A. Bissell","Chamberlain","itinerant","once","St. Johnsbury, Vermont",44.4192249,-72.0150951
+"716",1879,"St. John's Church","West Randolph","Vermont","Thomas J. Taylor","William H.A. Bissell","Turner","itinerant","","West Randolph, Vermont",43.925099,-72.666321
+"717",1878,"Trinity Church","Staunton","Virginia","Walter Q. Hullihen","Francis M. Whittle","Job Turner","Itinerant","","Staunton, Virginia",38.1495947,-79.072557
+"718",1878,"St. Paul's Church","Richmond","Virginia","Charles Minnegerode","Francis M. Whittle","Job Turner","Itinerant","","Richmond, Virginia",37.5385087,-77.43428
+"719",1878,"Grace Church","Petersburg","Virginia","Churchill J. Gibson","Francis M. Whittle","Job Turner","Itinerant","","Petersburg, Virginia",37.227928,-77.4019268
+"720",1878,"Christ Church","Norfolk","Virginia","O.S. Barten","Francis M. Whittle","Job Turner","Itinerant","","Norfolk, Virginia",36.8462923,-76.2929252
+"721",1878,"Virginia Institution for Deaf-Mutes","Staunton","Virginia","","","Job Turner","Itinerant","","Staunton, Virginia",38.1495947,-79.072557
+"722",1879,"Virginia Institution","Staunton","Virginia","","","Gallaudet and Turner","itinerant","","Staunton, Virginia",38.1495947,-79.072557
+"723",1879,"Christ Church","Norfolk","Virginia","O.S. Barten","Francis M. Whittle","Gallaudet, Turner","itinerant","","Norfolk, Virginia",36.8462923,-76.2929252
+"724",1879,"Grace Church","Petersburg","Virginia","Churchill J. Gibson","Francis M. Whittle","Turner","itinerant","","Petersburg, Virginia",37.227928,-77.4019268
+"725",1879,"St. Paul's Church","Lynchburg","Virginia","T.M. Carson","Francis M. Whittle","Turner","itinerant","","Lynchburg, Virginia",37.4137536,-79.1422464
+"726",1879,"St. James' Church","Richmond","Virginia","Charles Minnigerode","Francis M. Whittle","Turner","itinerant","","Richmond, Virginia",37.5385087,-77.43428
+"727",1879,"Grace Church","Petersburg","Virginia","Churchill J. Gibson","Francis M. Whittle","Turner","itinerant","","Petersburg, Virginia",37.227928,-77.4019268
+"728",1879,"St. Paul's Church","Richmond","Virginia","Charles Minnigerode","Francis M. Whittle","Turner","itinerant","","Richmond, Virginia",37.5385087,-77.43428
+"729",1879,"Trinity Church","Staunton","Virginia","Walter Q. Hullihen","Francis M. Whittle","Turner, Gallaudet","itinerant","","Staunton, Virginia",38.1495947,-79.072557
+"730",1880,"Monumental Church","Richmond","Virginia","J.G. Armstrong","Francis M. Whittle","Gallaudet","itinerant","once","Richmond, Virginia",37.5385087,-77.43428
+"731",1880,"St. Paul's Church","Richmond","Virginia","Charles Minnigerode","Francis M. Whittle","Gallaudet","itinerant","once","Richmond, Virginia",37.5385087,-77.43428
+"732",1880,"Christ Church","Norfolk","Virginia","O.S. Barten","Francis M. Whittle","Gallaudet","itinerant","once","Norfolk, Virginia",36.8462923,-76.2929252
+"733",1880,"Trinity Church","Staunton","Virginia","Walter Q. Hullihen","Francis M. Whittle","Gallaudet and Turner","itinerant","once","Staunton, Virginia",38.1495947,-79.072557
+"734",1875,"St. Matthew's Church","Wheeling","West Virginia","J.G. Armstrong","John Johns","Austin Mann","itinerant","once","Wheeling, West Virginia",40.0642004,-80.721773
+"735",1878,"St. Matthew's Church","Wheeling ","West Virginia","R. Rush Swope","George W. Peterkin","Job Turner","Itinerant","","Wheeling , West Virginia",40.0642004,-80.721773
+"736",1878,"West Virginia Institution for Deaf-Mutes","Wheeling","West Virginia","","","Job Turner","Itinerant","","Wheeling, West Virginia",40.0642004,-80.721773
+"737",1879,"West Virginia Institution for Deaf-Mutes and the Blind","Romney","West Virginia","","","Gallaudet and Turner","itinerant","once","Romney, West Virginia",39.3419698,-78.7564522
+"738",1879,"Christ Church","Fairmont","West Virginia","George A. Gibbons","George W. Peterkin","Austin Mann","itinerant","once","Fairmont, West Virginia",39.4850848,-80.1425781
+"739",1875,"","Milwaukee","Wisconsin","","Edward R. Welles","Austin Mann","itinerant","intermittent","Milwaukee, Wisconsin",43.0349931,-87.922497
+"740",1876,"All Saints' Church","Milwaukee","Wisconsin","E.W. Spalding","Edward R. Welles","Austin Mann","itinerant","intermittent","Milwaukee, Wisconsin",43.0349931,-87.922497
+"741",1876,"Christ Church","Delavan","Wisconsin","Edward R. Sweetland","Edward R. Welles","Austin Mann","Itinerant","once","Delavan, Wisconsin",42.6330703,-88.6437138
+"742",1876,"St. Paul's Church","Racine","Wisconsin","","Edward R. Welles","Austin Mann","Itinerant","once","Racine, Wisconsin",42.7260523,-87.7825242
+"743",1877,"All Saint's Cathedral","Milwaukee","Wisconsin","E.W. Spalding","Edward R. Welles","Austin Mann","itinerant","intermittent","Milwaukee, Wisconsin",43.0349931,-87.922497
+"744",1878,"All Saint's Cathedral","Milwaukee","Wisconsin","E.W. Spalding","Edward R. Welles","Austin Mann","itinerent","intermittent","Milwaukee, Wisconsin",43.0349931,-87.922497
+"745",1879,"","Milwaukee","Wisconsin","","Edward R. Welles","Berry","","","Milwaukee, Wisconsin",43.0349931,-87.922497
+"746",1879,"Christ Church","Delavan","Wisconsin","Joel Clarke","Edward R. Welles","Berry","","","Delavan, Wisconsin",42.6330703,-88.6437138
+"747",1880,"Trinity Church","Monroe","Wisconsin","Vacant","Edward R. Welles","Gallaudet and Mann","itinerant","","Monroe, Wisconsin",42.6136586,-89.5852052
+"748",1880,"Grace Church","Madison","Wisconsin","Vacant","Edward R. Welles","Gallaudet and Mann","itinerant","once","Madison, Wisconsin",43.074761,-89.3837613
