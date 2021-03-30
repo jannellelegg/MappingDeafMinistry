@@ -31,13 +31,13 @@ MissionsGeocodedCorrected <- read.csv("~/MissionsGeocodedRoughCorrected.csv", st
 
 SchoolsGeocoded <- read.csv("~/SchoolsGeocoded.csv", stringsAsFactors = FALSE)
 
-rr1850 <- read_sf("~/CMDM/USrailshps/RR1850/RR1850WGS84.shp")
-rr1855 <- read_sf("~/CMDM/USrailshps/RR1855/RR1855WGS84.shp")
-rr1860 <- read_sf("~/CMDM/USrailshps/RR1861/RR1861WGS84.shp")
-rr1865 <- read_sf("~/CMDM/USrailshps/RR1861/RR1861WGS84.shp")
-rr1870 <- read_sf("~/CMDM/USrailshps/RR1870/RR1870WGS84.shp")
-rr1875 <- read_sf("~/CMDM/USrailshps/RR1870/RR1870WGS84.shp")
-rr1880 <- read_sf("~/CMDM/USrailshps/RR1870/RR1870WGS84.shp")
+rr1850 <- read_sf("~/USrailshpsFiles/RR1850/RR1850WGS84.shp")
+rr1855 <- read_sf("~/USrailshpsFiles/RR1855/RR1855WGS84.shp")
+rr1860 <- read_sf("~/USrailshpsFiles/RR1861/RR1861WGS84.shp")
+rr1865 <- read_sf("~/USrailshpsFiles/RR1861/RR1861WGS84.shp")
+rr1870 <- read_sf("~/USrailshpsFiles/RR1870/RR1870WGS84.shp")
+rr1875 <- read_sf("~/USrailshpsFiles/RR1870/RR1870WGS84.shp")
+rr1880 <- read_sf("~/USrailshpsFiles/RR1870/RR1870WGS84.shp")
 
 
 Schools1850 <- SchoolsGeocoded %>%
@@ -130,7 +130,7 @@ There has yet to be an effort to explore the geographic development of deaf reli
 
 Signed Protestant Episcopal worship services for adult deaf people were first offered in New York City. Building on the religious instruction many deaf people received in residential deaf schools, a growing group of signing clergy and lay people formed missions in cities between 1850 and 1880. 
 
-Though the Protestant Episcopal Ministry to the deaf is acknowledged for its widespread influence, the scale of this work is best understood spatially. Geographical data, as well as information about services and clergy, was gathered from diocesan reports, parish records, missionary reports, and newspaper articles in an effort to locate the spaces in which deaf people gathered together.  
+Though the Protestant Episcopal Ministry to the deaf is acknowledged for its widespread influence, the scale of this work is best understood spatially. Geographical data, as well as information about services and clergy, was gathered from diocesan reports, parish records, missionary reports, and newspaper articles in an effort to locate the spaces in which deaf people gathered together.^[Should I add a list of the many, many, sources used here?]  
 
 ```{r,  layout="l-body-outset", fig.width=15, fig.height=6, echo= FALSE, fig.cap= "Sites of Signed Services, 1850-1880. View services in five-year increments by selecting and deselecting map layers in the legend. Click on the red circles for information about service locations."}
 leaflet() %>%
@@ -406,8 +406,9 @@ leaflet() %>%
                                   "<b> Location: </b>", place, "<br>"), 
                    group = "1875-1880") %>%
   addLayersControl(
-    overlayGroups = c("1850-1854", "1855-1859", "1860-1864", "1865-1869", "1870-1874", "1875-1880"),
+    baseGroups = c("1850-1854", "1855-1859", "1860-1864", "1865-1869", "1870-1874", "1875-1880"),
     options = layersControlOptions(collapsed = FALSE))
+
 ```
 
 Though signing clergy shared a close relationship with deaf residential schools, a number of them having been employed as instructors prior to church work, there is not a direct relationship between mission site formation and residential deaf schools. Though clergy did visit, proximity to residential deaf schools does not seem to have produced greater frequency of services, nor does it seem to have produced Missions in cities directly adjacent to schools. The focus of signing clergy was on adult deaf people, many of whom lived and worked outside of these centers of learning. 
@@ -592,17 +593,17 @@ leaflet() %>%
                                   "<b> Location: </b>", place, "<br>"),
                    group = "1875-1880") %>%
   addLayersControl(
-    overlayGroups = c("1850-1854", "1855-1859", "1860-1864", "1865-1869", "1870-1874", "1875-1880"),
+    baseGroups = c("1850-1854", "1855-1859", "1860-1864", "1865-1869", "1870-1874", "1875-1880"),
     options = layersControlOptions(collapsed = FALSE))
 ```
-Signed services often coincided with conference events between 1850 and 1880. However these did not frequently become new sites for mission services Rather, it would seem that signed services were a feature of the temporary place-making which occurred with conference events. Further still, mission sites, though varied in frequency, offer further insight on this form of place-making.
+Signed services often coincided with conference events between 1850 and 1880. However these did not frequently become new sites for mission services Rather, it would seem that signed services were a feature of the temporary place-making which occurred with conference events. Further still, mission sites, though varied in frequency, offer further examples on this form of place-making, one which offered more frequent opportunities for local gathering practices.
 
 
 <h3 align="center">Routes and Railways</h3>
 
-The digital map confirms that services were offered in larger cities, emanating from New York City, beginning at the end of the 1850s. As Gallaudet described in 1858, the expansion of transportation options greatly extended the mission field covered by a single worker. In fact, selecting and deselecting annual data reveals that railways served as routes between and among mission sites. The expansion of the mission can be seen plotting a course along railway lines. 
+A distinctive feature of the signing ministry was movement. Though many in the nineteenth and twentieth centuries focused on the movement of hands and bodies in the delivery of signed services, the itinerant clergy frequently moved among and between mission sites. The spread of signed services across geographic space reflects this dynamic mobility and also suggests that the routes of transportation were crucial to the transmission and transplantation of signed services in cities. 
 
-```{r, layout="l-body-outset", fig.width=15, fig.height=6, echo= FALSE, fig.cap= "Map of Mission Sites and Railway Routes, 1850-1880. View sites of signed services and train routes by selecting and deselecting map layers int he legend. Click on red circles for information about service sites.."}
+```{r, layout="l-body-outset", fig.width=15, fig.height=6, echo= FALSE, fig.cap= "Map of Mission Sites and Railway Routes, 1850-1869. View sites of signed services and train routes by selecting and deselecting map layers in the legend. Click on red circles for information about service sites."}
 
 leaflet() %>%
   addProviderTiles(providers$CartoDB.PositronNoLabels) %>%
@@ -706,7 +707,7 @@ leaflet() %>%
                color = "grey",
                weight = 2,
                group = "1865-1869") %>%
-  ## addPolylines(data = rr1870, 
+ ## addPolylines(data = rr1870, 
      ##         color = "grey",
     ##          weight = 2,
     ##          group = "1870-1875") %>%
@@ -715,23 +716,76 @@ leaflet() %>%
      ##          weight = 2,
      ##          group = "1875-1880") %>%
   addLayersControl(
-    overlayGroups = c("1850-1854", "1855-1859", "1860-1864", "1865-1869", "1870-1874", "1875-1880"),
+    baseGroups = c("1850-1854", "1855-1859", "1860-1864", "1865-1869", "1870-1874", "1875-1880"),
     options = layersControlOptions(collapsed = FALSE))
 
 ```
 
-Mapping these early missions has revealed a network of deaf religious expression. The railway lines, crisscrossing the US were routes upon which deaf clergy and laity circulated their faith, their language, and their experiences. The map reveals several features about the emergence of sites of deaf religious expression. It reveals the mobilization of signing church workers in an ever-widening mission field and contextualizes that growth among and between temporary and permanent sites of gathering for deaf community members. It also serves as an indicator of the relays and routes navigated by members of the deaf ministry. The circulation of signing workers over space and time formed networks of exchange of information, language, support and faith. In short, visualizing this data geospatially highlights both “the means and the men” required to form and sustain the Church Mission to Deaf Mutes.
+```{r, layout="l-body-outset", fig.width=15, fig.height=6, echo= FALSE, fig.cap= "Map of Mission Sites and Railway Routes, 1870-1880. View sites of signed services and train routes by selecting and deselecting map layers in the legend. Click on red circles for information about service sites."}
+
+leaflet() %>%
+  addProviderTiles(providers$CartoDB.PositronNoLabels) %>%
+  addCircleMarkers(data = Missions1870,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#73000F',
+                   weight = 1,
+                   radius = 4,
+                   stroke = FALSE,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1870-1874") %>%
+  addCircleMarkers(data = Missions1875,
+                   lng = ~lng, 
+                   lat = ~lat, 
+                   color = '#73000F',
+                   weight = 1,
+                   radius = 4,
+                   stroke = FALSE,
+                   popup = ~paste("<b> Place: </b>", facility, "<br>",
+                                  "<b> Location: </b>", place, "<br>",
+                                  "<b> Mission Worker: </b>", cmdmWorker, "<br>",
+                                  "<b> Rector: </b>", facilityClergy, "<br>",
+                                  "<b> Bishop: </b>", bishop, "<br>",
+                                  "<b> Service Regularity: </b>", serviceRegularity),
+                   group = "1875-1880") %>%
+  addPolylines(data = rr1870, 
+               color = "grey",
+               weight = 2,
+               group = "1870-1875") %>%
+  addPolylines(data = rr1875, 
+              color = "grey",
+              weight = 2,
+              group = "1875-1880") %>%
+  addLayersControl(
+    baseGroups = c("1870-1874", "1875-1880"),
+    options = layersControlOptions(collapsed = FALSE))
+```
+
+Mapping mission site data with railroad shapefiles reveals that the selection of new mission sites was, at least in part, motivated by transportation access. The expansion of services at new locations between 1850 and 1880 largely occurred along established transportation routes and missions were likely to be formed at interchange sites, where multiple lines intersected. 
+
+These routes carried both clergy and laity to services revealing a broader network of community connections which operated outside the scope of schools and met more frequently than conference gatherings. These routes may also be understood as tracking the negotiation of space as clergy and laity navigated church and social hierarchies for access to space and sign language. 
+
+In a manner similar to residential schools and temporary conference sites, mission sites appear to have duplicated the practices of journeying to and from deaf places and spaces. These smaller scale gatherings served to maintain the connections formed at regional and national spaces, meeting with greater frequency to offer support, socialization, and access to signed expression. 
+
 
 <h3 align="center">Conclusion</h3>
 
-Conclusion stuff
+Mapping these early missions offers insight on both the growth and scale of the Protestant Episcopal ministry to the deaf. The railway lines, crisscrossing the US were routes upon which deaf clergy and laity circulated their faith, their language, and their experiences. Visualizing the spread of signed services reveals the rapid mobilization of signing church workers in an ever-widening mission field and contextualizes that growth among and between temporary and permanent sites of gathering for deaf community members. These maps suggest a more nuanced exploration of the ways in which deaf people organized and sustained spaces for information, language, support and faith.
 
-## Footnotes {.appendix}
+
+## Acknowledgements {.appendix}
+
+I'm grateful for assistance and advice provided by [Lincoln Mullen](https://lincolnmullen.com/) and [Brandon P. Buck](http://brandanpbuck.com/sinking_the_empire.html) in the visualization of this data.
 
 Railroad System Data via [Railroads and the Making of Modern America, University of Nebraska, Lincoln.](https://railroads.unl.edu/resources/) 
 
 
-Code available on [GitHub](https://github.com/jannellelegg/MappingDeafMinistry)
+The code for this project is available on [GitHub](https://github.com/jannellelegg/MappingDeafMinistry)
 
 
 
