@@ -1,5 +1,5 @@
 ---
-title: "Deaf Religious Geographies"
+title: "Mapping Deaf Missions"
 description: |
   This site visualizes the Protestant Episcopal Ministry to the Deaf in both space and time. As part of a digital dissertation, titled "With Eloquent Fingers He Preached" The Protestant Episcopal Mission to the Deaf, this visualization combines missionary reports, parish records, diocesan reports, newspaper articles and other sources with spatial data to trace the growth of signed services in borrowed church rooms and deaf church spaces. 
   An earlier version of this visualization is available at [jannellelegg.com](http://jannellelegg.com/portfolio/FinalProject/CMDM.html).
@@ -130,7 +130,7 @@ There has yet to be an effort to explore the geographic development of deaf reli
 
 Signed Protestant Episcopal worship services for adult deaf people were first offered in New York City. Building on the religious instruction many deaf people received in residential deaf schools, a growing group of signing clergy and lay people formed missions in cities between 1850 and 1880. 
 
-Though the Protestant Episcopal Ministry to the deaf is acknowledged for its widespread influence, the scale of this work is best understood spatially. Geographical data, as well as information about services and clergy, was gathered from diocesan reports, parish records, missionary reports, and newspaper articles in an effort to locate the spaces in which deaf people gathered together.^[Should I add a list of the many, many, sources used here?]  
+Though the Protestant Episcopal Ministry to the deaf is acknowledged for its widespread influence, the scale of this work is best understood spatially. Geographical data, as well as information about services and clergy, was gathered from diocesan reports, parish records, missionary reports, and newspaper articles in an effort to locate the spaces in which deaf people gathered together.
 
 ```{r,  layout="l-body-outset", fig.width=15, fig.height=6, echo= FALSE, fig.cap= "Sites of Signed Services, 1850-1880. View services in five-year increments by selecting and deselecting map layers in the legend. Click on the red circles for information about service locations."}
 leaflet() %>%
@@ -230,7 +230,7 @@ During this period missions were organized in cities beginning in the Northeaste
 As the map suggests, this growth occurred unevenly. Mission sites did not emerge according to a pattern and signed services were offered with varying frequency across this period. On the map above mission sites marked with a deeper red color are spaces which were visited repeatedly across the years selected. There is not a consistent, visible trend toward permanence. In some cities, such as Philadelphia, early itinerant services led to a permanent mission. Beginning in the borrowed rooms of St. Stephen's Church, the signed services for deaf Philadelphians moved from borrowed vestry rooms to their own edifice, the All Souls’ Church for the Deaf in 1888. In other cities, Baltimore for instance, a Bible class operated with signed services regularly for decades without obtaining an independent religious space. 
 
 
-```{r,  layout="l-body-outset"}
+```{r,  layout="l-body-outset", echo = FALSE}
 
 paged_table(MissionsTotalTable, options = list(rows.print=15, cols.print = 8))
 
@@ -716,12 +716,12 @@ leaflet() %>%
      ##          weight = 2,
      ##          group = "1875-1880") %>%
   addLayersControl(
-    baseGroups = c("1850-1854", "1855-1859", "1860-1864", "1865-1869", "1870-1874", "1875-1880"),
+    baseGroups = c("1850-1854", "1855-1859", "1860-1864", "1865-1869"),
     options = layersControlOptions(collapsed = FALSE))
 
 ```
 
-```{r, layout="l-body-outset", fig.width=15, fig.height=6, echo= FALSE, fig.cap= "Map of Mission Sites and Railway Routes, 1870-1880. View sites of signed services and train routes by selecting and deselecting map layers in the legend. Click on red circles for information about service sites."}
+```{r, layout="l-body-outset", fig.width=15, fig.height=6, echo= FALSE, fig.cap= "Map of Mission Sites and Railway Routes, 1870-1880. View sites of signed services and train routes. Click on red circles for information about service sites."}
 
 leaflet() %>%
   addProviderTiles(providers$CartoDB.PositronNoLabels) %>%
@@ -787,6 +787,726 @@ Railroad System Data via [Railroads and the Making of Modern America, University
 
 The code for this project is available on [GitHub](https://github.com/jannellelegg/MappingDeafMinistry)
 
+## Bibliography {.appendix}
+Sources are also available in via Zotero collections, linked below.
+
+[**Mission Site Sources:**](https://www.zotero.org/groups/2918180/mapping_deaf_missions/collections/BEB83KJ9)
+
+“Celebration of the Fiftieth Anniversary of the Arrival of Rev. Thos. H. Gallaudet and Laurent Clerc, The Pioneers of Deaf Mute Instruction in America at Hartford, Conn., Aug. 22, 1866.” *National Deaf-Mute Gazette*, January 1, 1867. Gallaudet University Archives.
+
+Chamberlain, William M. “Proceedings of the Fifth Convention of the New England Gallaudet Association of Deaf Mutes.” *The Gallaudet Guide and Deaf Mutes Companion*, September 1862. Gallaudet University Archives.
+
+———. “Sociables, Excursions, Incidents, Notabilities, The Service at Church &c.” *National Deaf Mute Gazette* 2, no. 22 (October 1868): 4–5.
+
+*Diocese of New Jersey: Journal of Proceedings of the Annual Convention*. Vol. 75. Burlington, New Jersey: Franklin Ferguson, Printer, 1858.
+
+*Diocese of New Jersey: Journal of Proceedings of the Annual Convention*. Vol. 78. Philadelphia, Pennsylvania: J.B. Chandler, 1861.
+
+*Diocese of New Jersey: Journal of Proceedings of the Annual Convention*. Vol. 90. Newark, New Jersey: Daily Advertiser Office, 1873.
+
+*Diocese of New Jersey: Journal of Proceedings of the Annual Convention*. Vol. 94. Trenton, New Jersey: John L. Murphy, 1877.
+
+*Diocese of New Jersey: Journal of Proceedings of the Annual Convention*. Vol. 95. Trenton, New Jersey: John L. Murphy, 1878.
+
+*Diocese of New Jersey: Journal of Proceedings of the Annual Convention*. Vol. 97. Trenton, New Jersey: C. S. Robinson & Co., 1880.
+
+*Diocese of New Jersey: Journal of Proceedings of the Annual Convention*. Vol. 98. Princeton, New Jersey: C. S. Robinson & Co., 1881.
+
+“Empire State Association of Deaf-Mutes.” *The Deaf-Mutes’ Friend* 1, no. 9 (September 1869): 257–77.
+
+Gallaudet, Thomas. “Church Work Among Deaf-Mutes.” *Spirit of Missions* 31, no. March (March 1866): 114–15.
+
+———. *Sacramental Register*. Vol. 1. 3 vols. St. Ann’s Church, 1852.
+
+———. “St. Ann’s Church for Deaf Mutes, New York.” *American Annals of the Deaf and Dumb* 10, no. 1 (January 1858): 29–40.
+
+———. “St. Ann’s Church for Deaf-Mutes, New York.” *American Annals of the Deaf and Dumb* 7, no. 3 (April 1855): 158–66.
+
+———. “St. Ann’s Church for Deaf-Mutes, New York.” *American Annals of the Deaf and Dumb* 8, no. 3 (April 1856): 172–85.
+
+———. “St. Ann’s Church for Deaf-Mutes, New York.” *American Annals of the Deaf and Dumb* 11, no. 4 (1859): 207–10.
+
+———. “St. Ann’s Church for Deaf-Mutes, New York.” *American Annals of the Deaf and Dumb* 11, no. 1 (January 1859): 8–12.
+
+———. “St. Ann’s Church for Deaf-Mutes, New York.” *American Annals of the Deaf and Dumb* 12, no. 4 (October 1860): 243–48.
+
+———. “We Would Call Particular Attention To.” *The Gallaudet Guide and Deaf Mutes Companion*, December 1860. Gallaudet University Archives.
+
+“Is a Deaf Mute and a Minister: The Rev. Austin W. Mann, M. A., Will Conduct Deaf Mute Services at Trinity Parish House Today.” *Chicago Daily Tribune* (1872-1922); Chicago, Ill. August 30, 1896.
+
+*Journal of the Annual Convention of the Diocese of Central New York*. Vol. 1. Utica, New York: Curtiss & Childs, 1869.
+
+*Journal of the Annual Convention of the Diocese of Central New York*. Vol. 2. Utica, New York: Curtiss & Childs, 1870.
+
+*Journal of the Annual Convention of the Diocese of Central New York*. Vol. 5. Utica, New York: Curtiss & Childs, 1873.
+
+*Journal of the Annual Convention of the Diocese of Central New York*. Vol. 6. Utica, New York: Curtiss & Childs, 1874.
+
+*Journal of the Annual Convention of the Diocese of Central New York*. Vol. 7. Utica, New York: Curtiss & Childs, 1875.
+
+*Journal of the Annual Convention of the Diocese of Central New York*. Vol. 8. Utica, New York: Curtiss & Childs, 1876.
+
+*Journal of the Annual Convention of the Diocese of Central New York*. Vol. 9. Utica, New York: Curtiss & Childs, 1877.
+
+*Journal of the Annual Convention of the Diocese of Central New York*. Vol. 10. Utica, New York: Curtiss & Childs, 1878.
+
+*Journal of the Annual Convention of the Diocese of Central New York*. Vol. 11. Utica, New York: Curtiss & Childs, 1879.
+
+*Journal of the Annual Convention of the Diocese of Quincy*. Vol. 2. Quincy, Illinois: The Convention, 1879.
+
+*Journal of the Annual Convention of the Diocese of Quincy*. Vol. 3. Quincy, Illinois: The Convention, 1880.
+
+*Journal of the Annual Convention of the Diocese of Springfield*. Vol. 2. Decatur, Illinois: Hamsher & Mosser Printers, 1879.
+
+*Journal of the Annual Convention of the Diocese of Springfield*. Vol. 3. Chicago, IL: The Living Church Press, 1880.
+
+*Journal of the Annual Convention of the Diocese of Springfield*. Vol. 4. Springfield, Illinois: H.W. Rokker, Printer and Binder, 1881.
+
+*Journal of the Annual Convention of the Episcopal Church in the Diocese of Connecticut*. Vol. 72. Hartford, CT: Case, Tiffany and Company, 1856.
+
+*Journal of the Annual Convention of the Episcopal Church in the Diocese of Connecticut*. Vol. 74. Hartford, CT: Case, Lockwood and Company, 1858.
+
+*Journal of the Annual Convention of the Episcopal Church in the Diocese of Connecticut*. Vol. 75. Hartford, CT: Case, Lockwood and Company, 1859.
+
+*Journal of the Annual Convention of the Episcopal Church in the Diocese of Connecticut*. Vol. 76. Hartford, CT: Case, Lockwood and Company, 1860.
+
+*Journal of the Annual Convention of the Episcopal Church in the Diocese of Connecticut*. Vol. 77. Hartford, CT: Case, Lockwood and Company, 1861.
+
+*Journal of the Annual Convention of the Episcopal Church in the Diocese of Connecticut*. Vol. 83. Hartford, CT: Church Press Company, 1867.
+
+*Journal of the Annual Convention of the Episcopal Church in the Diocese of Connecticut*. Vol. 89. Hartford, CT: Church Press Company, 1873.
+
+*Journal of the Annual Convention of the Episcopal Church in the Diocese of Connecticut*. Vol. 90. Hartford, CT: Church Press Company, 1874.
+
+*Journal of the Annual Convention of the Episcopal Church in the Diocese of Connecticut*. Vol. 92. Hartford, CT: Church Press Company, 1876.
+
+*Journal of the Annual Convention of the Episcopal Church in the Diocese of Connecticut*. Vol. 93. Hartford, CT: Church Press Company, 1877.
+
+*Journal of the Annual Convention of the Episcopal Church in the Diocese of Connecticut*. Vol. 94. Hartford, CT: Church Press Company, 1878.
+
+*Journal of the Annual Convention of the Episcopal Church in the Diocese of Connecticut*. Vol. 95. Hartford, CT: Church Press Company, 1879.
+
+*Journal of the Annual Convention of the Episcopal Church in the Diocese of Connecticut*. Vol. 96. Hartford, CT: Church Press Company, 1880.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Iowa*. Vol. 26. Davenport, Iowa: Globe Printing Company, 1879.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Maine*. Vol. 43. Bangor, Maine: Wheeler & Lynde, Printers, 1862.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Maine*. Vol. 54. Portland, Maine: Hoyt & Fogg, 1873.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Maine*. Vol. 58. Portland, Maine: Hoyt, Fogg & Donham, 1877.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Maine*. Vol. 59. Portland, Maine: Hoyt, Fogg & Donham, 1878.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Maine*. Vol. 60. Portland, Maine: Hoyt, Fogg & Donham, 1879.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Maine*. Vol. 61. Portland, Maine: Hoyt, Fogg & Donham, 1880.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Missouri*. Vol. 39. St. Louis, Missouri: Woodward, Tiernan & Hale Printers, 1878.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Missouri*. Vol. 40. St. Louis, Missouri: Woodward, Tiernan & Hale Printers, 1879.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Missouri*. Vol. 41. St. Louis, Missouri: Woodward, Tiernan & Hale Printers, 1880.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of North Carolina*. Vol. 62. Goldsboro, North Carolina: Messenger Power Press Print, 1878.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of North Carolina*. Vol. 63. Raleigh, North Carolina: Uzzell & Wiley, Printers and Binders, 1879.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Northern New Jersey*. Vol. 1. The Convention, 1875.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Northern New Jersey*. Vol. 2. The Convention, 1876.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Northern New Jersey*. Vol. 3. The Convention, 1877.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Northern New Jersey*. Vol. 4. The Convention, 1878.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Northern New Jersey*. Vol. 5. The Convention, 1879.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Ohio*. Vol. 58. Cleveland, Ohio: Office of the Standard of the Cross, 1875.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Ohio*. Vol. 59. Cleveland, Ohio: Office of the Standard of the Cross, 1876.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Ohio*. Vol. 60. Cleveland, Ohio: Leader Printing Company, 1877.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Ohio*. Vol. 61. Cleveland, Ohio: Leader Book and Job Printing Company, 1878.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Ohio*. Vol. 62. Cleveland, Ohio: Leader Printing Company, 1879.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Ohio*. Vol. 63. Cleveland, Ohio: Leader Printing Company, 1880.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of South Carolina*. Vol. 89. Charleston, S.C.: Walker, Evans & Cogswell Printers, 1879.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of South Carolina*. Vol. 90. Charleston, S.C.: Walker, Evans & Cogswell Printers, 1880.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Tennessee*. Vol. 48. Nashville, TN: Press of Haynes & Camp, 1881.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church in the Diocese of Vermont*. Vol. 89. Montpelier, VT: Argus and Patriot Steam Book and Job Printing Works, 1879.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church of the Diocese of Pittsburgh*. Vol. 11. Pittsburgh, PA: Bakewell & Marthens, 1876.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church of the Diocese of Pittsburgh*. Vol. 12. Pittsburgh, PA: Stevenson & Foster, 1877.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church of the Diocese of Pittsburgh*. Vol. 13. Pittsburgh, PA: Stevenson, Foster & Co., 1878.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church of the Diocese of Pittsburgh*. Vol. 14. Pittsburgh, PA: Stevenson, Foster & Co., 1879.
+
+*Journal of the Annual Convention of the Protestant Episcopal Church of the Diocese of Pittsburgh*. Vol. 15. Pittsburgh, PA: W.W. Lewis & Co., 1880.
+
+*Journal of the Annual Council of the Protestant Episcopal Church in the Diocese of Louisiana*. Vol. 38. New Orleans, Louisiana: M. Sagendorph, 1879.
+
+*Journal of the Annual Council of the Protestant Episcopal Church in the Diocese of Louisiana*. Vol. 39. New Orleans, Louisiana: M. Sagendorph, 1880.
+
+*Journal of the Annual Council of the Protestant Episcopal Church in the Diocese of Mississippi*. Vol. 52. Jackson, Mississippi: Martin & Winkley, Book and Job Print, 1879.
+
+*Journal of the Annual Council of the Protestant Episcopal Church in the Diocese of Texas*. 
+Vol. 29. Houston, Texas: W.H. Coyle, Printer and Lithographer, 1880.
+
+*Journal of the Annual Council of the Protestant Episcopal Church in the Diocese of West Virginia*. Vol. 3. Richmond, Virginia: Baughman Brothers’ Steam Book and Job Printing House, 1880.
+
+*Journal of the Annual Council of the Protestant Episcopal Church in Virginia*. Vol. 80. Richmond, Virginia: Clemmitt & Jones, Steam Book and Job Printers, 1875.
+
+*Journal of the Annual Council of the Protestant Episcopal Church in Virginia*. Vol. 83. Richmond, Virginia: Clemmitt & Jones, Steam Book and Job Printers, 1878.
+
+*Journal of the Annual Council of the Protestant Episcopal Church in Virginia*. Vol. 84. Richmond, Virginia: W.M. Ellis Jones, Steam Book and Job Printer, 1879.
+
+*Journal of the Annual Council of the Protestant Episcopal Church in Virginia*. Vol. 85. Richmond, Virginia: W.M. Ellis Jones, Steam Book and Job Printer, 1880.
+
+*Journal of the Convention of the Protestant Episcopal Church in the Diocese of Long Island*. Vol. 7. Brooklyn, New York: Kennard & Hay Stationary M’fg and Printing Co., 1874.
+
+*Journal of the Convention of the Protestant Episcopal Church in the Diocese of Long Island*. Vol. 8. Brooklyn, New York: Globe Printing and Stationery Company, 1875.
+
+*Journal of the Convention of the Protestant Episcopal Church in the Diocese of Long Island*. Vol. 10. Brooklyn, New York: Orphans’ Press, 1877.
+
+*Journal of the Convention of the Protestant Episcopal Church in the Diocese of Long Island*. Vol. 11. Brooklyn, New York: Orphans’ Press, 1878.
+
+*Journal of the Convention of the Protestant Episcopal Church in the Diocese of Long Island*. Vol. 12. Brooklyn, New York: Orphans’ Press, 1879.
+
+*Journal of the Convention of the Protestant Episcopal Church in the Diocese of Long Island*. Vol. 13. Brooklyn, New York: Orphans’ Press, 1880.
+
+*Journal of the Convention of the Protestant Episcopal Church in the Diocese of Long Island*. Vol. 14. Brooklyn, New York: Orphans’ Press, 1881.
+
+*Journal of the Convention of the Protestant Episcopal Church in the Diocese of Southern Ohio*. Vol. 1. Columbus, OH: Nevins & Myers, Book and Job Printers, 1875.
+
+*Journal of the Convention of the Protestant Episcopal Church in the Diocese of Southern Ohio*. Vol. 2. Columbus, OH: Nevins & Myers, Book and Job Printers, 1876.
+
+*Journal of the Convention of the Protestant Episcopal Church in the Diocese of Southern Ohio*. Vol. 3. Columbus, OH: Nevins & Myers, Book and Job Printers, 1877.
+
+*Journal of the Convention of the Protestant Episcopal Church in the Diocese of Southern Ohio*. Vol. 4. Columbus, OH: Gazette Steam Printing House, 1878.
+
+*Journal of the Convention of the Protestant Episcopal Church in the Diocese of Southern Ohio*. Vol. 5. Columbus, OH: Gazette Steam Printing House, 1879.
+
+*Journal of the Convention of the Protestant Episcopal Church in the Diocese of Southern Ohio*. Vol. 6. Columbus, OH: Gazette Steam Printing House, 1880.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Massachusetts*. Vol. 66. Boston, Massachusetts: James B. Dow, 1856.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Massachusetts*. Vol. 67. Boston, Massachusetts: James B. Dow, 1857.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Massachusetts*. Vol. 70. Boston, Massachusetts: James B. Dow, 1860.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Massachusetts*. Vol. 71. Boston, Massachusetts: James B. Dow, 1861.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Massachusetts*. Vol. 72. Boston, Massachusetts: James B. Dow, 1862.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Massachusetts*. Vol. 74. Boston, Massachusetts: E.P. Dutton & Company, 1864.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Massachusetts*. Vol. 75. Boston, Massachusetts: E.P. Dutton & Company, 1865.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Massachusetts*. Vol. 77. Boston, Massachusetts: E.P. Dutton & Company, 1867.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Massachusetts*. Vol. 81. Boston, Massachusetts: A. Williams & Co., 1871.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Massachusetts*. Vol. 82. Boston, Massachusetts: William A. Hall, Printer, 1872.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Massachusetts*. Vol. 83. Boston, Massachusetts: William A. Hall, Printer, 1873.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Massachusetts*. Vol. 84. Boston, Massachusetts: A. Williams & Co., 1874.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Massachusetts*. Vol. 87. Boston, Massachusetts: A. Williams & Co., 1877.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Massachusetts*. Vol. 88. Boston, Massachusetts: A. Williams & Co., 1878.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Massachusetts*. Vol. 89. Boston, Massachusetts: A. Williams & Co., 1879.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Massachusetts*. Vol. 90. Boston, Massachusetts: A. Williams & Co., 1880.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Massachusetts*. Vol. 91. Boston, Massachusetts: A. Williams & Co., 1881.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Michigan*. Vol. 39. Ann Arbor, Michigan: Ann Arbor Printing and Publishing, 1873.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Michigan*. Vol. 40. Detroit, Michigan: Emil Schober, Book and Job Printer, 1874.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Michigan*. Vol. 41. Detroit, Michigan: Emil Schober, Book and Job Printer, 1875.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Michigan*. Vol. 42. Detroit, Michigan: WM. A. Acripps, Printer, 1876.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Michigan*. Vol. 43. Detroit, Michigan: WM. A. Acripps, Printer, 1877.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Michigan*. Vol. 44. Detroit, Michigan: The Convention, 1878.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Michigan*. Vol. 45. Detroit, Michigan: The Convention, 1879.
+
+*Journal of the Proceedings of the Annual Convention of the Diocese of Michigan*. Vol. 46. Detroit, Michigan: The Convention, 1880.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Alabama*. Vol. 47. Mobile, Alabama: Henry Farrow & Company, 1878.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Alabama*. Vol. 48. Mobile, Alabama: Henry Farrow & Company, 1879.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Albany*. Vol. 1. Albany, New York: Charles Van Benthuysen & Sons, 1868.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Albany*. Vol. 2. Albany, New York: Charles Van Benthuysen & Sons, 1869.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Albany*. Vol. 3. Albany, New York: Charles Van Benthuysen & Sons, 1870.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Albany*. Vol. 4. Albany, New York: Charles Van Benthuysen & Sons, 1871.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Albany*. Vol. 5. Albany, New York: Charles Van Benthuysen & Sons, 1873.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Albany*. Vol. 6. Albany, New York: Charles Van Benthuysen & Sons, 1874.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Albany*. Vol. 7. Rouses Point, New York: Lovell Printing and Publishing Co., 1875.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Albany*. Vol. 8. Albany, New York: Van Benthuysen Printing House, 1876.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Albany*. Vol. 9. Albany, New York: Van Benthuysen Printing House, 1877.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Albany*. Vol. 10. Albany, New York: Van Benthuysen Printing House, 1878.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Albany*. Vol. 11. Albany, New York: Weed, Parsons & Co., 1879.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Albany*. Vol. 12. Albany, New York: Weed, Parsons & Co., 1880.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Albany*. Vol. 13. Albany, New York: Weed, Parsons & Co., 1881.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Delaware*. Vol. 86. Wilmington, Del.: James & Webb, 1876.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Delaware*. Vol. 89. Wilmington, Del.: James & Webb, 1879.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Delaware*. Vol. 91. Wilmington, Del.: James & Webb Printing and Stationery Co., 1881.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Georgia*. Vol. 56. Macon, Georgia: J.W. Burke & Co., 1878.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Georgia*. Vol. 57. Macon, Georgia: J.W. Burke & Co., 1879.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Illinois*. Vol. 21. Chicago, Illinois: Chas. Scott & Co., 1858.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Illinois*. Vol. 38. Chicago, Illinois: Cuiver Page Foyne Printers, 1875.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Illinois*. Vol. 39. Chicago, Illinois: The Convention, 1876.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Illinois*. Vol. 40. Chicago, Illinois: The Convention, 1877.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Illinois*. Vol. 42. Chicago, Illinois: The Convention, 1879.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Illinois*. Vol. 43. Chicago, Illinois: The Convention, 1880.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Illinois*. Vol. 44. Chicago, Illinois: The Convention, 1881.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Indiana*. Vol. 40. Indianapolis, Indiana: The Convention, 1877.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Indiana*. Vol. 41. Madison, Indiana: The Convention, 1878.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Indiana*. Vol. 42. Madison, Indiana: The Convention, 1879.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Indiana*. Vol. 43. Atlanta, Georgia: Dodson & Scott Printers, 1880.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Kansas*. Vol. 20. Topeka, Kansas: Commonwealth Steam Printing House and Bindery, 1879.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Kentucky*. Vol. 49. Louisville, Kentucky: John P. Morton & Co, 1877.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Kentucky*. Vol. 50. Louisville, Kentucky: John P. Morton & Co, 1878.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Kentucky*. Vol. 52. Louisville, Kentucky: John P. Morton & Co, 1880.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New Hampshire*. Vol. 79. Concord, New Hampshire: The Republican Press Association, 1879.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 66. New York City, New York: Daniel Dana, Jr., 1850.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 71. New York City, New York: Daniel Dana, Jr., 1854.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 72. New York City, New York: Dana and Company, 1855.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 73. New York City, New York: Dana and Company, 1856.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 74. New York City, New York: Daniel Dana, Jr., 1857.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 75. New York City, New York: Daniel Dana, Jr., 1858.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 76. New York City, New York: Daniel Dana, Jr., 1859.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 77. New York: Daniel Dana, 1860.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 78. New York City, New York: F.D. Harriman, 1861.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 80. New York City, New York: James Pott, 1863.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 81. New York City, New York: James Pott, 1864.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 82. New York City, New York: James Pott, 1865.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 83. New York City, New York: Pott & Amery, 1866.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 84. New York City, New York: Pott & Amery, 1867.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 85. New York City, New York: Pott & Amery, 1868.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 86. New York City, New York: Pott & Amery, 1869.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 87. New York City, New York: Pott & Amery, 1870.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 88. New York City, New York: Pott, Young & Co., 1871.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 89. New York City, New York: Pott, Young & Co., 1872.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 90. New York City, New York: Pott, Young & Co., 1873.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 91. New York City, New York: Pott, Young & Co., 1874.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 92. New York City, New York: Pott, Young & Co., 1875.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 93. New York City, New York: Pott, Young & Co., 1876.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 94. New York City, New York: Pott, Young & Co., 1877.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 95. New York City, New York: Pott, Young & Co., 1878.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 96. New York City, New York: Pott, Young & Co., 1879.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 97. New York City, New York: Pott, Young & Co., 1880.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of New York*. Vol. 98. New York: The Diocese, 1881.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Rhode Island*. Vol. 86. Providence, RI: Tillinghast & Mason News Co., 1876.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Rhode Island*. Vol. 87. Providence, RI: Tillinghast & Mason News Co., 1877.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Rhode Island*. Vol. 88. Providence, RI: Tillinghast & Mason News Co., 1878.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Rhode Island*. Vol. 89. Providence, RI: Providence Press Company, 1879.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Western Michigan*. Vol. 2. Grand Rapids, Michigan: Dygert Bros. & Co., Printers and Bookbinders, 1876.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Western Michigan*. Vol. 3. Grand Rapids, Michigan: Dygert, Buff & Rice, Printers and Bookbinders, 1877.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Western Michigan*. Vol. 5. Hastings, Michigan: Dennis & Holmes, Book and Job Printers, 1879.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Western Michigan*. Vol. 6. Hastings, Michigan: Dennis & Holmes, Book and Job Printers, 1880.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Western Michigan*. Vol. 7. Hastings, Michigan: Dennis & Slingerland, Book and Job Printers, 1881.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Western New York*. Vol. 21. Utica, New York: Curtiss & White, 1858.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Western New York*. Vol. 22. Utica, New York: Curtiss & White, 1859.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Western New York*. Vol. 28. Utica, New York: Curtiss & White, 1865.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Western New York*. Vol. 29. Utica, New York: D.P. White, 1866.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Western New York*. Vol. 30. Utica, New York: The Convention, 1867.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Western New York*. Vol. 31. Utica, New York: The Convention, 1868.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Western New York*. Vol. 36. Buffalo, NY: The Convention, 1873.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Western New York*. Vol. 37. Buffalo, NY: The Convention, 1874.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Western New York*. Vol. 38. Buffalo, NY: Matthews & Warren, 1875.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Western New York*. Vol. 39. Buffalo, NY: Matthews & Warren, 1876.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Western New York*. Vol. 40. Buffalo, NY: Commercial Advertiser Print, 1877.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Western New York*. Vol. 41. Buffalo, NY: Morning Express Printing House, 1878.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Western New York*. Vol. 42. Buffalo, NY: Morning Express Printing House, 1879.
+
+*Journal of the Proceedings of the Annual Convention of the Protestant Episcopal Church in the Diocese of Western New York*. Vol. 43. Buffalo, NY: Morning Express Printing House, 1880.
+
+*Journal of the Proceedings of the Annual Council of the Diocese of Arkansas*. Little Rock, Arkansas: A.H. Sevier, 1879.
+
+*Journal of the Proceedings of the Annual Council of the Protestant Episcopal Church in the Diocese of Minnesota*. Vol. 21. Minneapolis, MN: Johnson, Smith & Harrison, 1878.
+
+*Journal of the Proceedings of the Annual Council of the Protestant Episcopal Church in the Diocese of Minnesota*. Vol. 23. Rochester, Minnesota: Record and Union Steam Printing House, 1880.
+
+*Journal of the Proceedings of the Annual Council of the Protestant Episcopal Church in the Diocese of Nebraska*. Vol. 12. Omaha, Nebraska: Omaha Herald, 1879.
+
+*Journal of the Proceedings of the Annual Council of the Protestant Episcopal Church in the Diocese of Texas*. Vol. 26. Houston, Texas: Telegraph Steam Printing House, 1875.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Central Pennsylvania*. Vol. 2. Philadelphia, PA: McCalla & Stavely, Printers, 1873.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Central Pennsylvania*. Vol. 3. Lancaster, PA: Pearsol & Geist, 1874.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Central Pennsylvania*. Vol. 4. Lancaster, PA: Pearsol & Geist, 1875.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Central Pennsylvania*. Vol. 5. South Bethlehem, PA: A.F. Yost, 1876.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Central Pennsylvania*. Vol. 6. South Bethlehem, PA: Albert F. Yost, 1877.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Central Pennsylvania*. Vol. 7. Reading, PA: B.F. Owen, 1878.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Central Pennsylvania*. Vol. 8. Reading, PA: B.F. Owen, 1879.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Central Pennsylvania*. Vol. 9. Reading, PA: B.F. Owen, 1880.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 76. Baltimore, Maryland: The Convention, 1859.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 77. Baltimore, Maryland: The Convention, 1860. 
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 79. Baltimore, Maryland: John D. Toy, Printer, 1862.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 80. Baltimore, Maryland: The Convention, 1863.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 81. Baltimore, Maryland: John D. Toy, Printer, 1864.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 82. Baltimore, Maryland: William K. Boyle, Printer, 1865.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 83. Baltimore, Maryland: William K. Boyle, Printer, 1866.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 84. Baltimore, Maryland: William K. Boyle, Printer, 1867.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 85. Baltimore, Maryland: Innes & Company, 1868.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 86. Baltimore, Maryland: Innes & Company, 1869.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 87. Baltimore, Maryland: Innes & Company, 1870.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 88. Baltimore, Maryland: Innes & Company, 1871.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 89. Baltimore, Maryland: Innes & Company, 1872.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 90. Baltimore, Maryland: Innes & Company, 1873.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 91. Baltimore, Maryland: Innes & Company, 1874.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 92. Baltimore, Maryland: The Convention, 1875.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 93. Baltimore, Maryland: The Convention, 1876.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 94. Baltimore, Maryland: Innes & Company, 1877.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 95. Baltimore, Maryland: Innes & Company, 1878.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 96. Baltimore, Maryland: Innes & Company, 1879.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Maryland*. Vol. 97. Baltimore, Maryland: The Convention, 1880.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of New Hampshire*. Vol. 77. Concord, New Hampshire: Republican Press Association, 1877.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of New Hampshire*. Vol. 78. Concord, New Hampshire: Republican Press Association, 1878.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of New Hampshire*. Vol. 79. Concord, New Hampshire: Republican Press Association, 1879.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of New Hampshire*. Vol. 80. Concord, New Hampshire: Republican Press Association, 1879.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Pennsylvania*. Vol. 82. Philadelphia, PA: McCalla & Stavely, Printers, 1866.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Pennsylvania*. Vol. 83. Philadelphia, PA: McCalla & Stavely, Printers, 1867.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Pennsylvania*. Vol. 84. Philadelphia, PA: McCalla & Stavely, Printers, 1868.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Pennsylvania*. Vol. 85. Philadelphia, PA: McCalla & Stavely, Printers, 1869.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Pennsylvania*. Vol. 86. Philadelphia, PA: McCalla & Stavely, Printers, 1870.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Pennsylvania*. Vol. 87. Philadelphia, PA: McCalla & Stavely, Printers, 1871.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Pennsylvania*. Vol. 90. Philadelphia, PA: McCalla & Stavely, Printers, 1874.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Pennsylvania*. Vol. 91. Philadelphia, PA: McCalla & Stavely, Printers, 1875.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Pennsylvania*. Vol. 92. Philadelphia, PA: McCalla & Stavely, Printers, 1876.
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Pennsylvania*. Vol. 93. Philadelphia, PA: McCalla & Stavely, Printers, 1877. 
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Pennsylvania*. Vol. 94. Philadelphia, PA: McCalla & Stavely, Printers, 1878. 
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Pennsylvania*. Vol. 95. Philadelphia, PA: McCalla & Stavely, Printers, 1879. 
+
+*Journal of the Proceedings of the Convention of the Protestant Episcopal Church in the Diocese of Pennsylvania*. Vol. 96. Philadelphia, PA: McCalla & Stavely, Printers, 1880.
+
+*Journal of the Twenty-Ninth Annual Council of the Protestant Episcopal Church in the Diocese of Wisconsin*. Vol. 29. Milwaukee, WI: Burdick & Armitage Printers, 1875.
+
+*Journal of the Twenty-Ninth Annual Council of the Protestant Episcopal Church in the Diocese of Wisconsin*. Vol. 30. Milwaukee, WI: Burdick & Armitage Printers, 1876.
+
+*Journal of the Twenty-Ninth Annual Council of the Protestant Episcopal Church in the Diocese of Wisconsin*. Vol. 31. Milwaukee, WI: Burdick & Armitage Printers, 1877.
+
+*Journal of the Twenty-Ninth Annual Council of the Protestant Episcopal Church in the Diocese of Wisconsin*. Vol. 33. Milwaukee, WI: Riverside Printing House, 1879.
+
+*Journal of the Twenty-Ninth Annual Council of the Protestant Episcopal Church in the Diocese of Wisconsin*. Vol. 34. Beaver Dam, WI: Burleson Brothers, 1880.
+
+Mann, Austin W. “Record of Rev. A.W. Mann; Services, Baptisms, Confirmations 1877-Feb 1906,” n.d. Episcopal Diocese of Ohio Archives.
+
+Marsh, J.P. “Deaf Mutes’ Bible Class in Boston.” *American Annals of the Deaf and Dumb* 9, no. 4 (October 1857): 242–45.
+
+Rae, Luzerne, ed. “Church for the Deaf and Dumb.” *American Annals of the Deaf* 5, no. 3 (April 1853): 169–81.
+
+Scribit. “Deaf Mute Bible Class in Baltimore, M.D.” *The Gallaudet Guide and Deaf Mutes Companion*, June 1860. Gallaudet University Deaf Collections and Archives.
+
+“Services for Deaf Mutes.” *The Gallaudet Guide and Deaf Mutes Companion*, January 1861.
+
+“Services for Deaf Mutes.” *The Wheeling Daily Intelligencer*. October 30, 1875.
+
+T. “Church Work Among Deaf-Mutes.” *Spirit of Missions* 32 (1867): 505–6.
+
+*The Eighth Annual Report of the Church Mission to Deaf-Mutes*. New York, NY: Charles H. Clayton & Co., Printers and Stationers, 1881.
+
+*The Fifth Annual Report of the Church Mission to Deaf-Mutes*. New York, NY: J.H. Duyckinck, Stationer & Printer, 1877.
+
+*The First Annual Report of the Church Mission to Deaf-Mutes*. New York, NY: J.H. Duyckinck, Stationer & Printer, 1873.
+
+*The Fourth Annual Report of the Church Mission to Deaf-Mutes*. New York, NY: J.H. Duyckinck, Stationer & Printer, 1876.
+
+“The New York Convention of Deaf Mutes.” *National Deaf-Mute Gazette*, February 1867. Gallaudet University Archives.
+
+*The Second Annual Report of the Church Mission to Deaf-Mutes*. New York, NY: J.H. Duyckinck, Stationer & Printer, 1874.
+
+*The Seventh Annual Report of the Church Mission to Deaf-Mutes*. New York, NY: Church Mission to Deaf-Mutes, 1879.
+
+*The Sixth Annual Report of the Church Mission to Deaf-Mutes*. New York, NY: J.H. Duyckinck, Stationer & Printer, 1878.
+
+*The Third Annual Report of the Church Mission to Deaf-Mutes*. New York, NY: J.H. Duyckinck, Stationer & Printer, 1875.
+
+“To Correspondants.” *The Gallaudet Guide and Deaf Mutes Companion* 2, no. 3 (March 1, 1861): 2.
+
+
+[**Conference Site Sources:**](https://www.zotero.org/groups/2918180/mapping_deaf_missions/collections/2HSKD9EH)
+
+Angus, Walter W. “First Anniversary of the Alumni Association of the High Class of the New York Institution for the Deaf and Dumb.” *American Annals of the Deaf and Dumb* 11, no. 4 (1859): 193–204.
+
+*Annual Report of the Ohio Institution for the Education of the Deaf and Dumb, to the Governor of the State of Ohio, for the Year*. Vol. 44. Columbus, OH: Nevins & Myers, 1871.
+
+“Appendix.” In *Biennial Report of the Board of Trustees of the Michigan Institution for the Education of the Deaf and Dumb, and the Blind*, 10:121–225. Lansing, Michigan: W.S. George & Co., State Printers and Binders, 1872.
+
+Brown, Thomas, J.W. Marsh, and George M. Lucas. “For the Freeman.” *Green-Mountain Freeman*. March 3, 1853. Library of Congress, Chronicling America.
+
+Buree, Mary Ann. “The Fourth Conference of Principals of American Institutions for the Deaf and Dumb.” *American Annals of the Deaf and Dumb* 25, no. 3 (1880): 169–223.
+
+“Celebration of the Fiftieth Anniversary of the Arrival of Rev. Thos. H. Gallaudet and Laurent Clerc, The Pioneers of Deaf Mute Instruction in America at Hartford, Conn., Aug. 22, 1866.” 
+
+*National Deaf-Mute Gazette*, January 1, 1867. Gallaudet University Archives.
+
+Chamberlain, William M. “Proceedings of the Fifth Convention of the New England Gallaudet Association of Deaf Mutes.” *The Gallaudet Guide and Deaf Mutes Companion*, September 1862. Gallaudet University Archives.
+
+———. “Proceedings of the Third Convention of the New England Gallaudet Association of Deaf-Mutes.” *American Annals of the Deaf and Dumb* 10, no. 4 (1858): 205–19.
+
+———. “Report of the Proceedings of the Eight Biennial Convention of the New England Gallaudet Association of Deaf Mutes, at Battleboro’, Vermont, August 26-27, 1868.” *National Deaf Mute Gazette*, September 1868.
+
+Chamberlain, Wm. W. “Proceedings of the Convention of the New England Gallaudet Association of Deaf-Mutes.” *American Annals of the Deaf and Dumb* 9, no. 2 (1857): 65–78.
+
+“Conference of the Principals of the American Institutions for the Education of the Deaf and Dumb.” *American Annals of the Deaf and Dumb* 13, no. 3 (1868): 132–47.
+
+“Convention of Deaf Mutes.” *The Washington Union*, October 5, 1858. Library of Congress, Chronicling America.
+
+“Convention of Deaf Mutes.” *New York Herald*, August 7, 1865. Library of Congress, Chronicling America.
+
+“Convention of the Empire State Deaf-Mute Association.” *Mexico Independent and Deaf-Mutes’ Journal* 12, no. 39 (July 31, 1873): 4.
+
+“Deaf-Mute Services in Concord, N.H.” *Deaf Mutes’ Journal* 7, no. 23 (June 6, 1878): 2.
+
+“Elmira Convention of Deaf-Mutes.” *Deaf Mutes’ Journal* 6, no. 37 (September 13, 1877): 1,4.
+
+“Empire State Association of Deaf-Mutes.” *The Deaf-Mutes’ Friend* 1, no. 9 (September 1869): 257–77.
+
+Fay, Edward Allen. “Miscellaneous.” *American Annals of the Deaf and Dumb* 21, no. 2 (1876): 131–36.
+
+———. “Miscellaneous.” *American Annals of the Deaf and Dumb* 22, no. 4 (1877): 249–52.
+
+———. “Miscellaneous.” *American Annals of the Deaf and Dumb* 25, no. 4 (1880): 293–96.
+
+———. “Notice of Publications.” *American Annals of the Deaf and Dumb* 26, no. 3 (1881): 192–94.
+
+———. “The Third Conference of Principals of American Institutions for the Deaf and Dumb.” *American Annals of the Deaf and Dumb* 21, no. 4 (October 1876). 
+
+“Fourth Convention of the New England Gallaudet Association of Deaf-Mutes.” *American Annals of the Deaf and Dumb* 12, no. 4 (1860): 236–43.
+
+“From Albany.” *Silent World* 1, no. 4 (October 1871): 5–6.
+
+Gallaudet, Thomas. “Proceedings of the First Convention of American Instructors of the Deaf and Dumb.” *American Annals of the Deaf* 3, no. 1 (October 1850): 12.
+
+———. “St. Ann’s Church for Deaf Mutes, New York.” *American Annals of the Deaf and Dumb* 10, no. 1 (January 1858): 29–40.
+
+———. “St. Ann’s Church for Deaf-Mutes, New York.” *American Annals of the Deaf and Dumb* 11, no. 1 (January 1859): 8–12.
+
+“Granite State Deaf-Mute Mission.” *Deaf Mutes’ Journal* 9, no. 25 (June 17, 1880): 1.
+
+“Itemizer.” *Deaf Mutes’ Journal* 9, no. 33 (August 12, 1880): 2.
+
+Mann, Austin W. “Record of Rev. A.W. Mann; Services, Baptisms, Confirmations 1877-Feb 1906,” n.d. Episcopal Diocese of Ohio Archives.
+
+“Miscellaneous.” *American Annals of the Deaf and Dumb* 15, no. 3 (1870): 186–92.
+
+“Miscellaneous.” *American Annals of the Deaf and Dumb* 18, no. 4 (1873): 274–80.
+
+“Miscellaneous.” *American Annals of the Deaf and Dumb* 23, no. 3 (July 1878): 199–204.
+
+“Notice.” *The Silent World* 1, no. 4 (October 1871): 13.
+
+“Notice to Deaf-Mutes.” *Deaf Mutes’ Journal* 9, no. 33 (August 12, 1880): 2.
+
+“Notices.” *Deaf Mutes’ Journal* 9, no. 22 (May 27, 1880): 2.
+
+“Notices.” *Deaf Mutes’ Journal* 9, no. 23 (June 3, 1880): 2.
+
+“Notices.” *Deaf Mutes’ Journal* 9, no. 34 (August 19, 1880): 2.
+
+“Organization of the Wisconsin Deaf-Mute Alumni Society.” *Deaf Mutes’ Journal* 5, no. 27 (July 6, 1876): 2.
+
+Patterson, Robert. “The Semi-Centennial Celebration of the Ohio Institution.” *American Annals of the Deaf and Dumb* 24, no. 4 (1879): 252–60.
+
+*Proceedings of a Convention of Deaf Mutes, Holden at Montpelier, Vermont, February 23 and 24, 1853.* Montpelier, VT: E.P. Walton and Son, Printers, 1853. 
+
+“Proceedings of the Buffalo Deaf-Mute Convention.” *Deaf Mutes’ Journal* 8, no. 36 (September 4, 1879): 2–3.
+
+*Proceedings of the Convention of American Instructors of the Deaf and Dumb*. Vol. 4. Richmond, Virginia: Chas. H. Wynne, Printer, 1857.
+
+*Proceedings of the Convention of American Instructors of the Deaf and Dumb*. Vol. 5. Alton, IL: Courier Steam Book and Job Printing House, 1859.
+
+*Proceedings of the Convention of American Instructors of the Deaf and Dumb*. Vol. 7. Indianapolis, IN: Sentinel Steam Printing and Book Binding, 1870.
+
+*Proceedings of the Convention of American Instructors of the Deaf and Dumb*. Vol. 9. Columbus, OH: Nevins & Myers, Book and Job Printers, 1879.
+
+*Proceedings of the First National Deaf-Mute Convention*. New York City, New York: New York Institution for the Deaf and Dumb, 1880.
+
+*Proceedings of the Meeting of the Convention of American Instructors of the Deaf*. Vol. 1, 1850.
+
+*Proceedings of the Meeting of the Convention of American Instructors of the Deaf*. Vol. 2. Hartford, CT: Press of Case, Tiffany and Company, 1851.
+
+*Proceedings of the Meeting of the Convention of American Instructors of the Deaf*. Vol. 3. Columbus, OH: Steam Press of Smith & Cox, 1853.
+
+*Proceedings of the Meeting of the Convention of American Instructors of the Deaf*. Vol. 8. Toronto, Canada: Hunter, Rose & Co., 1876.
+
+“Proceedings of the Second Biennial Meeting of the Empire State Association of Deaf-Mutes, Held on the 28th, 19th, and 30th of August 1867.” In *Forty-Ninth Annual Report and Documents of the New York Institution for the Instruction of the Deaf and Dumb; to the Legislature of the State of New York, For the Year 1867*, 152–57. Albany, New York: Van Benthuysen & Sons Steam Printing House, 1868.
+
+“Proceedings of the Sixth Biennial Convention of the Empire State Deaf-Mute Association at Watertown, Aug. 25th, 26th and 27th, 1875.” *Deaf Mutes’ Journal* 4, no. 35 (September 2, 1875): 2.
+
+Rae, Luzerne. “Miscellaneous.” *American Annals of the Deaf and Dumb* 5, no. 3 (1853): 181–92.
+
+“Report of the Proceedings of the Semi-Centennial Celebration of the Founding of the New York Institution for the Deaf and Dumb, and Second Biennial Convention of the Empire State Association of Deaf-Mutes.” *National Deaf Mute Gazette*, October 1867. Gallaudet University Archives.
+
+Rider, Henry C. “Sixth Biennial Convention of the Empire State Deaf-Mute Association.” *Deaf Mutes’ Journal* 4, no. 24 (June 17, 1875): 2.
+
+*The Eighth Annual Report of the Church Mission to Deaf-Mutes*. New York, NY: Charles H. Clayton & Co., Printers and Stationers, 1881.
+
+*The Fifth Annual Report of the Church Mission to Deaf-Mutes*. New York, NY: J.H. Duyckinck, Stationer & Printer, 1877.
+
+*The Fourth Annual Report of the Church Mission to Deaf-Mutes*. New York, NY: J.H. Duyckinck, Stationer & Printer, 1876.
+
+“The Last Session of the N.E.G.A. Convention.” *Deaf Mutes’ Journal* 9, no. 38 (September 16, 1880): 3.
+
+“The National Convention.” *Deaf Mutes’ Journal* 9, no. 33 (August 12, 1880): 2.
+
+“The New York Convention.” *Silent World* 1, no. 4 (October 1871): 8.
+
+“The New York Convention of Deaf Mutes.” *National Deaf-Mute Gazette*, February 1867. Gallaudet University Archives.
+
+*The Seventh Annual Report of the Church Mission to Deaf-Mutes*. New York, NY: Church Mission to Deaf-Mutes, 1879.
+
+*The Third Annual Report of the Church Mission to Deaf-Mutes*. New York, NY: J.H. Duyckinck, Stationer & Printer, 1875.
+
+“Wisconsin Deaf-Mute Alumni Association.” *Deaf Mutes’ Journal* 9, no. 28 (July 8, 1880): 3.
+
+
+[**School Site Sources:**](https://www.zotero.org/groups/2918180/mapping_deaf_missions/collections/4NFPAN8W)
+Gannon, Jack R. *Deaf Heritage: A Narrative History of Deaf America*. Edited by Jane Butler and Laura-Jean Gilbert. Silver Spring, Maryland: National Association of the Deaf, 1981.
 
 
 
