@@ -790,12 +790,6 @@ An earlier version of this visualization, produced in 2015, is available [here](
 Jannelle Legg. "Mapping Deaf Missions," interactive maps, https://scholarship.rrchnm.org/legg-dissertation/
 
 ## Bibliography {.appendix}
-An extensive collection of sources has been consulted in the construction of this visualization. A comprehensive list is available via Zotero collections, linked below.
-
-[Mission Site Sources](https://www.zotero.org/groups/2918180/mapping_deaf_missions/collections/BEB83KJ9)
-
-[Conference Site Sources](https://www.zotero.org/groups/2918180/mapping_deaf_missions/collections/2HSKD9EH)
-
-[School Site Sources](https://www.zotero.org/groups/2918180/mapping_deaf_missions/collections/4NFPAN8W)
+An extensive collection of sources has been consulted in the construction of this visualization. A comprehensive list is available [here](https://scholarship.rrchnm.org/legg-dissertation/sources).
 
 
